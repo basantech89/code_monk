@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BatchGrayScaleImages/BatchGrayScaleImages.iml" filepath="$PROJECT_DIR$/BatchGrayScaleImages/BatchGrayScaleImages.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CSVAnalysis/CSVAnalysis.iml" filepath="$PROJECT_DIR$/CSVAnalysis/CSVAnalysis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HelloWorld/HelloWorld.iml" filepath="$PROJECT_DIR$/HelloWorld/HelloWorld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MiniProjectBabyNames/MiniProjectBabyNames.iml" filepath="$PROJECT_DIR$/MiniProjectBabyNames/MiniProjectBabyNames.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Perimeter/Perimeter.iml" filepath="$PROJECT_DIR$/Perimeter/Perimeter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PerimeterQuiz/PerimeterQuiz.iml" filepath="$PROJECT_DIR$/PerimeterQuiz/PerimeterQuiz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StringFirstAssignment/StringFirstAssignment.iml" filepath="$PROJECT_DIR$/StringFirstAssignment/StringFirstAssignment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StringSecondAssignment/StringSecondAssignment.iml" filepath="$PROJECT_DIR$/StringSecondAssignment/StringSecondAssignment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StringThirdAssignment/StringThirdAssignment.iml" filepath="$PROJECT_DIR$/StringThirdAssignment/StringThirdAssignment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/duke1.iml" filepath="$PROJECT_DIR$/duke1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/perimeter_quiz_main.iml" filepath="$PROJECT_DIR$/.idea/modules/perimeter_quiz_main.iml" group="perimeter_quiz" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/perimeter_quiz_test.iml" filepath="$PROJECT_DIR$/.idea/modules/perimeter_quiz_test.iml" group="perimeter_quiz" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Examples/Examples.iml" filepath="$PROJECT_DIR$/Examples/Examples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GladLibs/GladLibs.iml" filepath="$PROJECT_DIR$/GladLibs/GladLibs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ImplementingCaesarCipher/ImplementingCaesarCipher.iml" filepath="$PROJECT_DIR$/ImplementingCaesarCipher/ImplementingCaesarCipher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/VigenereCipher/VigenereCipher.iml" filepath="$PROJECT_DIR$/VigenereCipher/VigenereCipher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WebServerLogs/WebServerLogs.iml" filepath="$PROJECT_DIR$/WebServerLogs/WebServerLogs.iml" />
+    </modules>
+  </component>
+</project>

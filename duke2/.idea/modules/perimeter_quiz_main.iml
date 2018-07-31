@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="perimeter_quiz:main" external.linked.project.path="$MODULE_DIR$/../../perimeter_quiz" external.root.project.path="$MODULE_DIR$/../../perimeter_quiz" external.system.id="GRADLE" external.system.module.group="perimeter_quiz" external.system.module.type="sourceSet" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file://$MODULE_DIR$/../../perimeter_quiz/out/production/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../perimeter_quiz/src/main" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Gradle: org.codehaus.groovy:groovy-all:2.3.11" level="project" />
+    <orderEntry type="library" name="apache-csv" level="application" />
+    <orderEntry type="library" name="courserajava" level="application" />
+  </component>
+</module>

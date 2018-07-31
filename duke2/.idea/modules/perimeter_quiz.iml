@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="perimeter_quiz" external.linked.project.path="$MODULE_DIR$/../../perimeter_quiz" external.root.project.path="$MODULE_DIR$/../../perimeter_quiz" external.system.id="GRADLE" external.system.module.group="perimeter_quiz" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../perimeter_quiz">
+      <excludeFolder url="file://$MODULE_DIR$/../../perimeter_quiz/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../perimeter_quiz/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../perimeter_quiz/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="apache-csv" level="application" />
+    <orderEntry type="library" name="courserajava" level="application" />
+  </component>
+</module>
