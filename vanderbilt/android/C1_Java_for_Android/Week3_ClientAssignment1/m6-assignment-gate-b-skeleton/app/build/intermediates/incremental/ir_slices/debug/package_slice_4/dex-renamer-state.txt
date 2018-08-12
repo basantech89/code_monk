@@ -1,0 +1,4 @@
+#Tue Jul 17 13:19:26 IST 2018
+base.0=/Data/code/android/Java_for_Android/Assignments/Week3_ClientAssignment1/m6-assignment-gate-b-skeleton/app/build/intermediates/transforms/dexMerger/debug/7
+path.0=classes.dex
+renamed.0=classes.dex

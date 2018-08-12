@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/luv/code/android/Java_for_Android/Assignments/Week3_InheritanceAndPolymorphism/m7-assignment-buildings-skeleton/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w720dp-v13/values-w720dp-v13.xml",
+            "map": [
+                {
+                    "source": "/home/luv/.gradle/caches/transforms-1/files-1.1/appcompat-v7-22.2.1.aar/0466c3a2e89630ae72bc5e91ccaf5a19/res/values-w720dp/values-w720dp.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "293",
+                        "endColumns": "76",
+                        "endOffsets": "365"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "76",
+                        "endOffsets": "127"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,4 @@
+#Mon Jul 09 20:13:06 IST 2018
+base.0=/Data/code/android/Java for Android/Assignments/Week1_GeometryCalculation/app/build/intermediates/transforms/dexMerger/debug/7
+path.0=classes.dex
+renamed.0=classes.dex

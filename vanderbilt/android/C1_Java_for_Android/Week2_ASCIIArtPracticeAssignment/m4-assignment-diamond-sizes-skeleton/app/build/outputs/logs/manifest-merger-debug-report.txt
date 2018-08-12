@@ -1,0 +1,78 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /luv/code/android/Java_for_Android/Assignments/Week2_ASCIIArtPracticeAssignment/m4-assignment-diamond-sizes-skeleton/app/src/main/AndroidManifest.xml:2:1-20:12
+INJECTED from /luv/code/android/Java_for_Android/Assignments/Week2_ASCIIArtPracticeAssignment/m4-assignment-diamond-sizes-skeleton/app/src/main/AndroidManifest.xml:2:1-20:12
+INJECTED from /luv/code/android/Java_for_Android/Assignments/Week2_ASCIIArtPracticeAssignment/m4-assignment-diamond-sizes-skeleton/app/src/main/AndroidManifest.xml:2:1-20:12
+INJECTED from /luv/code/android/Java_for_Android/Assignments/Week2_ASCIIArtPracticeAssignment/m4-assignment-diamond-sizes-skeleton/app/src/main/AndroidManifest.xml:2:1-20:12
+MERGED from [com.android.support:design:22.2.1] /home/luv/.gradle/caches/transforms-1/files-1.1/design-22.2.1.aar/acf5c0327f255912322b26ea3720c6ac/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:22.2.1] /home/luv/.gradle/caches/transforms-1/files-1.1/appcompat-v7-22.2.1.aar/0466c3a2e89630ae72bc5e91ccaf5a19/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-v4:22.2.1] /home/luv/.gradle/caches/transforms-1/files-1.1/support-v4-22.2.1.aar/4f9cab23f47de3f2dd652170ca20777c/AndroidManifest.xml:17:1-24:12
+INJECTED from /luv/code/android/Java_for_Android/Assignments/Week2_ASCIIArtPracticeAssignment/m4-assignment-diamond-sizes-skeleton/app/src/main/AndroidManifest.xml:2:1-20:12
+INJECTED from /luv/code/android/Java_for_Android/Assignments/Week2_ASCIIArtPracticeAssignment/m4-assignment-diamond-sizes-skeleton/app/src/main/AndroidManifest.xml:2:1-20:12
+INJECTED from /luv/code/android/Java_for_Android/Assignments/Week2_ASCIIArtPracticeAssignment/m4-assignment-diamond-sizes-skeleton/app/src/main/AndroidManifest.xml:2:1-20:12
+	package
+		ADDED from /luv/code/android/Java_for_Android/Assignments/Week2_ASCIIArtPracticeAssignment/m4-assignment-diamond-sizes-skeleton/app/src/main/AndroidManifest.xml:3:5-47
+		INJECTED from /luv/code/android/Java_for_Android/Assignments/Week2_ASCIIArtPracticeAssignment/m4-assignment-diamond-sizes-skeleton/app/src/main/AndroidManifest.xml
+		INJECTED from /luv/code/android/Java_for_Android/Assignments/Week2_ASCIIArtPracticeAssignment/m4-assignment-diamond-sizes-skeleton/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /luv/code/android/Java_for_Android/Assignments/Week2_ASCIIArtPracticeAssignment/m4-assignment-diamond-sizes-skeleton/app/src/main/AndroidManifest.xml
+		ADDED from /luv/code/android/Java_for_Android/Assignments/Week2_ASCIIArtPracticeAssignment/m4-assignment-diamond-sizes-skeleton/app/src/main/AndroidManifest.xml:2:1-20:12
+		INJECTED from /luv/code/android/Java_for_Android/Assignments/Week2_ASCIIArtPracticeAssignment/m4-assignment-diamond-sizes-skeleton/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /luv/code/android/Java_for_Android/Assignments/Week2_ASCIIArtPracticeAssignment/m4-assignment-diamond-sizes-skeleton/app/src/main/AndroidManifest.xml
+		ADDED from /luv/code/android/Java_for_Android/Assignments/Week2_ASCIIArtPracticeAssignment/m4-assignment-diamond-sizes-skeleton/app/src/main/AndroidManifest.xml:2:1-20:12
+		INJECTED from /luv/code/android/Java_for_Android/Assignments/Week2_ASCIIArtPracticeAssignment/m4-assignment-diamond-sizes-skeleton/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /luv/code/android/Java_for_Android/Assignments/Week2_ASCIIArtPracticeAssignment/m4-assignment-diamond-sizes-skeleton/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /luv/code/android/Java_for_Android/Assignments/Week2_ASCIIArtPracticeAssignment/m4-assignment-diamond-sizes-skeleton/app/src/main/AndroidManifest.xml:5:5-18:19
+MERGED from [com.android.support:design:22.2.1] /home/luv/.gradle/caches/transforms-1/files-1.1/design-22.2.1.aar/acf5c0327f255912322b26ea3720c6ac/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:22.2.1] /home/luv/.gradle/caches/transforms-1/files-1.1/design-22.2.1.aar/acf5c0327f255912322b26ea3720c6ac/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:22.2.1] /home/luv/.gradle/caches/transforms-1/files-1.1/appcompat-v7-22.2.1.aar/0466c3a2e89630ae72bc5e91ccaf5a19/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:22.2.1] /home/luv/.gradle/caches/transforms-1/files-1.1/appcompat-v7-22.2.1.aar/0466c3a2e89630ae72bc5e91ccaf5a19/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:22.2.1] /home/luv/.gradle/caches/transforms-1/files-1.1/support-v4-22.2.1.aar/4f9cab23f47de3f2dd652170ca20777c/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:22.2.1] /home/luv/.gradle/caches/transforms-1/files-1.1/support-v4-22.2.1.aar/4f9cab23f47de3f2dd652170ca20777c/AndroidManifest.xml:22:5-20
+	android:supportsRtl
+		ADDED from /luv/code/android/Java_for_Android/Assignments/Week2_ASCIIArtPracticeAssignment/m4-assignment-diamond-sizes-skeleton/app/src/main/AndroidManifest.xml:9:9-35
+	android:label
+		ADDED from /luv/code/android/Java_for_Android/Assignments/Week2_ASCIIArtPracticeAssignment/m4-assignment-diamond-sizes-skeleton/app/src/main/AndroidManifest.xml:8:9-41
+	android:icon
+		ADDED from /luv/code/android/Java_for_Android/Assignments/Week2_ASCIIArtPracticeAssignment/m4-assignment-diamond-sizes-skeleton/app/src/main/AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from /luv/code/android/Java_for_Android/Assignments/Week2_ASCIIArtPracticeAssignment/m4-assignment-diamond-sizes-skeleton/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /luv/code/android/Java_for_Android/Assignments/Week2_ASCIIArtPracticeAssignment/m4-assignment-diamond-sizes-skeleton/app/src/main/AndroidManifest.xml:10:9-40
+activity#mooc.vandy.java4android.diamonds.ui.MainActivity
+ADDED from /luv/code/android/Java_for_Android/Assignments/Week2_ASCIIArtPracticeAssignment/m4-assignment-diamond-sizes-skeleton/app/src/main/AndroidManifest.xml:11:9-17:20
+	android:name
+		ADDED from /luv/code/android/Java_for_Android/Assignments/Week2_ASCIIArtPracticeAssignment/m4-assignment-diamond-sizes-skeleton/app/src/main/AndroidManifest.xml:11:19-82
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /luv/code/android/Java_for_Android/Assignments/Week2_ASCIIArtPracticeAssignment/m4-assignment-diamond-sizes-skeleton/app/src/main/AndroidManifest.xml:12:13-16:29
+action#android.intent.action.MAIN
+ADDED from /luv/code/android/Java_for_Android/Assignments/Week2_ASCIIArtPracticeAssignment/m4-assignment-diamond-sizes-skeleton/app/src/main/AndroidManifest.xml:13:17-69
+	android:name
+		ADDED from /luv/code/android/Java_for_Android/Assignments/Week2_ASCIIArtPracticeAssignment/m4-assignment-diamond-sizes-skeleton/app/src/main/AndroidManifest.xml:13:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /luv/code/android/Java_for_Android/Assignments/Week2_ASCIIArtPracticeAssignment/m4-assignment-diamond-sizes-skeleton/app/src/main/AndroidManifest.xml:15:17-77
+	android:name
+		ADDED from /luv/code/android/Java_for_Android/Assignments/Week2_ASCIIArtPracticeAssignment/m4-assignment-diamond-sizes-skeleton/app/src/main/AndroidManifest.xml:15:27-74
+uses-sdk
+INJECTED from /luv/code/android/Java_for_Android/Assignments/Week2_ASCIIArtPracticeAssignment/m4-assignment-diamond-sizes-skeleton/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /luv/code/android/Java_for_Android/Assignments/Week2_ASCIIArtPracticeAssignment/m4-assignment-diamond-sizes-skeleton/app/src/main/AndroidManifest.xml
+INJECTED from /luv/code/android/Java_for_Android/Assignments/Week2_ASCIIArtPracticeAssignment/m4-assignment-diamond-sizes-skeleton/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:22.2.1] /home/luv/.gradle/caches/transforms-1/files-1.1/design-22.2.1.aar/acf5c0327f255912322b26ea3720c6ac/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:22.2.1] /home/luv/.gradle/caches/transforms-1/files-1.1/design-22.2.1.aar/acf5c0327f255912322b26ea3720c6ac/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:22.2.1] /home/luv/.gradle/caches/transforms-1/files-1.1/appcompat-v7-22.2.1.aar/0466c3a2e89630ae72bc5e91ccaf5a19/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:22.2.1] /home/luv/.gradle/caches/transforms-1/files-1.1/appcompat-v7-22.2.1.aar/0466c3a2e89630ae72bc5e91ccaf5a19/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:22.2.1] /home/luv/.gradle/caches/transforms-1/files-1.1/support-v4-22.2.1.aar/4f9cab23f47de3f2dd652170ca20777c/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:22.2.1] /home/luv/.gradle/caches/transforms-1/files-1.1/support-v4-22.2.1.aar/4f9cab23f47de3f2dd652170ca20777c/AndroidManifest.xml:20:5-43
+INJECTED from /luv/code/android/Java_for_Android/Assignments/Week2_ASCIIArtPracticeAssignment/m4-assignment-diamond-sizes-skeleton/app/src/main/AndroidManifest.xml
+INJECTED from /luv/code/android/Java_for_Android/Assignments/Week2_ASCIIArtPracticeAssignment/m4-assignment-diamond-sizes-skeleton/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /luv/code/android/Java_for_Android/Assignments/Week2_ASCIIArtPracticeAssignment/m4-assignment-diamond-sizes-skeleton/app/src/main/AndroidManifest.xml
+		ADDED from /luv/code/android/Java_for_Android/Assignments/Week2_ASCIIArtPracticeAssignment/m4-assignment-diamond-sizes-skeleton/app/src/main/AndroidManifest.xml
+		INJECTED from /luv/code/android/Java_for_Android/Assignments/Week2_ASCIIArtPracticeAssignment/m4-assignment-diamond-sizes-skeleton/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /luv/code/android/Java_for_Android/Assignments/Week2_ASCIIArtPracticeAssignment/m4-assignment-diamond-sizes-skeleton/app/src/main/AndroidManifest.xml
+		ADDED from /luv/code/android/Java_for_Android/Assignments/Week2_ASCIIArtPracticeAssignment/m4-assignment-diamond-sizes-skeleton/app/src/main/AndroidManifest.xml
+		INJECTED from /luv/code/android/Java_for_Android/Assignments/Week2_ASCIIArtPracticeAssignment/m4-assignment-diamond-sizes-skeleton/app/src/main/AndroidManifest.xml

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Data/code/android/Java for Android/Assignments/Week3_TheBirthdayProblem/m5-assignment-birthday-probability-skeleton/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/Data/code/android/Java for Android/Assignments/Week3_TheBirthdayProblem/m5-assignment-birthday-probability-skeleton/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/Data/code/android/Java for Android/Assignments/Week3_TheBirthdayProblem/m5-assignment-birthday-probability-skeleton/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Data/code/android/Java for Android/Assignments/Week3_TheBirthdayProblem/m5-assignment-birthday-probability-skeleton/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    }
+]

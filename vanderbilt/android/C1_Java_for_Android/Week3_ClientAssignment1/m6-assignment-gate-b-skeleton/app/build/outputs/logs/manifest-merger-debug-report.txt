@@ -1,0 +1,78 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Data/code/android/Java_for_Android/Assignments/Week3_ClientAssignment1/m6-assignment-gate-b-skeleton/app/src/main/AndroidManifest.xml:2:1-20:12
+INJECTED from /Data/code/android/Java_for_Android/Assignments/Week3_ClientAssignment1/m6-assignment-gate-b-skeleton/app/src/main/AndroidManifest.xml:2:1-20:12
+INJECTED from /Data/code/android/Java_for_Android/Assignments/Week3_ClientAssignment1/m6-assignment-gate-b-skeleton/app/src/main/AndroidManifest.xml:2:1-20:12
+INJECTED from /Data/code/android/Java_for_Android/Assignments/Week3_ClientAssignment1/m6-assignment-gate-b-skeleton/app/src/main/AndroidManifest.xml:2:1-20:12
+MERGED from [com.android.support:design:22.2.1] /root/.gradle/caches/transforms-1/files-1.1/design-22.2.1.aar/d5d026c0021d449c1cdb915825bdb298/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:22.2.1] /root/.gradle/caches/transforms-1/files-1.1/appcompat-v7-22.2.1.aar/57c1afc64def92a7428363c3b83ac792/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-v4:22.2.1] /root/.gradle/caches/transforms-1/files-1.1/support-v4-22.2.1.aar/1f55e4e8ed03b5b66acffb404666eaad/AndroidManifest.xml:17:1-24:12
+INJECTED from /Data/code/android/Java_for_Android/Assignments/Week3_ClientAssignment1/m6-assignment-gate-b-skeleton/app/src/main/AndroidManifest.xml:2:1-20:12
+INJECTED from /Data/code/android/Java_for_Android/Assignments/Week3_ClientAssignment1/m6-assignment-gate-b-skeleton/app/src/main/AndroidManifest.xml:2:1-20:12
+INJECTED from /Data/code/android/Java_for_Android/Assignments/Week3_ClientAssignment1/m6-assignment-gate-b-skeleton/app/src/main/AndroidManifest.xml:2:1-20:12
+	package
+		ADDED from /Data/code/android/Java_for_Android/Assignments/Week3_ClientAssignment1/m6-assignment-gate-b-skeleton/app/src/main/AndroidManifest.xml:3:5-49
+		INJECTED from /Data/code/android/Java_for_Android/Assignments/Week3_ClientAssignment1/m6-assignment-gate-b-skeleton/app/src/main/AndroidManifest.xml
+		INJECTED from /Data/code/android/Java_for_Android/Assignments/Week3_ClientAssignment1/m6-assignment-gate-b-skeleton/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Data/code/android/Java_for_Android/Assignments/Week3_ClientAssignment1/m6-assignment-gate-b-skeleton/app/src/main/AndroidManifest.xml
+		ADDED from /Data/code/android/Java_for_Android/Assignments/Week3_ClientAssignment1/m6-assignment-gate-b-skeleton/app/src/main/AndroidManifest.xml:2:1-20:12
+		INJECTED from /Data/code/android/Java_for_Android/Assignments/Week3_ClientAssignment1/m6-assignment-gate-b-skeleton/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Data/code/android/Java_for_Android/Assignments/Week3_ClientAssignment1/m6-assignment-gate-b-skeleton/app/src/main/AndroidManifest.xml
+		ADDED from /Data/code/android/Java_for_Android/Assignments/Week3_ClientAssignment1/m6-assignment-gate-b-skeleton/app/src/main/AndroidManifest.xml:2:1-20:12
+		INJECTED from /Data/code/android/Java_for_Android/Assignments/Week3_ClientAssignment1/m6-assignment-gate-b-skeleton/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Data/code/android/Java_for_Android/Assignments/Week3_ClientAssignment1/m6-assignment-gate-b-skeleton/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Data/code/android/Java_for_Android/Assignments/Week3_ClientAssignment1/m6-assignment-gate-b-skeleton/app/src/main/AndroidManifest.xml:5:5-18:19
+MERGED from [com.android.support:design:22.2.1] /root/.gradle/caches/transforms-1/files-1.1/design-22.2.1.aar/d5d026c0021d449c1cdb915825bdb298/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:22.2.1] /root/.gradle/caches/transforms-1/files-1.1/design-22.2.1.aar/d5d026c0021d449c1cdb915825bdb298/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:22.2.1] /root/.gradle/caches/transforms-1/files-1.1/appcompat-v7-22.2.1.aar/57c1afc64def92a7428363c3b83ac792/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:22.2.1] /root/.gradle/caches/transforms-1/files-1.1/appcompat-v7-22.2.1.aar/57c1afc64def92a7428363c3b83ac792/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:22.2.1] /root/.gradle/caches/transforms-1/files-1.1/support-v4-22.2.1.aar/1f55e4e8ed03b5b66acffb404666eaad/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:22.2.1] /root/.gradle/caches/transforms-1/files-1.1/support-v4-22.2.1.aar/1f55e4e8ed03b5b66acffb404666eaad/AndroidManifest.xml:22:5-20
+	android:supportsRtl
+		ADDED from /Data/code/android/Java_for_Android/Assignments/Week3_ClientAssignment1/m6-assignment-gate-b-skeleton/app/src/main/AndroidManifest.xml:9:9-35
+	android:label
+		ADDED from /Data/code/android/Java_for_Android/Assignments/Week3_ClientAssignment1/m6-assignment-gate-b-skeleton/app/src/main/AndroidManifest.xml:8:9-41
+	android:icon
+		ADDED from /Data/code/android/Java_for_Android/Assignments/Week3_ClientAssignment1/m6-assignment-gate-b-skeleton/app/src/main/AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from /Data/code/android/Java_for_Android/Assignments/Week3_ClientAssignment1/m6-assignment-gate-b-skeleton/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /Data/code/android/Java_for_Android/Assignments/Week3_ClientAssignment1/m6-assignment-gate-b-skeleton/app/src/main/AndroidManifest.xml:10:9-40
+activity#mooc.vandy.java4android.gate.ui.MainActivity
+ADDED from /Data/code/android/Java_for_Android/Assignments/Week3_ClientAssignment1/m6-assignment-gate-b-skeleton/app/src/main/AndroidManifest.xml:11:9-17:20
+	android:name
+		ADDED from /Data/code/android/Java_for_Android/Assignments/Week3_ClientAssignment1/m6-assignment-gate-b-skeleton/app/src/main/AndroidManifest.xml:11:19-78
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Data/code/android/Java_for_Android/Assignments/Week3_ClientAssignment1/m6-assignment-gate-b-skeleton/app/src/main/AndroidManifest.xml:12:13-16:29
+action#android.intent.action.MAIN
+ADDED from /Data/code/android/Java_for_Android/Assignments/Week3_ClientAssignment1/m6-assignment-gate-b-skeleton/app/src/main/AndroidManifest.xml:13:17-69
+	android:name
+		ADDED from /Data/code/android/Java_for_Android/Assignments/Week3_ClientAssignment1/m6-assignment-gate-b-skeleton/app/src/main/AndroidManifest.xml:13:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Data/code/android/Java_for_Android/Assignments/Week3_ClientAssignment1/m6-assignment-gate-b-skeleton/app/src/main/AndroidManifest.xml:15:17-77
+	android:name
+		ADDED from /Data/code/android/Java_for_Android/Assignments/Week3_ClientAssignment1/m6-assignment-gate-b-skeleton/app/src/main/AndroidManifest.xml:15:27-74
+uses-sdk
+INJECTED from /Data/code/android/Java_for_Android/Assignments/Week3_ClientAssignment1/m6-assignment-gate-b-skeleton/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Data/code/android/Java_for_Android/Assignments/Week3_ClientAssignment1/m6-assignment-gate-b-skeleton/app/src/main/AndroidManifest.xml
+INJECTED from /Data/code/android/Java_for_Android/Assignments/Week3_ClientAssignment1/m6-assignment-gate-b-skeleton/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:22.2.1] /root/.gradle/caches/transforms-1/files-1.1/design-22.2.1.aar/d5d026c0021d449c1cdb915825bdb298/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:22.2.1] /root/.gradle/caches/transforms-1/files-1.1/design-22.2.1.aar/d5d026c0021d449c1cdb915825bdb298/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:22.2.1] /root/.gradle/caches/transforms-1/files-1.1/appcompat-v7-22.2.1.aar/57c1afc64def92a7428363c3b83ac792/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:22.2.1] /root/.gradle/caches/transforms-1/files-1.1/appcompat-v7-22.2.1.aar/57c1afc64def92a7428363c3b83ac792/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:22.2.1] /root/.gradle/caches/transforms-1/files-1.1/support-v4-22.2.1.aar/1f55e4e8ed03b5b66acffb404666eaad/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:22.2.1] /root/.gradle/caches/transforms-1/files-1.1/support-v4-22.2.1.aar/1f55e4e8ed03b5b66acffb404666eaad/AndroidManifest.xml:20:5-43
+INJECTED from /Data/code/android/Java_for_Android/Assignments/Week3_ClientAssignment1/m6-assignment-gate-b-skeleton/app/src/main/AndroidManifest.xml
+INJECTED from /Data/code/android/Java_for_Android/Assignments/Week3_ClientAssignment1/m6-assignment-gate-b-skeleton/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Data/code/android/Java_for_Android/Assignments/Week3_ClientAssignment1/m6-assignment-gate-b-skeleton/app/src/main/AndroidManifest.xml
+		ADDED from /Data/code/android/Java_for_Android/Assignments/Week3_ClientAssignment1/m6-assignment-gate-b-skeleton/app/src/main/AndroidManifest.xml
+		INJECTED from /Data/code/android/Java_for_Android/Assignments/Week3_ClientAssignment1/m6-assignment-gate-b-skeleton/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Data/code/android/Java_for_Android/Assignments/Week3_ClientAssignment1/m6-assignment-gate-b-skeleton/app/src/main/AndroidManifest.xml
+		ADDED from /Data/code/android/Java_for_Android/Assignments/Week3_ClientAssignment1/m6-assignment-gate-b-skeleton/app/src/main/AndroidManifest.xml
+		INJECTED from /Data/code/android/Java_for_Android/Assignments/Week3_ClientAssignment1/m6-assignment-gate-b-skeleton/app/src/main/AndroidManifest.xml

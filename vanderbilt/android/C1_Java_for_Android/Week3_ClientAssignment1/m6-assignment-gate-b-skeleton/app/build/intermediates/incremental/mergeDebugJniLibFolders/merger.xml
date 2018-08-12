@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Data/code/android/Java_for_Android/Assignments/Week3_ClientAssignment1/m6-assignment-gate-b-skeleton/app/src/main/jniLibs"/></dataSet><dataSet config="debug"><source path="/Data/code/android/Java_for_Android/Assignments/Week3_ClientAssignment1/m6-assignment-gate-b-skeleton/app/src/debug/jniLibs"/></dataSet></merger>
