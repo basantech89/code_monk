@@ -1,4 +1,4 @@
-package practice;
+package practice.MyLinkedList;
 
 class ListNode<E> {
     ListNode<E> next;

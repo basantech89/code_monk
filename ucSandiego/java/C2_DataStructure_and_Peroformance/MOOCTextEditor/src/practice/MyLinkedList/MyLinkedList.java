@@ -1,7 +1,6 @@
-package practice;
+package practice.MyLinkedList;
 
 import java.util.AbstractList;
-import java.util.List;
 
 public class MyLinkedList<E> extends AbstractList<E> {
 

@@ -41,13 +41,15 @@ public class MergeSort {
                 sorted[k++] = unsorted[left++];
             else
                 sorted[k++] = unsorted[right++];
+
         // copy rest of left half
         while (left <= leftEnd) sorted[k++] = unsorted[left++];
+
         // copy rest of right half
         while (right <= rightEnd) sorted[k++] = unsorted[right++];
 
         for (int i = 0; i < num; i++, rightEnd--)
             unsorted[rightEnd] = sorted[rightEnd];
-        System.out.println(Arrays.toString(sorted));
+
     }
 }

@@ -7,6 +7,7 @@ package spelling;
 import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Queue;
 
 /**
  * WPTree implements WordPath by dynamically creating a tree of words during a Breadth First
@@ -20,16 +21,20 @@ public class WPTree implements WordPath {
 	// this is the root node of the WPTree
 	private WPTreeNode root;
 	// used to search for nearby Words
-	private NearbyWords nw; 
+	private NearbyWords nw;
+    // THRESHOLD to determine how many words to look through when looking
+    // to find path (stops prohibitively long searching)
+    // For use in the Optional Optimization.
+	private final static int THRESHOLD = 10000;
 	
 	// This constructor is used by the Text Editor Application
 	// You'll need to create your own NearbyWords object here.
 	public WPTree () {
 		this.root = null;
 		// TODO initialize a NearbyWords object
-		// Dictionary d = new DictionaryHashSet();
-		// DictionaryLoader.loadDictionary(d, "data/dict.txt");
-		// this.nw = new NearbyWords(d);
+		Dictionary d = new DictionaryHashSet();
+		DictionaryLoader.loadDictionary(d, "data/dict.txt");
+		this.nw = new NearbyWords(d);
 	}
 	
 	//This constructor will be used by the grader code
@@ -42,7 +47,44 @@ public class WPTree implements WordPath {
 	public List<String> findPath(String word1, String word2) 
 	{
 	    // TODO: Implement this method.
-	    return new LinkedList<String>();
+        // corner case
+        if (!nw.dict.isWord(word1) || !nw.dict.isWord(word2)) return null;
+
+        root = new WPTreeNode(word1, null);
+
+        HashSet<String> visited = new HashSet<>();
+        Queue<WPTreeNode> queue = new LinkedList<>(); // strings to explore
+        visited.add(word1);
+        queue.add(root);
+
+        // counter for the corner case
+        // if the path hasn't been found
+        int counter = 0;
+
+        while (!queue.isEmpty()) {
+
+            WPTreeNode curr = queue.remove();
+
+            List<String> children = nw.distanceOne(curr.getWord(), true);
+            for (String word : children)
+
+                if (!visited.contains(word)) {
+
+                    visited.add(word);
+                    WPTreeNode wordNode = curr.addChild(word);
+                    queue.add(wordNode);
+
+                    // if word2 equals to word, then we have found a path
+                    if (word2.equals(word))
+                        return wordNode.buildPathToRoot();
+
+                    // corner case
+                    if (counter > THRESHOLD) return null;
+                    ++counter;
+                }
+        }
+
+        return null;
 	}
 	
 	// Method to print a list of WPTreeNodes (useful for debugging)
@@ -141,6 +183,13 @@ class WPTreeNode {
         }
         ret+=(" ]\n");
         return ret;
+    }
+
+    public static void main(String[] args) {
+        WPTree tree = new WPTree();
+        //List<String> path = tree.findPath("time", "theme");
+        List<String> path = tree.findPath("the", "kangroo"); // should return null
+        System.out.println(path);
     }
 
 }
