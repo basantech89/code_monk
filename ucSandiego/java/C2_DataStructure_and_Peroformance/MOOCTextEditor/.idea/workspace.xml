@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f66e737-161b-4319-b0d0-caf946889391" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/practice/MyTries/Trie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C1_OOP_in_Java/UCSDUnfoldingMaps/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../C1_OOP_in_Java/UCSDUnfoldingMaps/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C1_OOP_in_Java/UCSDUnfoldingMaps/src/examples/SortingAlgoritms/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../C1_OOP_in_Java/UCSDUnfoldingMaps/src/examples/SortingAlgoritms/MergeSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/MyLinkedList/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/MyLinkedList/MyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/Tester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/MyLinkedList/Tester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spelling/AutoCompleteDictionaryTrie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spelling/AutoCompleteDictionaryTrie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spelling/DictionaryBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spelling/DictionaryBST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spelling/DictionaryBenchmarking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spelling/DictionaryBenchmarking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spelling/DictionaryLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spelling/DictionaryLL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spelling/NearbyWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spelling/NearbyWords.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spelling/TrieNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spelling/TrieNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spelling/WPTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spelling/WPTree.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/bin/" />
@@ -29,16 +16,17 @@
     <session id="-1143518342">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="15" />
+          <entry key="project.closed" value="17" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.24" value="3" />
+          <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.26" value="2" />
           <entry key="project.open.time.27" value="2" />
           <entry key="project.open.time.3" value="3" />
-          <entry key="project.open.time.35" value="1" />
+          <entry key="project.open.time.35" value="2" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="15" />
+          <entry key="project.opened" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -77,33 +65,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/spelling/WPTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="36" column="16" lean-forward="true" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/spelling/DictionaryHashSet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
-              <folding>
-                <element signature="e#571#572#0" expanded="true" />
-                <element signature="e#614#615#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/spelling/SpellingSuggest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+            <state relative-caret-position="521">
+              <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -182,8 +148,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -195,6 +159,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -361,8 +327,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="743" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49878347" visible="true" weight="0.2840909" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49878347" visible="true" weight="0.2931818" />
       <window_info id="Structure" order="1" sideWeight="0.50121653" side_tool="true" weight="0.2840909" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -664,13 +631,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/spelling/DictionaryHashSetMatchCase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spelling/DictionaryHashSetMatchCase.java" />
     <entry file="file://$PROJECT_DIR$/src/spelling/AutoCompleteDictionaryTrie.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="521">
@@ -678,20 +639,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/spelling/AutoCompleteMatchCase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/spelling/SpellingSuggest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spelling/AutoCompleteMatchCase.java" />
     <entry file="file://$PROJECT_DIR$/src/spelling/NearbyWordsGraderOne.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="316">
@@ -752,16 +700,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret lean-forward="true" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/spelling/NearbyWords.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -772,21 +710,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/spelling/WPTree.java">
+    <entry file="file://$PROJECT_DIR$/src/spelling/NearbyWords.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="36" column="16" lean-forward="true" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+        <state relative-caret-position="200">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spelling/SpellingSuggest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/spelling/DictionaryHashSet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
+        <state relative-caret-position="160">
+          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
           <folding>
             <element signature="e#571#572#0" expanded="true" />
             <element signature="e#614#615#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spelling/WPTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
         </state>
       </provider>
     </entry>
