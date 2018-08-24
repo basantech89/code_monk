@@ -275,7 +275,7 @@ public class Maze {
 		return path;
 	}
 
-/*	public List<MazeNode> dfsRefactored(int startRow, int startCol, 
+	public List<MazeNode> dfsRefactored(int startRow, int startCol,
 										int endRow, int endCol) {
 		// Initialize
 		MazeNode start = cells[startRow][startCol];
@@ -337,7 +337,6 @@ public class Maze {
 		return path;
 	}
 
-*/
 	public static void main(String[] args) {
 		String mazeFile = "data/mazes/maze1.maze";
 		Maze maze = new Maze();

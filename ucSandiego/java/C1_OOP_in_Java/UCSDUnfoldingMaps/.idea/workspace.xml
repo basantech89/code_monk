@@ -2,18 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61194525-4324-4fe4-8139-ac32216e5e2d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../C2_DataStructure_and_Peroformance/MOOCTextEditor/src/practice/MyTries/Trie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/examples/SortingAlgoritms/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/examples/SortingAlgoritms/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C3_Advanced_DataStructure_in_Java/UCSDGraphs/src/practice/myMaze/MazeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C3_Advanced_DataStructure_in_Java/UCSDGraphs/src/roadgraph/MapEdge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C3_Advanced_DataStructure_in_Java/UCSDGraphs/src/roadgraph/MapNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../C2_DataStructure_and_Peroformance/MOOCTextEditor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../C2_DataStructure_and_Peroformance/MOOCTextEditor/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C2_DataStructure_and_Peroformance/MOOCTextEditor/src/practice/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../C2_DataStructure_and_Peroformance/MOOCTextEditor/src/practice/MyLinkedList/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C2_DataStructure_and_Peroformance/MOOCTextEditor/src/practice/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../C2_DataStructure_and_Peroformance/MOOCTextEditor/src/practice/MyLinkedList/MyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C2_DataStructure_and_Peroformance/MOOCTextEditor/src/practice/Tester.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../C2_DataStructure_and_Peroformance/MOOCTextEditor/src/practice/MyLinkedList/Tester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C2_DataStructure_and_Peroformance/MOOCTextEditor/src/spelling/AutoCompleteDictionaryTrie.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../C2_DataStructure_and_Peroformance/MOOCTextEditor/src/spelling/AutoCompleteDictionaryTrie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C2_DataStructure_and_Peroformance/MOOCTextEditor/src/spelling/DictionaryBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../C2_DataStructure_and_Peroformance/MOOCTextEditor/src/spelling/DictionaryBST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C2_DataStructure_and_Peroformance/MOOCTextEditor/src/spelling/DictionaryBenchmarking.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../C2_DataStructure_and_Peroformance/MOOCTextEditor/src/spelling/DictionaryBenchmarking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C2_DataStructure_and_Peroformance/MOOCTextEditor/src/spelling/DictionaryLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../C2_DataStructure_and_Peroformance/MOOCTextEditor/src/spelling/DictionaryLL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C2_DataStructure_and_Peroformance/MOOCTextEditor/src/spelling/TrieNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../C2_DataStructure_and_Peroformance/MOOCTextEditor/src/spelling/TrieNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C3_Advanced_DataStructure_in_Java/UCSDGraphs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../C3_Advanced_DataStructure_in_Java/UCSDGraphs/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C3_Advanced_DataStructure_in_Java/UCSDGraphs/src/basicgraph/GraphAdjList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../C3_Advanced_DataStructure_in_Java/UCSDGraphs/src/basicgraph/GraphAdjList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C3_Advanced_DataStructure_in_Java/UCSDGraphs/src/practice/myMaze/Maze.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../C3_Advanced_DataStructure_in_Java/UCSDGraphs/src/practice/myMaze/Maze.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C3_Advanced_DataStructure_in_Java/UCSDGraphs/src/roadgraph/MapGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../C3_Advanced_DataStructure_in_Java/UCSDGraphs/src/roadgraph/MapGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C3_Advanced_DataStructure_in_Java/UCSDGraphs/src/week3example/Maze.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../C3_Advanced_DataStructure_in_Java/UCSDGraphs/src/week3example/Maze.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -27,8 +24,8 @@
     <session id="439765322">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="15" />
-          <entry key="project.open.time.1" value="2" />
+          <entry key="project.closed" value="16" />
+          <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.22" value="1" />
@@ -38,17 +35,17 @@
           <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.43" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="15" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="25" />
+          <entry key="java" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="25" />
+          <entry key="JAVA" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -67,53 +64,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/examples/SortingAlgoritms/MergeSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/examples/SortingAlgoritms/OtherSortingAlgos.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/examples/SortingAlgoritms/Tests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/examples/SortingAlgoritms/QuickSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="19" selection-start-column="19" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/examples/SortingAlgoritms/SortBenchMarking.java">
+        <entry file="file://$PROJECT_DIR$/src/examples/Airports/Airport.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="82" column="58" selection-start-line="82" selection-start-column="58" selection-end-line="82" selection-end-column="58" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="521">
+              <caret line="47" column="13" lean-forward="true" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -171,8 +126,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -196,6 +149,13 @@
               <item name="UCSDUnfoldingMaps" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="examples" type="462c0819:PsiDirectoryNode" />
+              <item name="Airports" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UCSDUnfoldingMaps" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UCSDUnfoldingMaps" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
               <item name="SortingAlgoritms" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -203,6 +163,8 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -323,8 +285,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="743" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2977273" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.30227274" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -431,31 +394,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/examples/Airports/Airport.java">
+    <entry file="file://$PROJECT_DIR$/src/examples/SortingAlgoritms/SortBenchMarking.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="103" column="5" lean-forward="true" selection-start-line="64" selection-start-column="4" selection-end-line="103" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/examples/SortingAlgoritms/MergeSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/examples/SortingAlgoritms/OtherSortingAlgos.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/examples/SortingAlgoritms/Tests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -469,13 +414,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/examples/SortingAlgoritms/SortBenchMarking.java">
+    <entry file="file://$PROJECT_DIR$/src/examples/SortingAlgoritms/Tests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="82" column="58" selection-start-line="82" selection-start-column="58" selection-end-line="82" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="200">
+          <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/examples/SortingAlgoritms/OtherSortingAlgos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/examples/SortingAlgoritms/MergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/examples/Airports/Airport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="47" column="13" lean-forward="true" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
         </state>
       </provider>
     </entry>

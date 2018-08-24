@@ -8,8 +8,7 @@
 package roadgraph;
 
 
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 import java.util.function.Consumer;
 
 import geography.GeographicPoint;
@@ -24,14 +23,21 @@ import util.GraphLoader;
  */
 public class MapGraph {
 	//TODO: Add your member variables here in WEEK 3
-	
-	
+	private int numVertices;
+	private int numEdges;
+	// Key of hashmap is a geographic point
+	// value of hashmap is the intersection point(a map node object)
+	private Map<GeographicPoint, MapNode> graph;
+
 	/** 
 	 * Create a new empty MapGraph 
 	 */
 	public MapGraph()
 	{
 		// TODO: Implement in this constructor in WEEK 3
+		numVertices = 0;
+		numEdges = 0;
+		graph = new HashMap<>();
 	}
 	
 	/**
@@ -41,7 +47,7 @@ public class MapGraph {
 	public int getNumVertices()
 	{
 		//TODO: Implement this method in WEEK 3
-		return 0;
+		return numVertices;
 	}
 	
 	/**
@@ -51,7 +57,7 @@ public class MapGraph {
 	public Set<GeographicPoint> getVertices()
 	{
 		//TODO: Implement this method in WEEK 3
-		return null;
+		return new HashSet<>(graph.keySet()); // never expose your private data
 	}
 	
 	/**
@@ -61,7 +67,7 @@ public class MapGraph {
 	public int getNumEdges()
 	{
 		//TODO: Implement this method in WEEK 3
-		return 0;
+		return numEdges;
 	}
 
 	
@@ -76,7 +82,12 @@ public class MapGraph {
 	public boolean addVertex(GeographicPoint location)
 	{
 		// TODO: Implement this method in WEEK 3
-		return false;
+		if (location == null || graph.containsKey(location)) return false;
+
+		MapNode node = new MapNode(location);
+		graph.put(location, node);
+		++numVertices;
+		return true;
 	}
 	
 	/**
@@ -95,7 +106,16 @@ public class MapGraph {
 			String roadType, double length) throws IllegalArgumentException {
 
 		//TODO: Implement this method in WEEK 3
-		
+		if (!graph.containsKey(from) || !graph.containsKey(to) || length <= 0.0 ||
+				roadName == null || roadType == null)
+			throw new IllegalArgumentException("Pl check arguments");
+
+		MapEdge street = new MapEdge(roadName, roadType, length);
+
+		// adding the neighbour map node which correspond to "to location"
+		// to the map node which correspond to from location
+		graph.get(from).addNeighbour(graph.get(to), street);
+		++numEdges;
 	}
 	
 
@@ -125,12 +145,85 @@ public class MapGraph {
 	{
 		// TODO: Implement this method in WEEK 3
 		
-		// Hook for visualization.  See writeup.
+		// Hook for visualization. See writeup.
 		//nodeSearched.accept(next.getLocation());
 
-		return null;
+		if (start == null || goal == null) {
+			System.out.println("Start or Goal is null! No path exists.");
+			return new LinkedList<>();
+		}
+
+		MapNode startNode = graph.get(start);
+		MapNode goalNode = graph.get(goal);
+
+		Map<GeographicPoint, GeographicPoint> parent = new HashMap<>();
+		boolean found = BFSearch(startNode, goalNode, parent, nodeSearched);
+
+		if (!found) {
+			System.out.println("No path exists");
+			return null;
+		}
+
+		// reconstruct the path
+		return constructPath(start, goal, parent);
+
 	}
-	
+
+	/** Helper method for bfs to find the path from startNode to goalNode
+	 * @param startNode start map node object
+	 * @param goalNode goal map node object
+	 * @param parent a map that links a map node to it's neighbour
+	 * @param nodeSearched a hook for visualization
+	 * @return True if found the goal node or false otherwise
+	 * */
+	private boolean BFSearch(MapNode startNode, MapNode goalNode, Map<GeographicPoint, GeographicPoint> parent,
+							 Consumer<GeographicPoint> nodeSearched) {
+
+		Queue<MapNode> toExplore = new LinkedList<>();
+		HashSet<MapNode> visited = new HashSet<>();
+		toExplore.add(startNode);
+		visited.add(startNode);
+
+		while (!toExplore.isEmpty()) {
+
+			MapNode currNode = toExplore.remove();
+			nodeSearched.accept(currNode.getLocation());
+
+			if (currNode == goalNode) return true;
+
+				for (MapNode child : currNode.getNeighbours().keySet())
+
+					if (!visited.contains(child)) {
+						visited.add(child);
+						parent.put(child.getLocation(), currNode.getLocation());
+						toExplore.add(child);
+					}
+
+			}
+
+		return false; // goal isn't found in the graph
+	}
+
+	/** Helper method for bfs to construct the path from goal node to start node
+	 * @param start The starting location
+	 * @param goal The goal location
+	 * @param parent a map that links a map node object to it's neighbour map node object
+	 * @return list of the path that bfs took to reach to goal
+	 * */
+
+	private List<GeographicPoint> constructPath(GeographicPoint start, GeographicPoint goal,
+												Map<GeographicPoint, GeographicPoint> parent) {
+		GeographicPoint p = goal;
+		List<GeographicPoint> path = new LinkedList<>();
+		path.add(p);
+
+		while (p.getX() != start.getX() || p.getY() != start.getY()) {
+			p = parent.get(p);
+			path.add(0, p);
+		}
+
+		return path;
+	}
 
 	/** Find the path from start to goal using Dijkstra's algorithm
 	 * 
@@ -197,6 +290,26 @@ public class MapGraph {
 		return null;
 	}
 
+	/**
+	 * Method to print the graph object
+	 * */
+	@Override
+	public String toString () {
+		StringBuilder toReturn = new StringBuilder();
+
+		for (GeographicPoint point : graph.keySet()) {
+			toReturn.append("( " + point.getX() + ", " + point.getY() + " ) --> ");
+			MapNode node = graph.get(point);
+			for (MapNode n : node.getNeighbours().keySet()) {
+				GeographicPoint nLoc = n.getLocation();
+				toReturn.append("( " + nLoc.getX() + ", " + nLoc.getY() + " ) ");
+			}
+			toReturn.append("\n");
+		}
+
+		return toReturn.toString();
+	}
+
 	
 	
 	public static void main(String[] args)
@@ -206,7 +319,11 @@ public class MapGraph {
 		System.out.print("DONE. \nLoading the map...");
 		GraphLoader.loadRoadMap("data/testdata/simpletest.map", firstMap);
 		System.out.println("DONE.");
-		
+		GeographicPoint testStart = new GeographicPoint(1.0, 1.0);
+		GeographicPoint testEnd = new GeographicPoint(8.0, -1.0);
+		List<GeographicPoint> testroute = firstMap.bfs(testStart, testEnd);
+		System.out.println(testroute);
+
 		// You can use this method for testing.  
 		
 		
