@@ -1,0 +1,40 @@
+a{
+	display: block;
+	font-weight: bold;
+	font-variant: small-caps;
+	color: #ffffff;
+	background: #0006CC;
+	width: 200px;
+	text-align: center;
+	padding: 4px;
+	text-decoration: none;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+a:hover{
+	background: #b3b3b3;
+	color: #0006CC;
+}
+
+a:focus{
+	background: #b3b3b3;
+	color: #0006CC;
+}
+
+a:active{
+	border: 3px solid #000000;
+}
+
+div{
+	display: inline-block;
+	width: 45%;
+}
+
+ol{
+	list-style-type: upper-roman;
+}
+
+ul, ol{
+	list-style-image: url("E:/vids/tuts/Introduction to CSS3 by University of Michigan/codes/02.03 styling links and lists/300.gif");
+}

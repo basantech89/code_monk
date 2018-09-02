@@ -1,0 +1,9 @@
+body {
+	display:table;
+}
+
+div {
+	width:30%;
+	background:#00ffff;
+	display:table-cell;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Pseudo-Classes</title>
+		<meta charset="UTF-8">
+		<style>
+			div {
+				margin: 10px;
+				color: #000000;
+				background: #2db34a;
+				line-height: 200px;
+				text-align: center;
+				width: 250px;
+				height: 200px;
+				border-radius: 6px;
+			}
+			div:first-child {
+				transition-property: color, width, background, border-radius;
+				transition-duration: .5s;
+				transition-timing-function: linear;
+				transition-delay: .5s; 
+			}
+			div:nth-child(2) {
+				transition: background .2s linear, border-radius 1s ease-in 1s;
+			}
+			div:hover {
+				color: #ffffff;
+				width: 350px;
+				background: #2d31b3;
+				border-radius: 50%;
+			}
+			div:active {
+				color: #000000;
+				width: 150px;
+				background: #00ddb3;
+			}
+			h1 {
+				width: 30%;
+				margin: 0 auto;
+				transform: translate(100, -75);
+				transform:rotate(30deg);
+			}
+		</style>
+	</head>
+	<body>
+		<div>TRANSITION</div>
+		<div>SHORTCUT</div>
+		<h1>TRANSFORM</h1>
+	</body>
+</html>				
+			

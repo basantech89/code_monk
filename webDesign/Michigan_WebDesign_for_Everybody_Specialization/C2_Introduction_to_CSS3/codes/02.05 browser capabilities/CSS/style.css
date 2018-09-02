@@ -1,0 +1,25 @@
+section{
+	width: 100%;
+	
+	-webkit-column-count: 3;
+	-moz-column-count: 3;
+	-o-column-count: 3;
+	-ms-column-count: 3; /* for microsoft edge browser*/
+	column-count: 3;
+	
+	-webkit-column-gap: 15px;
+	-moz-column-gap: 15px;
+	-o-column-gap: 15px;
+	column-gap: 15px;
+	
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	-o-border-radius: 25px;
+	border-radius: 25px;
+	
+	background: #00B7EA;
+	background: -moz-linear-gradient(top, #00B7EA 0%, #D2E4E8 100%);
+	background: -webkit-linear-gradient(#00B7EA, 0%, #D2E4E8 100%);
+	background: -o-linear-gradient(#00B7EA, 0%, #D2E4E8 100%);
+	background: linear-gradient(#00B7EA, 0%, #D2E4E8 100%);
+}

@@ -1,0 +1,31 @@
+/* this is how comments are done in CSS */
+
+@font-face{
+	font-family: mySpecialFont;
+	src: url('file:///C:/Users/luv/Downloads/Monaco.ttf');
+}
+
+h1 {
+	color:blue;
+	background-color:yellow;
+	font-family: mySpecialFont !important;
+}
+
+h1 {
+	font-style:oblique;
+	text-align:right;
+}
+
+h2, span {
+	font-variant:small-caps;
+	font-size:200%;
+	color:#0000FF;
+	background-color:#B3B3B3;
+	text-align:center;
+}
+
+p {
+	text-align:justify;
+	line-height:200%;
+}
+	

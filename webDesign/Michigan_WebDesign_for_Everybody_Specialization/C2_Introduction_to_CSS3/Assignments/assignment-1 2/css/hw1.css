@@ -1,0 +1,23 @@
+header{
+	background-color: rgba(100, 100, 100, 0.3);
+}
+h1{
+	text-transform: uppercase;
+	text-align: center;
+	color: #B3B3BE;
+}
+h2{
+	text-transform: uppercase;
+	color:#3f3f8e;
+}
+section{
+	background-color: #e0caca;
+}
+a{
+	text-align: center;
+	color: #1e381d;
+	background-color: #9d8ada;
+}
+img{
+	display: none;
+}

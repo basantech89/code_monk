@@ -1,0 +1,11 @@
+CACHE MANIFEST
+# 10/25/2015 v1.0.0
+/theme.css
+/rishi.png
+/main.js
+
+NETWORK
+login.asp
+
+FALLBACK
+/html/ /offline.html

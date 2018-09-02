@@ -1,0 +1,32 @@
+/** {
+	color: #0006CC;
+	background-color: #0006CC;
+}*/
+
+#yo{
+	border: 5px dashed #0006CC;
+	margin: 0 auto;
+}
+
+.boo{
+	border: 5px groove #B3B3B3;
+	width: 30%;
+	margin: 0 auto;
+}
+
+section img.yeah{
+	border: 6px double #002800;
+	width: 30%;
+}
+
+a[href="www.facebook.com"] {
+	display: block;
+	border: 5px groove #B3B3B3;
+	height: 50px;
+	font-size: 50px;
+	text-align: center;	
+	color: #0006CC;
+	background-color: #B3B3B3;
+	width: 30%;
+	margin: 0 auto;
+}
