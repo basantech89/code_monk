@@ -496,23 +496,27 @@ public class MapGraph {
 					// distance of this node from start node
 					double nodeDist = street.getLength() + curr.getPredicted();
 
+					// choose the neighbour that has min distance from curr node
 					if (nodeDist < minStreetLen) {
 						minStreetLen = nodeDist;
 						minLenNode = child;
 						parent.put(child.getLocation(), curr.getLocation());
 					}
 
+					// returned to homenode, end of tour
 					if (child.getLocation() == homeNode.getLocation())
 						break;
 				}
 
+			// add the neighbour with min distance to priority queue
+			// and set the predicted distance
 			if (minLenNode != null) {
 				queue.add(minLenNode);
 				minLenNode.setPredicted(minStreetLen);
 			}
 		}
 
-		return 0.0;
+		return 0.0; // no path exists
 	}
 
 
