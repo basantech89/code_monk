@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title> Units </title>
+    <link rel="stylesheet" href="../styles/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Chakra+Petch|Montserrat|Nunito|Mali|Muli|Signika|Comfortaa" rel="stylesheet">
+	<link rel="stylesheet" href="../styles/style-extra.css">
+</head>
+
+<body>
+<header>
+    <nav>
+        <a href="styling_lists.html"> Next Lesson 3.4.1 - Styling Lists </a> <br>
+        <a href="margin_and_color.html"> Previous Lesson 3.3.2 - Margin and Color </a>
+    </nav>
+    <h1> 3.3.3 Units: px, em, rem, %, vh, vw </h1>
+</header>
+
+<article>
+    <p>
+        CSS properties expect some sort of dimension value. Dimension values support a wide
+        variety of units. But the most common and useful ones are: px, em, rem, %, vh and vw
+    </p>
+
+    <h2> px </h2>
+    <ul>
+        <li> 'px' is short for 'pixel', which is a single dot on the screen </li>
+        <li>
+            Text with  <code> font-size:20px </code> is 20 pixels tall on-screen.
+            In actuality, due to browser zooming, retina displays, or other factors, this may or
+            may not match to 20 physical on-screen pixels.
+        </li>
+        <li> px are useful for both horizontal and vertical dimensions.  </li>
+    </ul>
+
+    <h2> em </h2>
+    <ul>
+        <li>
+            'em' is a typographic term that has come to the Web. On the Web, em units are usually
+            used for vertical dimensions.
+        </li>
+        <li> One 'em' maps to the height of one capital letter in the parent context. </li>
+    </ul>
+    <pre>
+li { font-size: 0.9em; }  /* text in a list item is smaller than its parents */
+h1 { font-size: 1.2em; }  /* but an h1 will be bigger than the parent */
+i  { font-size: 0.5em; }  /* and any italicized text will be half as big. */
+    </pre>
+
+    <h2> rem </h2>
+    <ul>
+        <li>
+            rem' is much like 'em', except that 'em' sizes an element relative to its parent,
+            and 'rem' always derives its size relative to the root.
+        </li>
+        <li>
+            In an HTML document with lots of nested elements, 'rem' will generally prove to be
+            more reliable than 'em'. 'rem' is supported in all modern day browsers,
+            including mobile, but not older ones.
+        </li>
+    </ul>
+
+    <h2> % </h2>
+    <ul>
+        <li>
+            Whereas em is a measure relative to the parents text size, the percentage unit (%) is
+            relative to the parent dimension.
+        </li>
+        <li>
+            This is a useful unit for both horizontal and vertical dimensions, though often more
+            useful in the horizontal.
+        </li>
+        <li>
+            One of the limitations of this rule is that for it to work correctly, the parent must
+            have an explicit width or height set. This limitation is particularly noticeable in the
+            vertical dimension. If the parent element doesn't have an explicit height set then
+            child percentages may be percentages of 0.
+        </li>
+    </ul>
+    <pre>
+p {
+    margin-left:  10%;
+    margin-right: 10%;  /* 10% of parent width will be spent on the two side margins */
+}
+    </pre>
+
+    <h2> vh (viewport height) / vw (viewport width) </h2>
+    <ul>
+        <li>
+            The vh and vw units work much like the percentage ( % ) unit. But instead of percentage
+            of the parent, it is percentage of the screen (aka viewport).
+        </li>
+        <li>
+            vh and vw do not suffer the parent limitation that the % unit does.  Most modern
+            browsers support these units, but there are some exceptions on older mobile browsers.
+        </li>
+    </ul>
+    <pre>
+p {
+  margin-left:  10vw;
+  margin-right: 10vw;  /* 10% of screen width will be spent on the two side margins */
+}
+    </pre>
+
+    <aside>
+        <h2> External Resources </h2>
+        <a href="http://clagnut.com/blog/2384/"> Use rems for global sizing, use ems for local sizing </a> <br>
+        <a href="https://css-tricks.com/rem-global-em-local/"> This CSS Tricks article from March 2016: "Use  for Global Sizing; Use  for Local Sizing" </a> <br>
+        <a href="https://www.cssmine.com/ebook/css3-units"> New CSS3 Units: Root EM and Viewport Units </a> <br>
+        <a href="https://www.w3.org/TR/css3-values/#viewport-relative-lengths"> From the W3C specification: Viewport-percentage lengths </a>
+    </aside>
+</article>
+</body>
+</html>

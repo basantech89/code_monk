@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Hyperlinks </title>
+    <link rel="stylesheet" href="../styles/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Chakra+Petch|Montserrat|Nunito|Mali|Muli|Signika|Comfortaa" rel="stylesheet">
+	<link rel="stylesheet" href="../styles/style-extra.css">
+</head>
+<body>
+<header>
+    <nav>
+        <a href="../css_notes/M3%20Adding%20styles%20with%20CSS/style_link_tags.html"> Next Lesson 3.1 - Style and Link Tags </a> <br>
+        <a href="images.html"> Previous Lesson 2.5 - Images </a> <br>
+        <a href="../index.html"> Home </a>
+        <a href="#best_practices"> Best Practices </a> <br>
+        <a href="#states"> States of Hyperlinks </a> <br>
+        <a href="#usage"> Hyperlink Usage </a> <br>
+        <a href="#attributes"> Hyperlink Attributes </a> <br>
+        <a href="#target_attr"> Hyperlink Target Attribute </a> <br>
+        <a href="#media_attr"> Hyperlink Media Attribute </a> <br>
+        <a href="#download_attr"> Hyperlink Download Attribute </a> <br>
+    </nav>
+    <h1> 2.6 Hyperlinks </h1>
+</header>
+
+<section>
+    <h2> Why you should use text over image links </h2>
+    <p> When it comes to hyperlinks, try to use text instead of images when possible. </p>
+    <ul>
+        <li> Images are not as well understood or recognized as text. </li>
+        <li> Text is better for accessibility. </li>
+        <li> If you have text in an image, search engines do not recognize text in images. </li>
+    </ul>
+</section>
+
+<section id="best_practices">
+    <h2> Best Practices </h2>
+    <p>
+        If you choose to have image links, it should have alternate text
+        that describes the purpose of the link instead of the image used - describe the target link.
+    </p>
+    <xmp>
+        <a href="https://www.table-header-cells.com">
+            <img src="table-th.png" alt="Introduction to table header cells and their usage">
+        </a>
+    </xmp>
+</section>
+
+<section id="states">
+    <h2> States of a Hyperlink </h2>
+    <p>
+        If the link has not been clicked, it will be blue and underlined.
+        Now, click on the link and you will see that a visited link looks purple and underlined.
+        Apart from unvisited and visited links, there is also a status called active link.
+        A link becomes active while the user is clicking on it.
+        During this time, the link will be red and underlined.
+    </p>
+    <ul>
+        <li> Unvisited: blue + underlined </li>
+        <li> Visited: purple + underlined </li>
+        <li> Active: red + underlined </li>
+    </ul>
+</section>
+
+<section id="usage">
+    <h2> Usage </h2>
+        <p> Text in a hyperlink </p>
+        <xmp> <a href="https://www.qwant.com/"> If you click on me, I will take you to qwant.com </a> </xmp>
+        <p> Paragraph in a hyperlink </p>
+        <xmp> <a href="https://www.qwant.com/"> <p> If you click on me, I will take you to qwant.com </p> </a> </xmp>
+        <p> Image in a hyperlink </p>
+        <xmp> <a href="https://www.qwant.com/"> <img src="images/qwant-image.png" alt="Image navigating to Qwant"> </a> </xmp>
+        <p>
+            You can even use the anchor element to add your email address with protocol
+            such as "mailto" under the contacts section of your Web page.
+        </p>
+        <xmp> <p>Feedback: <a href="mailto:authors@example.com">Send Mail to Authors </a> </p> </xmp>
+        <p> You can add a subject to the email. </p>
+        <xmp> <p> Feedback: <a href="mailto:authors@example.com?Subject=Hello">Send Mail to Authors with Subject </a> </p> </xmp>
+        <p> Nevertheless, you should probably avoid using hyperlinks for email addresses: </p>
+        <ul>
+            <li>
+                The email address usually opens up on the default email client on the
+                user's computer which they might not use. This defeats the whole purpose
+            </li>
+            <li>
+                Providing your email address in your Web page directly as text or a hyperlink
+                will expose your email address. Bots or spam crawlers can be used to search
+                the Web to pick up email addresses for spam. You should avoid this if possible
+                and use contact forms instead.
+            </li>
+        </ul>
+</section>
+
+<article id="attributes">
+    <h2> Attributes for Hyperlinks </h2>
+    <section id="target_attr">
+        <h3> Target Attribute </h3>
+        <p>
+            Target specifies the destination where the linked URL in href should be opened.
+            It can take a variety of different values, but for our purposes we'll focus on the two below.
+        </p>
+        <textarea disabled rows="5" cols="150">
+        Destination                            Attribute Value                              Example
+In the same window,                             _self                   <a href="second.html" target="_self"> another page </a>
+default behaviour if no target is specified
+
+In a new window or tab                          _blank                  <a href="second.html" target="_blank"> another page </a>
+        </textarea>
+    </section>
+    <section id="media_attr">
+        <h3> Media Attribute </h3>
+        <ul>
+            <li>
+                The media attribute was introduced in HTML5. It is used to specify what kind of
+                media or device the URL you linked to in href is optimized for. The URL could be
+                targeted for special devices like projectors, speech synthesizers or pages meant
+                to be printed.
+            </li>
+            <li>
+                Imagine you have a page scattered with multiple images and you want to display this
+                page on a handheld device. Handheld devices are known to have small screens and
+                limited bandwidth. We want to align the page better for a small screen and reduce
+                the size of images. So the media attribute allows us to tell the anchor element that
+                this page is targeted for handheld devices. You do this by providing a value for the
+                attribute. This value could be any valid media query and is a combination of device
+                type and media rendering values.
+            </li>
+        </ul>
+        <p>
+            You could create a print link to a long content heavy page that will redirect you to a
+            print version of the same. You want this print version to be formatted into one page
+            ideal for printing and with resolution of 250 dpi. Here is how the HTML5 code will look
+            like:
+        </p>
+        <textarea disabled rows="4" cols="80">
+<a href="https://en.wikipedia.org/wiki/Media_queries?output=print"
+media="print and (resolution:250dpi)"> Print wiki page about media queries
+</a>
+        </textarea>
+    </section>
+    <section id="download_attr">
+        <h3> Download Attribute </h3>
+        <p>
+            The download attribute is also new in HTML5 and it makes a link download a file
+            instead of navigate to another location. It takes in the filename as value but the
+            value is optional. So the download attribute can be specified in the following ways:
+        </p>
+        <textarea disabled rows="3" cols="90">
+<a href="/assets/hello.txt" download> download hello.txt </a>
+<a href="/assets/hello.txt" download="new-name"> download new-name.txt </a>
+        </textarea>
+        <p> <mark> Download attribute will only works on Chrome, Firefox and Opera </mark> </p>
+    </section>
+</article>
+
+</body>
+</html>

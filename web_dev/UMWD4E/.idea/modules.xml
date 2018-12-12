@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/JavaScript/JavaScript.iml" filepath="$PROJECT_DIR$/JavaScript/JavaScript.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ResponsiveDesign/ResponsiveDesign.iml" filepath="$PROJECT_DIR$/ResponsiveDesign/ResponsiveDesign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UMWB.iml" filepath="$PROJECT_DIR$/UMWB.iml" />
+    </modules>
+  </component>
+</project>

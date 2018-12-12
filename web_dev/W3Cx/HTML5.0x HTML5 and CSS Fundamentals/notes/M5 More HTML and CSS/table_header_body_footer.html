@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Table Header, Body and Footer </title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Chakra+Petch|Montserrat|Nunito|Mali|Muli|Signika|Comfortaa" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/style-extra.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <a href="styling_table.html"> Next Lesson 5.1.3 - Styling your table </a> <br>
+        <a href="tables.html"> Previous Lesson 5.1.1 Tables </a>
+    </nav>
+    <h1> 5.1.2 The thead, tbody and tfoot tags </h1>
+    <p>
+        It is very useful to define parts of a table as header, body and footer because once browsers
+        are able to identify which cells are header and footer, the body can be allowed to scroll
+        independently of header and footer catering to a good table viewing experience in small screens
+    </p>
+</header>
+
+<section>
+        <h2> thead </h2>
+        <ul class="style-list">
+            <li>
+                Just like how we use &lt;colgroup&gt; to group columns, &lt;thead&gt; is used to group the header content in
+                a HTML table.
+            </li>
+            <li>
+                As we learned in the previous unit, header cells are specified using &lt;th&gt; as a child of &lt;tr&gt;.
+                Rows specified within &lt;thead&gt; indicate that they are header rows.
+            </li>
+        </ul>
+
+        <h2> tbody </h2>
+        <p> 
+            Following &lt;thead&gt;, subsequent rows are considered body rows in a table. Regular 
+            cells are specified using &lt;td&gt; as a child of &lt;tr&gt;
+        </p>
+
+    <h2> tfoot </h2>
+    <p> footer rows </p>
+</section>
+
+<section>
+    <h2> example </h2>
+    <textarea rows="33" cols="50">
+<table border=1>
+    <colgroup>
+        <col span="1" style="background-color:green">
+        <col span="1" style="background-color:orange">
+    </colgroup>
+    <thead style="color:white">
+        <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Age</th>
+        </tr>
+    </thead>
+        <tbody>
+            <tr>
+                <td>Alexa</td>
+                <td>23</td>
+            </tr>
+            <tr>
+                <td>James</td>
+                <td>35</td>
+            </tr>
+            <tr>
+                <td>Trisha</td>
+                <td>23</td>
+            </tr>
+        </tbody>
+        <tfoot style="font-style: italic;">
+            <tr>
+                <td>3 Unique Names</td>
+                <td>2 Unique Ages</td>
+            </tr>
+        </tfoot>
+</table>
+    </textarea>
+</section>
+
+</body>
+</html>

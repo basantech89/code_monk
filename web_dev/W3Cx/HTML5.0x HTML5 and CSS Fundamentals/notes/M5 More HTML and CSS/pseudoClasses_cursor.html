@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Pseudo Classes and Cursor </title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Chakra+Petch|Montserrat|Nunito|Mali|Muli|Signika|Comfortaa" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/style-extra.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <a href="Basics%20of%20page%20layout/text_baseline_display.html"> Next Lesson 6.1.1 - Text baseline and the display property </a> <br>
+        <a href="manage_element_size.html"> Previous Lesson 5.4.3 - Managing Element Size </a>
+    </nav>
+    <h1> 5.4.4 - Pseudo Classes and Cursor </h1>
+</header>
+
+<article>
+    <section>
+        <h1> Refined CSS selectors - pseudo classes </h1>
+        <p>
+            Pseudo Classes allow us to apply styles to the different states of an element.
+            Or to various children of an element based on their index, or to other interactions
+            with the browser
+        </p>
+        <code> a:visited { color: purple; } </code>
+        <p>
+            Above us we see a tag selector (a) followed by a pseudo class, which consists of a colon
+            and a word (e.g. :visited ). This particular CSS rule will be applied to any a tag that
+            the user has already visited. There can be no spaces on either side of the colon.
+            Pseudo classes can be amended onto any CSS selector, not just tag selectors.
+        </p>
+        <p>
+            a full list of pseudo classes can be found
+            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes" target="_blank"> here </a>
+        </p>
+
+        <h2> :visited </h2>
+        <p>
+            The :visited pseudo class is usually put on a selector that resolves to an &lt;a&gt; tag.
+            It enables you to define a style for the visited state of the link. For example, if the
+            user has already been to that Web site, the :visited style will be applied.
+        </p>
+
+        <h2> :hover / :active </h2>
+        <ul class="style-list">
+            <li>
+                The :hover pseudo class lets you change the style for an element when the mouse is
+                hovering above it.  The :active pseudo class is applied when the mouse is depressed
+                into its area
+            </li>
+            <li>
+                Note that the mouse is rarely hovering or clicking over/into "just one" item.
+                At any given moment, the mouse is usually over several elements, because if it is
+                over a child element, it will be over the parent, grandparent, and great grandparent.  Therefore, if you have two different style rules, such as li:hover and ul:hover, then they will both be activated,  when the mouse is over one of the list items
+            </li>
+        </ul>
+        <pre>
+            li:hover  { background-color: red; }
+            li:active { background-color: green; }
+            ul:active { border: 1px solid pink; }
+        </pre>
+
+        <h2> :nth-child </h2>
+        <pre>
+            tr:nth-child(odd)  { background-color: lightgray; }
+            tr:nth-child(even) { background-color: white; }
+        </pre>
+        <p>
+            The :nth-child pseudo class is very handy.  Unlike the pseudo classes we've seen so far,
+            it expects a parameter. The pseudo class always ends with a pair of parentheses with an
+            expression inside. This expression is simply the term odd or even, however, there are
+            other more advanced possibilities with mathematical equations containing the term  n.
+        </p>
+    </section>
+
+    <section>
+        <h1> Cursor property </h1>
+        <code> li { cursor: pointer; } </code>
+        <ul class="style-list">
+            <li>
+                The cursor CSS property lets you change the cursor that is displayed when the mouse
+                is over the element in question. This does not have to be relegated to a :hover
+                style, it can be applied anywhere. Though, if you want to change the cursor when an
+                element is depressed,  set the cursor property in the context of an :active style.
+            </li>
+            <li>
+                There are many possible values for the cursor property.  Their exact representation
+                may vary slightly from browser to browser.  Common values include: default, pointer,
+                text, move and grab.  (Hover over each value to see). In addition, some browsers
+                support a custom image as well
+            </li>
+        </ul>
+        <code> ( cursor: url("images/my_pointer.png"); ) </code>
+        <p>
+            For more info, visit
+            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/cursor">
+                MDN page on cursor
+            </a>
+        </p>
+    </section>
+</article>
+
+<article>
+    <h2> <mark> An article on CSS best practices can be found
+        <a href="http://fantasai.inkedblade.net/style/talks/best-practices/#title" target="_blank"> here </a>
+    </mark> </h2>
+</article>
+
+</body>
+</html>

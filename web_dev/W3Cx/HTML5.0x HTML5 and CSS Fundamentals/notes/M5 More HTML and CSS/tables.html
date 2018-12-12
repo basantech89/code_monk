@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Tables </title>
+    <link rel="stylesheet" href="../styles/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Chakra+Petch|Montserrat|Nunito|Mali|Muli|Signika|Comfortaa" rel="stylesheet">
+	<link rel="stylesheet" href="../styles/style-extra.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <a href="table_header_body_footer.html"> Next Lesson 5.1.2 - The thead, tbody and tfoot tags </a> <br>
+        <a href="../M4%20Fixing%20and%20Debugging/fixing_and_debugging.html"> Previous Lesson 4 Fixing and Debugging </a>
+    </nav>
+    <h1> Module 5 - More HTML and CSS </h1>
+</header>
+
+<article>
+    <h1> Lesson 1 - Tables </h1>
+    <h1> 5.1.1 Introduction to Tables </h1>
+    <section>
+        <p> List of all the table elements </p>
+        <pre>
+            Type	                Element
+        Table                         &lt;table&gt;
+        Caption                     &lt;caption&gt;
+        Row groups	          &lt;thead&gt;, &lt;tfoot&gt;, &lt;tbody&gt;
+        Column groups	  &lt;colgroup&gt;, &lt;col&gt;
+        Table row	          &lt;tr&gt;
+        Table cells	          &lt;th&gt;, &lt;td&gt;
+        </pre>
+    </section>
+
+    <section>
+        <h2> The Table Tag </h2>
+        <h3> Attributes </h3>
+        <h4> border </h4>
+        <ul class="style-list">
+            <li>
+                border - has two values, 0 and 1. It is used to specify a border around table cells.
+                0 - no border, 1 - add border. 0 also suggests that it is a layout table
+            </li>
+            <li>
+                Though there is an attribute for border, the table elements should be styled using CSS.
+                You can use the CSS border property to do that instead.
+            </li>
+        </ul>
+        <h4> caption </h4>
+        <ul>
+            <li>
+                It is used to give a title to the table and should be used as the first child element of
+                &lt;table&gt;. It can be used to provide more context to the table if its content is
+                ambiguous
+            </li>
+        </ul>
+        <h3> example </h3>
+        <textarea rows="7" cols="45">
+<table border=1>
+<caption>
+<p>Table 1.0</p>
+<p>Student's final exam results 2016</p>
+</caption>
+</table>
+        </textarea>
+    </section>
+
+    <section>
+        <section>
+            <h2> The tr, th, td, colgroup, col tags </h2>
+            <p> <span class="bold"> &lt;tr&gt; </span> - creates a table row </p>
+            <p> <span class="bold"> &lt;th&gt; </span> - creates table headers </p>
+
+            <table class="style-table">
+                <colgroup>
+                    <col>
+                    <col class="more-width">
+                    <col class="less-width">
+                </colgroup>
+                <caption>
+                    <p> Table: Attributes for th tag </p>
+                </caption>
+                <tr>
+                    <th> Attributes for th </th>
+                    <th> Purpose </th>
+                    <th> Usage </th>
+                    <th> Output </th>
+                </tr>
+                <tr>
+                    <td> colspan </td>
+                    <td>
+                        Number of cells you want that column to span <br>
+                        Possible values: positive integer number
+                    </td>
+                    <td> &lt;th colspan="2"&gt; </td>
+                    <td>
+                        <a href="https://codepen.io/w3devcampus/pen/xXERVo" target="_blank">
+                        colspan example </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td> rowspan </td>
+                    <td>
+                        Number of cells you want that row to span <br>
+                        Possible values: positive integer number
+                    </td>
+                    <td> &lt;th rowspan="2"&gt; </td>
+                    <td>
+                        <a href="https://codepen.io/w3devcampus/pen/WZGojz" target="_blank">
+                            rowspan example </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td> scope </td>
+                    <td>
+                        Specifies if a header cell is the header for a row, column, rowgroup or colgroup <br>
+                        Possible values: row, col, rowgroup, colgroup, auto
+                    </td>
+                    <td> &lt;th scope="row"&gt; </td>
+                    <td>
+                        <a href="https://codepen.io/w3devcampus/pen/YrGpEG" target="_blank">
+                            scope example </a>
+                    </td>
+                </tr>
+            </table>
+
+            <table class="style-table">
+                <caption>
+                    <p> Table: Attributes for td tag </p>
+                </caption>
+                <colgroup>
+                    <col>
+                    <col class="more-width">
+                    <col class="less-width">
+                </colgroup>
+                <tr>
+                    <th> Attributes for td </th>
+                    <th> Purpose </th>
+                    <th> Usage </th>
+                    <th> Output </th>
+                </tr>
+                <tr>
+                    <td> colspan </td>
+                    <td>
+                        Number of cells you want that column to span <br>
+                        Possible values: positive integer number
+                    </td>
+                    <td> &lt;td colspan="2"&gt; </td>
+                    <td>
+                        <a href="https://codepen.io/w3devcampus/pen/zEKoRg" target="_blank">
+                            colspan example </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td> rowspan </td>
+                    <td>
+                        Number of cells you want that row to span <br>
+                        Possible values: positive integer number
+                    </td>
+                    <td> &lt;td rowspan="2"&gt; </td>
+                    <td>
+                        <a href="https://codepen.io/w3devcampus/pen/PJGbeJ" target="_blank">
+                            rowspan example </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td> headers </td>
+                    <td> Value is the 'id' of the &lt;th&gt; tag it corresponds to if any </td>
+                    <td> &lt;tr&gt;
+                            &lt;th id="header-id"&gt;
+                        &lt;/tr&gt;
+                        &lt;tr&gt;
+                            &lt;td headers="header-id"&gt;
+                            &lt;td headers="header-id"&gt;
+                        &lt;/tr&gt;
+                    </td>
+                    <td>
+                        <a href="https://codepen.io/w3devcampus/pen/KXgNxr" target="_blank">
+                            headers example </a>
+                    </td>
+                </tr>
+            </table>
+        </section>
+
+        <section>
+            <p>
+                <span class="bold"> &lt;colgroup&gt; </span>  <br>
+                This tag allows you to group columns in a
+                table. Grouping columns is useful if you want to specify properties for a group of columns
+                like applying styles to the whole column instead of repeating it for each cell <br>
+            </p>
+            <p>
+                Attributes: <br>
+                span - takes a positive integer value. It specifies the number of columns you want your
+                colgroup to span. The colgroup element shares its attributes like style and width with
+                all the columns it spans.  Essentially it allows a single cell to stretch to cover
+                multiple columns on a particular row.
+            </p>
+            <p>
+                <span class="bold"> &lt;col&gt; </span> <br>
+                Used within &lt;colgroup&gt;, the &lt;col&gt; tag specifies the column property for
+                each column within a colgroup. The only element a &lt;colgroup&gt; can
+                contain is &lt;col&gt;.
+            </p>
+            <a href="https://codepen.io/w3devcampus/pen/EmEKGO" target="_blank"> colgroup example </a>
+        </section>
+    </section>
+
+    <aside>
+        <h2> External Resources </h2>
+        <a href="https://css-tricks.com/almanac/properties/t/table-layout/" target="_blank">
+            table-layour CSS propery to set table data cell's width </a>
+    </aside>
+</article>
+
+</body>
+</html>

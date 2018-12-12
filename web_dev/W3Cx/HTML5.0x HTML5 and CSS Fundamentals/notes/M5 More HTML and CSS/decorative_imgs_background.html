@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Decorative images and backgrounds </title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Chakra+Petch|Montserrat|Nunito|Mali|Muli|Signika|Comfortaa" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/style-extra.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <a href="decorative_borders_shadows.html"> Next Lesson 5.4.2 - Decorative borders and shadows </a> <br>
+        <a href="ismap_usemap_attributes.html"> Previous Lesson 5.3.2 - The ismap and usemap attributes </a>
+    </nav>
+    <h1> Lesson 4 - CSS tricks </h1>
+</header>
+
+<article>
+    <h1> 5.4.1 Decorative images and backgrounds </h1>
+    <p> Decorative images are incorporated via CSS </p>
+
+    <section>
+        <h2> background-color </h2>
+        <p> In addition to the values of transparent and none, there are all the values of  that we saw applicable to the color property </p>
+        <h2> background-image </h2>
+        <code> div { background-image: url("images/kitten.png"); } </code>
+        <p>
+            As these are decorative images, there are quite a few different usage scenarios that can leverage background images. For instance,
+            an image can be used as repeating tile, or a background image can fit its parent element, or be a large panoramic image not fully
+            viewed.  These scenarios can be constructed with other CSS properties, like background-repeat, background-size, and
+            background-attach (as well as several others)
+        </p>
+    </section>
+
+    <section>
+        <h2> background-repeat </h2>
+        <ul class="style-list">
+            <li>
+                By default, if the rectangular area of an element is bigger than the image itself, then the image will repeat and fill the space, like tiles
+            </li>
+            <li>
+                The background-repeat property can be used to control this. It's more commonly used values are: repeat, repeat-x, repeat-y,
+                and no-repeat. The no-repeat value is very useful, and bears repeating
+            </li>
+            <li>
+                There are advanced uses of this property.  Notice in the above example, that if the size of the parent element is not exactly
+                a multiple of the tile, then the image may be "cropped" and bleed off the side.  That can be managed by centering the
+                tile (with background-position: center;)
+            </li>
+            <li>
+                Additionally the background-repeat property can also be used to control how it repeats. The space value will result in cropped
+                images; it means "repeat, and add space between the elements so there is no cropping". Note that this property does not let
+                you directly manipulate the amount of spacing. That is calculated for you.
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2> background-size </h2>
+        <p>
+            When not repeating, it is very useful to size a background image to fit its element. The background-size can be used for this.
+            There are two very useful values:  contain and cover.
+        </p>
+        <ul class="style-list">
+            <li>
+                The contain value will put the entire image into the space of the element, however, the space of the element may not be
+                completely filled if the aspect ratio of the element and the image do not match
+            </li>
+            <li>
+                The cover value is the opposite. It will completely fill the element but the image may be cropped off two opposite sides.
+                Neither contain or cover will distort or squish the image.  Its aspect ratio is maintained
+            </li>
+        </ul>
+        <p>
+            The background-size property can also be used to more exactly size the image.  When used in this fashion,
+            it takes two values separated by a space. The first governs the width, the second the height.  Examples:
+        </p>
+        <pre>
+    .kittens  { background-size: 100px 120px; } /* might distort */
+    .puppies  { background-size: 100px auto; }  /* auto preserves aspect ratio, no distorting */
+    .munchies { background-size: 50% auto; }    /* % is of percentage of parent (not of image). */
+        </pre>
+        <p> Note that units (rem, vh, etc.) except px and % have no guarantee of support </p>
+        <p>
+            When specifying exact sizes, the auto value is extremely useful. It allows you to worry only about one dimension,
+            and then the other will handle it for you. Otherwise there is a risk of stretching/distorting images.
+        </p>
+    </section>
+
+    <section>
+        <h2> background-position </h2>
+        <p>
+            Like background-size, background-position can be used to place or offset a background image in the element.
+            It takes two values (x and y) separated by a space when used to exactly specify a position
+        </p>
+        <p>
+            The most useful is the center value.  It is position the center of the image in the center of the element.
+            This is useful even with repeating tiles
+        </p>
+    </section>
+</article>
+
+</body>
+</html>

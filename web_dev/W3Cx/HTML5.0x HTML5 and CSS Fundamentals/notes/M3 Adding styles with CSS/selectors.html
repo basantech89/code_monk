@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Selectors </title>
+    <link rel="stylesheet" href="../styles/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Chakra+Petch|Montserrat|Nunito|Mali|Muli|Signika|Comfortaa" rel="stylesheet">
+	<link rel="stylesheet" href="../styles/style-extra.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <a href="cascading.html"> Next Lesson 3.4.3 - Cascading: Inheritance and Precedence </a> <br>
+        <a href="styling_lists.html"> Previous Lesson 3.4.1 - Styling Lists </a>
+    </nav>
+    <h1> 3.4.2 Selectors </h1>
+</header>
+
+<section>
+    <h2> Types of Selectors </h2>
+    <h3> Tag selectors </h3>
+    <code> li { list-style-type: disc; } </code>
+
+    <h3> id selector </h3>
+    <p>  id cannot contain spaces, nor most punctuation, nor begin with numbers. </p>
+    <code> #id_name { color: blue; } </code>
+
+    <h3> Class selector </h3>
+    <p>
+        The values of the class attribute can be shared by multiple tags. And, multiple classes
+        can be assigned to a tag by simply separating them with spaces.
+    </p>
+    <code> .class_name { text-decoration: underline; } </code>
+</section>
+
+<section>
+    <h2> Combining Selectors </h2>
+    <h3> Comma Separated Selectors </h3>
+    <pre>
+blockquote, q, .speech {
+   color: red;
+   font-style: italic;
+}
+.speech { font-weight: bold; }
+    </pre>
+
+    <h3> Specialized selectors </h3>
+    <ul>
+        <li>
+            If two selectors of different types (like tag and class) appear next to each other with
+            no spacing separating them, then they form a specialized selector. To match, a candidate
+            must match both rules.  If a tag selector is used, it must appear first.
+        </li>
+        <li>
+            <code> blockquote.speech { font-color: green; } </code> <br>
+            In example below, the blockquote.speech selector is a blockquote tag selector combined with
+            a .speech class selector.  So this rule will not necessarily apply to every blockquote, nor
+            every element with the speech class. Instead, it will only apply to those blockquotes that
+            also have the speech class.
+        </li>
+    </ul>
+    <code> .insect.flying { text-decoration: underline; font-weight:bold; } </code>
+
+    <h3> Descendant selectors </h3>
+    <code> #intro a { color: red; } </code>
+    <p>
+        In the first rule, the selector will match to any a tag that is a descendant of #intro.
+        The a tag can appear directly within #intro, or be buried within its children
+    </p>
+    <code> #intro blockquote a { font-weight: bold; }  </code>
+    <p> Any a tags anywhere inside a blockquote tag anywhere inside the #intro section will now be bold. </p>
+
+    <h3> Direct descendant selectors ( > ) </h3>
+    <p>
+        Sometimes you don't want to apply a style to any possible child, but to only to the
+        direct children.  This can be done with the > symbol.  Use it between selectors to
+        limit the application to the direct children of the parent
+    </p>
+    <code> #intro > a { font-size: large; } </code>
+
+    <h3> Everything selector (*) </h3>
+    <p>
+        The asterisk (*) can be used to match any tag,  combined with other selectors into
+        a descendant selector, it can be pretty useful.
+    </p>
+    <pre>
+body > * { margin-left: 10px; } /* all the _direct_ children of the body receive the margin */
+p * { text-decoration: underline; } /* the text of the paragraph will be normal, but any children anywhere inside it will be underlined */
+    </pre>
+</section>
+
+</body>
+</html>

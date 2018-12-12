@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Text baseline and the display property </title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Chakra+Petch|Montserrat|Nunito|Mali|Muli|Signika|Comfortaa" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/style-extra.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <a href="horizontal_vertical_centering.html"> Next Lesson 6.1.2 - Horizontal and Vertical Centering </a> <br>
+        <a href="../M5%20More%20HTML%20and%20CSS/pseudoClasses_cursor.html"> Previous Lesson 5.4.4 - Pseudo Classes and Cursor </a>
+    </nav>
+    <h1> Module 6 - Basics of Page Layout </h1>
+    <h2> Lesson 1- Concepts </h2>
+</header>
+
+<article>
+    <section>
+        <h2> 6.1.1 Text baseline and the display property </h2>
+        <p>
+            When newbie developers are groping around CSS blindly, they often stumble upon a
+            variety of CSS properties that could be used to alter the positioning or size of an
+            element such as left, top, and margin. However, when using the properties, these
+            developers get confused because the properties fail to behave consistently.
+            Sometimes the properties work, sometimes they don't. The intrepid readers may have
+            already discovered in their exercises that margin can have some unexpected behavior.
+            Why is that?
+        </p>
+        <p>
+            The answer has to do with the two CSS properties: display and position. The display
+            property, in particular, has different default values for different tags. They behave
+            very differently.  These two properties (display and position) often change how an
+            element responds to certain other layout properties. And when this is not understood,
+            then it may seem random to a developer struggling to get stuff to work
+        </p>
+    </section>
+
+    <section>
+        <h2> Baseline </h2>
+        <img src="../images/baseline.png" alt="Image showing baseline" title="Image of a baseline">
+        <p>
+            In the image above, we see two text characters placed next to each other, the blue line
+            indicating the baseline. The baseline determines how and where the characters are
+            positioned. Note that the tail of the "g" hangs below the baseline
+        </p>
+        <p>
+            The baseline is never drawn by the browser, it is not exposed directly to you as a
+            developer, and CSS only may have some properties related to it. However, the baseline
+            governs the placement of all inline elements.
+        </p>
+    </section>
+
+    <section>
+        <h2> display: block versus inline </h2>
+        <p>
+            As the browser is rendering your page, every time it encounters the next tag it
+            has a simple question: "Do I give this element its own line?" For example, every
+            p tag gets a new line, but a tags do not
+        </p>
+        <p>
+            This is the key distinction between the "block" level elements (like the p tag)
+            and the "inline" elements (like the a tag)
+        </p>
+        <table class="style-table">
+            <caption>
+                <p> Table: Default value for display for some of the html tags </p>
+            </caption>
+            <thead> <tr>
+                <th id="hco1" scope="col"> Block </th>
+                <th id="hco2" scope="col"> Inline </th>
+            </tr> </thead>
+            <tbody>
+                <tr> <td headers="hco1"> p </td> <td headers="hco2"> a </td> </tr>
+                <tr> <td headers="hco1"> h1 </td> <td headers="hco2"> span </td> </tr>
+                <tr> <td headers="hco1"> div </td> <td headers="hco2"> a </td> </tr>
+                <tr> <td headers="hco1"> blockquote </td> <td headers="hco2"> q </td> </tr>
+                <tr> <td headers="hco1"> ul </td> <td headers="hco2"> i </td> </tr>
+                <tr> <td headers="hco1"> ol </td> <td headers="hco2"> b </td> </tr>
+                <tr> <td headers="hco1"> li </td> <td headers="hco2"> strong </td> </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <p> some differences between the block - level and inline elements </p>
+        <h2> Block Level </h2>
+        <ul class="style-list">
+            <li>
+                appears below and to the left of their block level neighbors (like a
+                carriage return on a typewriter going to the next new line)
+            </li>
+            <li> will expand to fill the width of the parent container by default </li>
+            <li> respects all margin properties </li>
+            <li>
+                can have its width property set, which will make it narrower and cause
+                its children to wrap, but not crop
+            </li>
+            <li>
+                takes on the height of all its children (pending certain exceptions) as
+                long as its own height is unset. It ignores the vertical-align property
+            </li>
+        </ul>
+
+        <h2> Inline Elements </h2>
+        <ul class="style-list">
+            <li>
+                simply appear to the right of their preceding inline neighbor. They do not
+                drop to the next line unless they must "wrap".
+            </li>
+            <li>
+                by default, the width is simply the width of the content of the element,
+                plus any padding
+            </li>
+            <li> ignore top and bottom margin settings </li>
+            <li> ignore width and height properties </li>
+            <li> are subject to vertical-align property as well as CSS white-space settings </li>
+            <li>
+                support padding, but any padding-top or padding-bottom does not contribute
+                to the calculation of the height of the text line it sits upon
+            </li>
+            <li> cleave to the baseline where they are being placed </li>
+        </ul>
+        <p>
+            The last bullet about inline elements is one of the most important to understand.
+            Inline elements cleave to the baseline.  This is very important to understand why
+            inline elements are positioned vertically the way they are. It also contributes
+            to why they ignore top and bottom margins. Note that making an inline element
+            "bigger" with padding will certainly keep its neighbors away horizontally. But if
+            there is a neighboring text line above or below, it can only be kept at bay with
+            the line-height property, not margins or padding
+        </p>
+
+        <h2> inline-block </h2>
+        <p>
+            Is &lt;img&gt; a block level element or inline?  If you venture to experiment
+            you may conclude "both", and you will be right.
+        </p>
+        <p>
+            For historic reasons, the img tag defaults to display:inline in most browsers.
+            If you inspect using the browsers inspector, that's what you will see. However,
+            it does not follow the same rules as other inline elements. In fact, regardless
+            of what the inspector says, images are special cased and are inline-block.
+        </p>
+        <p>
+            Inline-block elements still cleave to the text baseline of the line they are on.
+            If top or bottom margins or paddings are used, then the entire line is adjusted
+            to make room. (So the line-height does not need to be used.)
+        </p>
+        <ul class="style-list">
+            <li> inline-block elements respect margin-top and margin-bottom </li>
+            <li>
+                the vertical padding for inline-block elements contributes to the calculation
+                of the height of the line it falls on
+            </li>
+            <li> inline-block elements respect width and height properties </li>
+        </ul>
+        <p>
+            In some browsers, some of the form elements default to inline-block
+            (like &lt;button&gt;, &lt;select&gt;, and &lt;input&gt;)
+        </p>
+
+        <h2> display property </h2>
+        <p>
+            At long last we arrive at the display property. We have now seen three of its
+            possible values: block, inline, and inline-block.  There are others
+            (like none and flex) and we will cover them later.
+        </p>
+    </section>
+</article>
+
+</body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> The ismap and usemap attributes </title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Chakra+Petch|Montserrat|Nunito|Mali|Muli|Signika|Comfortaa" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/style-extra.css">
+</head>
+<body>
+<header>
+    <nav>
+        <a href="decorative_imgs_background.html"> Next Lesson 5.4.1 - Decorative images and backgrounds </a> <br>
+        <a href="iframe_tag.html"> Previous Lesson 5.3.1 The iframes tag </a>
+    </nav>
+    <h1> 5.3.2 - The ismap and usemap attributes </h1>
+    <p>
+        The ismap and usemap are image attributes, adding the ismap or usemap attributes to the
+        &lt;img&gt; tag means that the picture is an image with clickable areas. Imagine a
+        picture of a world map where different countries on the map can be clicked and it
+        navigates to another page like the country's wikipedia page. Simply put, we say such an
+        image is mapped
+    </p>
+</header>
+<main>
+    <article>
+        <section>
+            <h2> The ismap attribute </h2>
+            <ul class="style-list">
+                <li>
+                    ismap is a boolean attribute i.e. its value is either true or false. Thus, just the
+                    presence of the attribute indicates that it is a mapped image. To be more precise,
+                    we say it is a server-side image-map.
+                </li>
+                <li>
+                    We need to create a map file with these details and then add the location of this
+                    map file using the anchor element. Here is a code sample:
+                </li>
+            </ul>
+            <textarea title="ismap-example" disabled rows="4" cols="60">
+                <a href="ismap-images/ismap.cgi" target="_self">
+                    <img src="images/logo.png" alt="ismap tutorial" ismap>
+                </a>
+            </textarea>
+            <ul class="style-list">
+                <li> Here, the href attribute points to the location of the map file </li>
+                <li>
+                    ismap only works if the &lt;img&gt; tag is used within the anchor element like in
+                    the code above. This is important because without a link to the target map file,
+                    it has no idea what to do with your ismap specification
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2> The usemap attribute </h2>
+            <p>
+                usemap is a lot like ismap and is more widely used. ismap deals with server-side
+                image-maps whereas usemap deals with client-side image-maps
+            </p>
+            <ul class="style-list">
+                <li>
+                    Server-side image-maps: use separate map files that have to be downloaded.
+                    They depend on the server for translating the request. They also create
+                    additional network traffic
+                </li>
+                <li>
+                    Client-side image-maps: reside within an HTML document. The browser takes care of
+                    the translation (translating mouse coordinates clicked to corresponding Web pages)
+                </li>
+                <li>
+                    Client-side maps are becoming increasingly popular. usemap is NOT of type boolean.
+                    It takes in the name of the map with a '#' character preceding it
+                </li>
+                <li>
+                    Like ismap, usemap cannot be used by itself. In ismap, we used the anchor tag to
+                    specify the map file. In usemap, we use the &lt;area&gt; element as a child of
+                    &lt;map&gt; element to specify the coordinates and the page it should navigate to.
+                    The usemap value should match the map element's name or id attribute
+                </li>
+            </ul>
+            <textarea title="usemap example" disabled rows="6" cols="100">
+                <img src="images/crossroads.jpg" alt="Crossroads" usemap="#navigatormap">
+                <map name="navigatormap">
+                    <area shape="rect" coords="0,0,195,439" href="htts://en.wikipedia.org/wiki/Millery" alt="Millery">
+                    <area shape="rect" coords="196,0,390,439" href="htts://en.wikipedia.org/wiki/Noemny" alt="Nomeny">
+                </map>
+            </textarea>
+            <p>
+                <span class="bold"> map </span> - defines a client-side image map and is used to
+                create a relationship between the image and the map by matching the map name and
+                usemap's value. It contains a set of area elements
+            </p>
+            <p>
+                <span class="bold"> area </span> - defines the areas that can be clicked and the
+                pages it should navigate to. Typically takes the shape of the area, coordinates of
+                the area, URL of the page it should redirect to and the alt attribute
+            </p>
+            <p> The shape attribute in the &lt;area&gt; tag has four values </p>
+            <ul class="style-list">
+                <li>
+                    circle - The clickable area is a circle. You need to specify three coordinates.
+                    E.g. coords="89,52,6". The first two is the coordinate center of the circle and
+                    the last is the radius
+                </li>
+                <li>
+                    rect - The clickable area is a rectangle. You need to specify four coordinates.
+                    E.g. coords="0,0,195,439". This is the x & y coordinates of the top left corner
+                    and the x & y coordinates of the bottom right corner
+                </li>
+                <li>
+                    poly - The clickable area is a polygon of any number of sides. This shape is very
+                    flexible and takes as many pairs of coordinates as you need to form your polygon.
+                    E.g. coords="277,85,322,87,275,173,269,138". The last set of coordinates can match
+                    the first set. If it doesn't, the browser will automatically match it for you to
+                    close the polygon.
+                </li>
+                <li> default - The clickable area is the whole image </li>
+            </ul>
+        </section>
+    </article>
+</main>
+
+</body>
+</html>

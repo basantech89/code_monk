@@ -1,0 +1,61 @@
+body, html {
+    /*color:#fff !important; background-color:#818181 !important*/
+    /*background-color: gray;*/
+    font-family: Muli, sans-serif;
+    margin: 0.8rem;
+    color: #313131;
+}
+
+/* styling tables */
+h1 {
+    font-family: Comfortaa, Montserrat, sans-serif;
+    color: #313131;
+}
+
+h2, h3, h4 {
+    font-family: "Mali", sans-serif;
+    /*color: #0d0d0d;*/
+    color: rgb(59, 56, 53);
+}
+
+p, li, .normal {
+    line-height: 1.6em;
+    font-size: 1.2rem;
+    margin-bottom: 0.7em;
+    /*font-family: "Roboto", sans-serif;*/
+}
+
+xmp, code, pre, textarea {
+    border-style: none;
+    box-shadow: 3px 3px 6px black;
+    /*text-shadow: 1px 1px 3px grey;*/
+    color: limegreen;
+    background-color: #171717;
+    /*background-color: beige;*/
+    border-radius: 20px;
+    padding: 15px;
+    /*text-align: center;*/
+    font-family: Nunito, monospace;
+    font-size: large;
+    font-weight: 400;
+    line-height: 1.5em;
+    display: inline-block;
+    margin-left: 1em;
+}
+
+/*
+pre .str, code .str { color: #65B042; } !* string  - green *!
+pre .kwd, code .kwd { color: #E28964; } !* keyword - dark pink *!
+pre .com, code .com { color: #AEAEAE; font-style: italic; } !* comment - gray *!
+pre .typ, code .typ { color: #89bdff; } !* type - light blue *!
+pre .lit, code .lit { color: #3387CC; } !* literal - blue *!
+pre .pun, code .pun { color: #fff; } !* punctuation - white *!
+pre .pln, code .pln { color: #fff; } !* plaintext - white *!
+pre .tag, code .tag { color: #89bdff; } !* html/xml tag    - light blue *!
+pre .atn, code .atn { color: #bdb76b; } !* html/xml attribute name  - khaki *!
+pre .atv, code .atv { color: #65B042; } !* html/xml attribute value - green *!
+pre .dec, code .dec { color: #3387CC; } !* decimal - blue *!*/
+
+details {
+    margin: 0.6em;
+}

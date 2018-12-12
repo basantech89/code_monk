@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c117b083-b53b-4712-8a06-186500b50a58" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/C3_DatabaseApps_in_PHP/cookies_first.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/C3_DatabaseApps_in_PHP/sessions.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/C3_DatabaseApps_in_PHP/sessions_without_cookies.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>name</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/singleQuotes.php" />
+        <option value="$PROJECT_DIR$/control_structs.php" />
+        <option value="$PROJECT_DIR$/operators.php" />
+        <option value="$PROJECT_DIR$/assgn-1/fail.php" />
+        <option value="$PROJECT_DIR$/assgn-1/check.php" />
+        <option value="$PROJECT_DIR$/assgn-1/index.php" />
+        <option value="$PROJECT_DIR$/arrays.php" />
+        <option value="$PROJECT_DIR$/http_php_arrays.php" />
+        <option value="$PROJECT_DIR$/array_functions.php" />
+        <option value="$PROJECT_DIR$/assign-2/index.php" />
+        <option value="$PROJECT_DIR$/functions.php" />
+        <option value="$PROJECT_DIR$/forloop.php" />
+        <option value="$PROJECT_DIR$/assign-week-7/index.php" />
+        <option value="$PROJECT_DIR$/header.php.html" />
+        <option value="$PROJECT_DIR$/form_input_types.php" />
+        <option value="$PROJECT_DIR$/header.php" />
+        <option value="$PROJECT_DIR$/html_injection.php" />
+        <option value="$PROJECT_DIR$/assign-week-8-rps/index.php" />
+        <option value="$PROJECT_DIR$/assign-week-8-rps/login.php" />
+        <option value="$PROJECT_DIR$/assign-week-8-rps/game.php" />
+        <option value="$PROJECT_DIR$/C3_DatabaseApps_in_PHP/oop_date_time.php" />
+        <option value="$PROJECT_DIR$/C3_DatabaseApps_in_PHP/classes.php" />
+        <option value="$PROJECT_DIR$/C3_DatabaseApps_in_PHP/constructor.php" />
+        <option value="$PROJECT_DIR$/C3_DatabaseApps_in_PHP/access_modifiers.php" />
+        <option value="$PROJECT_DIR$/C3_DatabaseApps_in_PHP/stdClass.php" />
+        <option value="$PROJECT_DIR$/C3_DatabaseApps_in_PHP/pdo.php" />
+        <option value="$PROJECT_DIR$/C3_DatabaseApps_in_PHP/second_pdo.php" />
+        <option value="$PROJECT_DIR$/C3_DatabaseApps_in_PHP/first_pdo.php" />
+        <option value="$PROJECT_DIR$/C3_DatabaseApps_in_PHP/header.php" />
+        <option value="$PROJECT_DIR$/C3_DatabaseApps_in_PHP/user1del.php" />
+        <option value="$PROJECT_DIR$/C3_DatabaseApps_in_PHP/user1.php" />
+        <option value="$PROJECT_DIR$/C3_DatabaseApps_in_PHP/user3.php" />
+        <option value="$PROJECT_DIR$/C3_DatabaseApps_in_PHP/error_handling.php" />
+        <option value="$PROJECT_DIR$/C3_DatabaseApps_in_PHP/error_handling/error_handling.php" />
+        <option value="$PROJECT_DIR$/C3_DatabaseApps_in_PHP/error_handling/try-catch.php" />
+        <option value="$PROJECT_DIR$/C3_DatabaseApps_in_PHP/error_handling/production_error_handling.php" />
+        <option value="$PROJECT_DIR$/C3_DatabaseApps_in_PHP/sql_injection.php" />
+        <option value="$PROJECT_DIR$/C3_DatabaseApps_in_PHP/sql_injection_fix.php" />
+        <option value="$PROJECT_DIR$/C1_WebApps_in_PHP/assign-week-8-rps/game.php" />
+        <option value="$PROJECT_DIR$/C1_WebApps_in_PHP/assign-week-8-rps/login.php" />
+        <option value="$PROJECT_DIR$/C3_DatabaseApps_in_PHP/assets/css/starter-template.css" />
+        <option value="$PROJECT_DIR$/C3_DatabaseApps_in_PHP/assign-week-2/pdo.php" />
+        <option value="$PROJECT_DIR$/C3_DatabaseApps_in_PHP/assets/css/styles.css" />
+        <option value="$PROJECT_DIR$/C3_DatabaseApps_in_PHP/assign-week-2/header.php" />
+        <option value="$PROJECT_DIR$/C3_DatabaseApps_in_PHP/assign-week-2/bootstrap.php" />
+        <option value="$PROJECT_DIR$/C3_DatabaseApps_in_PHP/assign-week-2/index.php" />
+        <option value="$PROJECT_DIR$/C3_DatabaseApps_in_PHP/assign-week-2/login.php" />
+        <option value="$PROJECT_DIR$/C3_DatabaseApps_in_PHP/assign-week-2/autos.php" />
+        <option value="$PROJECT_DIR$/C3_DatabaseApps_in_PHP/cookies_first.php" />
+        <option value="$PROJECT_DIR$/C3_DatabaseApps_in_PHP/sessions_without_cookies.php" />
+        <option value="$PROJECT_DIR$/C3_DatabaseApps_in_PHP/sessions.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.2" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="47" />
+    <option name="width" value="1346" />
+    <option name="height" value="701" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="UMWA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UMWA4E" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UMWA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UMWA4E" type="462c0819:PsiDirectoryNode" />
+              <item name="C3_DatabaseApps_in_PHP" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="/var/www/html/code/index2.php" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="SQL Dialects" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/C3_DatabaseApps_in_PHP/assign-week-2" />
+      <recent name="$PROJECT_DIR$/C3_DatabaseApps_in_PHP" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/C3_DatabaseApps_in_PHP/assets" />
+      <recent name="$PROJECT_DIR$/C3_DatabaseApps_in_PHP/assets/css" />
+      <recent name="$PROJECT_DIR$/C3_DatabaseApps_in_PHP/oop" />
+      <recent name="$PROJECT_DIR$/C3_DatabaseApps_in_PHP/error_handling" />
+      <recent name="$PROJECT_DIR$/C3_DatabaseApps_in_PHP" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.error_handling.php">
+    <configuration name="error_handling.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/UMWA/C3_DatabaseApps_in_PHP/error_handling/error_handling.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="first_pdo.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/UMWA/C3_DatabaseApps_in_PHP/first_pdo.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="second_pdo.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/UMWA/C3_DatabaseApps_in_PHP/second_pdo.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="first_pdo.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/C3_DatabaseApps_in_PHP/first_pdo.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="stdClass.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/C3_DatabaseApps_in_PHP/oop/stdClass.php">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.second_pdo.php" />
+        <item itemvalue="PHP Script.first_pdo.php" />
+        <item itemvalue="JavaScript Debug.first_pdo.php" />
+        <item itemvalue="PHP Script.stdClass.php" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c117b083-b53b-4712-8a06-186500b50a58" name="Default Changelist" comment="" />
+      <created>1543818517673</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1543818517673</updated>
+      <workItem from="1543818523561" duration="10177000" />
+      <workItem from="1543845644647" duration="1197000" />
+      <workItem from="1543846927169" duration="1294000" />
+      <workItem from="1543892267964" duration="17085000" />
+      <workItem from="1543924804225" duration="2567000" />
+      <workItem from="1543983085596" duration="5953000" />
+      <workItem from="1544013965063" duration="8291000" />
+      <workItem from="1544101916299" duration="6005000" />
+      <workItem from="1544162592483" duration="2390000" />
+      <workItem from="1544332174188" duration="4900000" />
+      <workItem from="1544349016801" duration="25501000" />
+      <workItem from="1544420174677" duration="364000" />
+      <workItem from="1544447974842" duration="5688000" />
+      <workItem from="1544496749253" duration="566000" />
+      <workItem from="1544500854124" duration="7189000" />
+      <workItem from="1544530071865" duration="280000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="99447000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="25" width="1366" height="743" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29090908" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="PHP-CGI Server" order="1" weight="0.32954547" />
+      <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info anchor="bottom" id="Terminal" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" weight="0.32954547" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.5211039" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" weight="0.32954547" />
+      <window_info anchor="bottom" id="Run" order="12" weight="0.32305196" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand>
+      <path>
+        <item name="UMWA" type="b2602c69:ProjectViewProjectNode" />
+        <item name="UMWA4E" type="462c0819:PsiDirectoryNode" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/C1_WebApps_in_PHP/operators.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="63" column="30" selection-start-line="63" selection-start-column="30" selection-end-line="63" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C1_WebApps_in_PHP/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C1_WebApps_in_PHP/control_structs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///var/www/html/code/index2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C1_WebApps_in_PHP/assgn-week-5/fail.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C1_WebApps_in_PHP/assgn-week-5/check.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C1_WebApps_in_PHP/forloop.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C1_WebApps_in_PHP/assgn-week-5/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.php.html" />
+    <entry file="file://$PROJECT_DIR$/C1_WebApps_in_PHP/assign-week-8-rps/bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C3_DatabaseApps_in_PHP/oop/oop_date_time.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C3_DatabaseApps_in_PHP/oop/classes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C3_DatabaseApps_in_PHP/oop/constructor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C3_DatabaseApps_in_PHP/oop/access_modifiers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C3_DatabaseApps_in_PHP/oop/stdClass.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C1_WebApps_in_PHP/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C3_DatabaseApps_in_PHP/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="14" column="60" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C3_DatabaseApps_in_PHP/second_pdo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="22" column="18" lean-forward="true" selection-start-line="10" selection-end-line="22" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C1_WebApps_in_PHP/array_functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C3_DatabaseApps_in_PHP/first_pdo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C3_DatabaseApps_in_PHP/user1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="542">
+          <caret line="41" column="23" lean-forward="true" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C3_DatabaseApps_in_PHP/error_handling/try-catch.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="10" column="14" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C3_DatabaseApps_in_PHP/error_handling/error_handling.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C3_DatabaseApps_in_PHP/sql_injection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C3_DatabaseApps_in_PHP/user1del.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C3_DatabaseApps_in_PHP/pdo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="11" column="64" lean-forward="true" selection-start-line="11" selection-start-column="64" selection-end-line="11" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C3_DatabaseApps_in_PHP/assets/bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C1_WebApps_in_PHP/arrays.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C1_WebApps_in_PHP/form_input_types.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="89" column="2" lean-forward="true" selection-start-line="89" selection-start-column="2" selection-end-line="89" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C1_WebApps_in_PHP/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="47" column="8" lean-forward="true" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C1_WebApps_in_PHP/http_php_arrays.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding>
+            <element signature="e#75#154#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C1_WebApps_in_PHP/assign-week-6/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C1_WebApps_in_PHP/assign-week-7/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="47" column="18" lean-forward="true" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C1_WebApps_in_PHP/assign-week-8-rps/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C1_WebApps_in_PHP/assign-week-8-rps/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C3_DatabaseApps_in_PHP/assets/css/starter-template.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C3_DatabaseApps_in_PHP/assign-week-2/pdo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+          <folding>
+            <element signature="e#6#84#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C1_WebApps_in_PHP/html_injection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C1_WebApps_in_PHP/assign-week-8-rps/game.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C3_DatabaseApps_in_PHP/assign-week-2/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C3_DatabaseApps_in_PHP/assets/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C3_DatabaseApps_in_PHP/assign-week-2/autos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="82" column="25" selection-start-line="82" selection-start-column="25" selection-end-line="82" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C3_DatabaseApps_in_PHP/user3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="59" column="24" lean-forward="true" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C3_DatabaseApps_in_PHP/sql_injection_fix.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="47" column="69" lean-forward="true" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C3_DatabaseApps_in_PHP/assign-week-2/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+          <folding>
+            <element signature="e#6#84#0#PHP" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C3_DatabaseApps_in_PHP/assign-week-2/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="3" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+          <folding>
+            <element signature="e#6#84#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C3_DatabaseApps_in_PHP/assign-week-2/bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C3_DatabaseApps_in_PHP/error_handling/production_error_handling.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="17" column="36" lean-forward="true" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C3_DatabaseApps_in_PHP/cookies_first.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C3_DatabaseApps_in_PHP/sessions_without_cookies.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C3_DatabaseApps_in_PHP/sessions.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>

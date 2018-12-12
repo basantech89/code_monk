@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Semantics </title>
+    <link rel="stylesheet" href="../styles/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Chakra+Petch|Montserrat|Nunito|Mali|Muli|Signika|Comfortaa" rel="stylesheet">
+	<link rel="stylesheet" href="../styles/style-extra.css">
+</head>
+<body>
+<header>
+    <nav>
+        <a href="headers_and_headings.html"> Next Lesson 2.2 - Headers and Headings </a> <br>
+        <a href="../M1%20My%20first%20web%20page/basics.html"> Previous Lesson 1.2 - Basics of HTML </a>
+    </nav>
+    <h1> Module 2 - Attributes, images and links </h1>
+</header>
+
+<section>
+    <h1> 2.1 Semantics </h1>
+    <h2> Semantic vs Style Tags </h2>
+    <textarea disabled rows="11" cols="150%">
+Tag             Type            Description
+&lt;b&gt;             Style           HTML 4 - Makes text bold
+&lt;b&gt;             Semantic        HTML 5 - keywords in a document, product names, action words without making them important, headings in list items
+&lt;i&gt;             Style           HTML 4 - Makes text italics
+&lt;i&gt;             Semantic        HTML 5 - for text in a different mood or voice, such as foreign words, a thought or technical terms.
+&lt;em&gt;            Semantic        Emphasizes text - italics, As of HTML5, &lt;em&gt; is also used for words and sentences you would pronounce differently
+&lt;strong&gt;        Semantic        Important text - bold
+
+&lt;b&gt; and &lt;i&gt; may not produce appropriate styling for some parts of the world like China and Japan
+If you do use &lt;b&gt; or &lt;i&gt; tags, HTML5 specification recommends that you also use class attributes to identify the semantic intention of the markup.
+    </textarea>
+</section>
+
+<section>
+    <h2> New HTML 5 Semantic Elements </h2>
+    <textarea disabled rows="13" cols="150">
+&lt;header&gt;	-	Introduction for the whole page or individual sections, article, nav, aside elements. 
+&lt;footer&gt;	-	Includes typical footer information like authoring, copyrights, contact information and a footer menu.
+&lt;nav&gt;		-	Navigation links for the document. A page can have more than one &lt;nav&gt; element like table of contents, horizontal navigation 
+			in header and footer navigation.
+&lt;section&gt;	-	Defines sections in the document such as chapters, headers, etc. Typically used on content that cannot make sense on its own.
+&lt;article&gt;	-	Defines independent content that should make sense on its own outside of the document such as newspaper articles, blog posts.
+&lt;aside&gt;		-	Side content other than main content, like a sidebar. These are not considered as 
+&lt;details&gt;	-	A way to provide additional information that the user can show or hide
+&lt;summary&gt;	-	Used within the &lt;details&gt; tag. Specifies the visible content. The rest of the content in details is shown/hidden by user.
+&lt;figure&gt;	-	Contains an image and can be used to group with an image's caption
+&lt;figcaption&gt;	-	Provides a caption (explanation) of an image. To be used within &lt;figure&gt;.
+&lt;mark&gt;		-	Defines a part of a text you want to highlight.
+    </textarea>
+</section>
+
+<section>
+    <h2> Lesser known semantic elements </h2>
+    <textarea disabled rows="6" cols="150">
+&lt;code&gt;		-	Used to represent short computer code in a sentence. It displays code in default monospace font. For larger code snippets, you			      should use the pre tag
+&lt;abbr&gt;		-	Used to indicate the occurrence of an abbreviation.
+&lt;address&gt;	-	Used to supply contact information for its nearest &lt;article&gt; or &lt;body&gt; ancestor.
+
+    </textarea>
+</section>
+
+<section>
+    <h2> Examples </h2>
+    <textarea disabled rows="50" cols="150">
+<details>
+   <summary>Cast Members</summary>
+   <p>George Washington as Algernon Moncrieff</p>
+   <p>Ronald Reagan as John Worthing</p>
+</details>
+
+<figure>
+   <img src="img_cast.jpg" alt="The Importance of Being Earnest Cast">
+   <figcaption>Fig1. - The cast hard at work at dress rehearsal before opening night</figcaption>
+</figure>
+
+<abbr title="Hypertext Markup Language">HTML</abbr>
+
+<address>
+    <a href="www.example.com">John Doe</a><br>
+    #123, Doe Villa<br>
+    Los Angeles, USA
+</address>
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Introduction to semantic elements</title>
+</head>
+
+<body>
+  <header>
+    <h2>Using the Markup Validator.</h2>
+  </header>
+  <nav>
+    <!--You will learn about <a> tag later in this chapter-->
+    <a href="">What is the Markup Validator and what does it do?</a><br />
+    <a href="">Why validate?</a><br />
+    <a href="">How do I use the Markup validator?</a><br />
+    <a href="">Many error messages? Don't panic.</a><br />
+  </nav>
+  <section>
+    <h3>What is the Markup Validator and what does it do?</h3>
+    <p> The Markup Validator is a free tool and service that
+<a href="https://validator.w3.org/docs/help.html#validation_basics">validates markup</a>: in other words, it checks the syntax of Web documents, written in formats such as HTML. </p>
+  </section>
+  <section>
+    <h3>Why validate?</h3>
+    <p> One of the important maxims of computer programming is: "Be conservative in what you produce; be liberal in what you accept."
+
+Browsers follow the second half of this maxim by accepting Web pages and trying to display them even if they're not legal HTML. The problem is that different browsers (or even different versions of the same browser) will make different guesses about the same illegal construct...
+ </p>
+  </section>
+  <article>
+    <h3>How do I use the Markup validator?</h3>
+    <p>Most probably, you will want to use the online Markup Validation service. The simple way to use this service to validate a Web page is to paste its address into the
+<a href="https://validator.w3.org/#uri">text area</a>
+on the
+<a href="https://validator.w3.org/">validator's home page</a>
+, and press the "Check" button.</p>
+  </article>
+  <aside>
+    <h3>Many error messages? Don't panic.</h3>
+    <p> Don't panic. Did The Validator complain about your DOCTYPE declaration (or lack thereof)? Make sure your document has a syntactically correct DOCTYPE declaration, as described in the section on DOCTYPE, and make sure it correctly identifies the type of HTML you're using. Then run it through The Validator again; if you're lucky, you should get a lot fewer errors.
+
+If this doesn't help, then you may be experiencing a cascade failure ... </p>
+  </aside>
+  <footer>
+    <p>Written by: W3C</p>
+    <p>For more information, please visit <a href="https://validator.w3.org/docs/help.html">this page</a>.</p>
+  </footer>
+</body>
+
+</html>
+    </textarea>
+</section>
+
+
+</body>
+</html>

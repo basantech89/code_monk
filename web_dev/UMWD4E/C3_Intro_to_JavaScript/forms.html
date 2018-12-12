@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Forms </title>
+    <script src="js/forms.js"></script>
+</head>
+<body>
+
+    <form>
+        <label for="name"> Name </label>
+        <input type="text" id="name" name = "name" placeholder="Colleen"> <br/>
+        <label> Email: <input type="email" name="email" placeholder="user@gmail.com"> </label> <br>
+        <label for="birth"> Birth </label>
+        <input type="date" id="birth" value="birth"> <br>
+        <label for="pass"> Password </label>
+        <input type="password" id="pass" name="password"> <br>
+        <label for="rainbow"> Color </label>
+        <input type="color" id="rainbow" name="color"> <br>
+        <label> zip code with pattern </label>
+        <input type="text" name="zip_codeP" pattern="[0-9]{5}"> <br>
+        <label> zip code with numbers </label>
+        <input type="number" name="zip_codeN" min="10000" max="99999"> <br>
+        <label> Preferred email address </label>
+        <input type="email" id="email_addr" name="email" value="me@me.com" required> <br>
+        <label> Repeat email address
+            <input type="email" id="email_repeat" name="email2" required onchange="return check();">
+        </label> <br>
+        <input type="submit" value="Click Here" onclick="return check();">
+    </form>
+
+    <br>
+
+    <form>
+        Favorite Food <br>
+        <label> <input type="checkbox" name="food" value="pizza"> Pizza </label> <br>
+        <label> <input type="checkbox" name="food" value="chips"> Chips </label> <br>
+        <label> <input type="checkbox" name="food" value="kale"> Kale </label> <br>
+        <input type="submit">
+    </form>
+
+    <br>
+
+    <form>
+        Gender <br>
+        <label> <input type="radio" name="gender" value="male"> Male </label> <br>
+        <label> <input type="radio" name="gender" value="female"> Female </label> <br>
+        <input type="submit">
+    </form>
+
+    <br>
+
+    <form>
+        Gender <br>
+        <label> <input type="radio" name="gender" value="male"> Male </label> <br>
+        <label> <input type="radio" name="gender" value="female"> Female </label> <br>
+
+        Favorite Food <br>
+        <label> <input type="radio" name="food" value="pizza" checked> Pizza </label> <br>
+        <label> <input type="radio" name="food" value="chips"> Chips </label> <br>
+        <label> <input type="radio" name="food" value="kale"> Kale </label> <br>
+        <input type="submit">
+    </form>
+
+    <br>
+
+    <form>
+        <fieldset>
+            <legend> Form Verification </legend>
+            <label> First Name <input type="text" name="fname" id="fname" required> </label> <br>
+            <label> Last Name <input type="text" name="lname" id="lname" required> </label> <br>
+            <label for="yesNick"> Nickname ? </label>
+            <input type="checkbox" id="yesNick" name="yesNick" value="yes"
+                   onchange="nicknameFunction()"> <br>
+            <div id="nick" style="display: none">
+                <label for="nickname"> Nickname: </label>
+                <input type="text" name="nickname" id="nickname"> <br>
+            </div>
+            <input type="submit" value="Verify">
+        </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,10 @@
+p {
+    border: 2px solid black;
+    background-color: rgb(150, 50, 20);
+    /*padding: 20px;*/
+}
+
+div {
+    border: 2px solid black;
+    background-image: url('../imgs/pic1.jpg');
+}

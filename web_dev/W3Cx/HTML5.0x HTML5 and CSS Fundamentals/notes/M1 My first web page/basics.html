@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Basics </title>
+    <link rel="stylesheet" href="../styles/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Chakra+Petch|Montserrat|Nunito|Mali|Muli|Signika|Comfortaa" rel="stylesheet">
+	<link rel="stylesheet" href="../styles/style-extra.css">
+</head>
+<body>
+<header>
+    <nav>
+        <a href="../M2%20Attributes%20Images%20and%20Links/semantics.html"> Next Lesson 2.1 - Semantics </a> <br>
+        <a href="web.html"> Previous Lesson 1.1 - The Web </a> <br>
+        <a href="#comments"> Comments </a> <br>
+        <a href="#simple_webpage"> A Simple Webpage </a> <br>
+        <a href="#char_ref"> Character Reference</a> <br>
+        <a href="#tags"> Tags </a> <br>
+        <a href="#attributes"> Attributes </a> <br>
+        <a href="#types"> Types of Attributes </a>
+    </nav>
+    <h1> 1.2 Basics of HTML </h1>
+</header>
+
+<section id="comments">
+    <h2> Comments </h2>
+    <xmp> <!-- This is a comment in HTML --> </xmp>
+</section>
+
+<section id="simple_webpage">
+    <h2> A simple web page </h2>
+    <textarea disabled rows="30" cols="60">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Page Title</title>
+</head>
+
+<body>
+    <h1>John Smith</h1>
+    <img src="imgs/pic1.jpg" alt="A picture of John" width="300">
+        <p>Hello eveeryone! It's great to see you all. <br>
+                I'm  developer of this site
+        </p>
+        <hr>
+    <h2>My hobbies are:</h2>
+    <ol>
+        <li>Spending time with my friends</li>
+        <li>Swimming</li>
+        <li>learning</li>
+    </ol>
+    <p>Come say hello to me at
+        <a href="https://www.facebook.com/basatrocks">fb</a>
+    </p>
+</body>
+
+</html>
+
+    </textarea>
+</section>
+
+<section id="char_ref">
+    <h2> Character Reference </h2>
+    <xmp>
+        Symbol	    Entity Name	    Entity Number - decimal
+            <	        &lt;		    &#60;
+            >	        &gt;		    &#62;
+            &	        &amp;		    &#38;
+        space           &nbsp;		    &#160;
+            "	        &quot;		    &#34;
+    </xmp>
+</section>
+
+<section id="tags">
+    <h2> Tags </h2>
+    <textarea disabled rows="10" cols="80%">
+&lt;!doctype html&gt;   -	DTD (Document Type Declaration)
+&lt;q&gt;               -	quotes
+&lt;blockquote&gt;      -	quote a larger passage, will set the quoted text apart from surrounding and indent it
+&lt;hr&gt;              -	horizontal rule / thematic break, no closing tag
+&lt;br&gt;		  -	line break, no closing tag
+&lt;pre&gt;		  -	PREformatted text, implies monospace font, none of spaces, tabs or carriage-returns are ignored
+    </textarea>
+</section>
+
+<section id="attributes">
+    <h2> Attributes </h2>
+        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes"> Mozilla Developer Network's attribute reference </a>
+        <h3> Some Examples </h3>
+        <p>
+            <strong>&lt;ol start="5"&gt;</strong>		-	Start an ordered list with number 5 instead of 1 <br><br>
+            Usually attributes are name value pairs, only exception is if the attribute is a boolean attribute,
+            instead of writing true or false, we add the attribute name to indicate true and omit it to
+            indicate false. As an example is the reversed attribute in an ordered list &lt;ol&gt; causing the list
+            to be reversed. &lt;ol start=5 reversed&gt; would result in 5, 4, 3 <br><br>
+            <strong>id</strong>			-	style a specific element <br>
+            <strong>class</strong>		-	style a group of elements
+        </p>
+</section>
+
+<section id="types">
+    <h2> Types of Attributes </h2>
+    <p> <pre>
+        Global and Non global
+        Global			        -	# can be applied to all tags, common attributes like id, class, lang, title etc
+        list of all global attributes	-       # <a href="https://www.w3.org/wiki/HTML/Attributes/_Global"> list of all global attributes </a>
+        Non global		        -	# can be applied to one or more tags, start and reversed attributes are for &lt;ol&gt;,
+                                                  width attribute can be appllied to serveral tags such as img, input, video
+        &lt;p id="para" class="answer html"&gt; A para &lt;/p&gt;	-	# two classes html and answer will be applied to this element
+    </pre> </p>
+</section>
+
+</body>
+</html>

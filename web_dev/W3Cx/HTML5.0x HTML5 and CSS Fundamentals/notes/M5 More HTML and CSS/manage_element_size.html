@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title> Managing Element Size </title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Chakra+Petch|Montserrat|Nunito|Mali|Muli|Signika|Comfortaa" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/style-extra.css">
+</head>
+
+<body>
+<header>
+    <nav>
+        <a href="pseudoClasses_cursor.html"> Next Lesson 5.4.4 - Pseudo Classes and Cursor </a> <br>
+        <a href="decorative_borders_shadows.html"> Previous Lesson 5.4.2 - Decorative borders and shadows </a>
+    </nav>
+    <h1> 5.4.3 - Managing Element Size </h1>
+</header>
+
+<article>
+    <p>
+        As you start to leverage borders, background colors, and the other decorative CSS
+        properties we have seen in the previous sections you will need to become more aware
+        of the element size and how to manage it
+    </p>
+    <h2> The wrong way </h2>
+    <p>
+        A common trap that newbies fall into is to discover the width, height, left and top CSS
+        properties and to start blindly using them
+    </p>
+    <p>
+        These are useful properties, however, they should not be your first choice. These CSS
+        properties depend upon other properties before they can even be used, and they can have
+        unintended consequences. We'll explore them more in next module when covering Layout
+    </p>
+
+    <h2> Padding - the right way </h2>
+    <ul class="style-list">
+        <li>
+            The best way to control an element's size for the purpose of controlling how a border or
+            background extends relative to the item itself is with the padding properties.
+        </li>
+        <li>
+            Padding is a way of making an element a little bigger than it would normally be,
+            negative values are not allowed
+        </li>
+    </ul>
+    <p> can be abbreviated </p>
+    <pre>
+padding: &lt;top&gt; &lt;right&gt; &lt;bottom&gt; &lt;left&gt;;
+padding: &lt;top and bottom&gt; &lt;right and left&gt;;
+padding: &lt;all&gt;;
+    </pre>
+    <p>
+        When decorative CSS is not used by many CSS newbies, use padding like margin, to space
+        things out. Note: That is not correct. Margins make space between elements and padding
+        makes an element larger
+    </p>
+
+    <p> <mark>
+        This section has been about the decorative CSS properties, like borders, background colors,
+        background images, and shadows. In the context of these things users often want to make an
+        element "bigger", or keep the border a bit away. And in this context the padding property
+        is absolutely the correct property that should be used to increase the elements size.
+        Do not use the width or height properties for this
+    </mark> </p>
+    <p>
+        Furthermore, there are other issues associated with the width and height properties.
+        We will discuss these in-depth in the next module. Here is a quick rundown
+    </p>
+    <ul class="style-list">
+        <li> height and width properties do not work on inline elements </li>
+        <li>
+            Many elements have natural behaviors that occur when height and width are not set.
+            These are generally advantageous. However, by setting the width and height you lose
+            those advantages. We'll understand this in next module
+        </li>
+        <li>
+            Most Web pages are viewed in a variety of browser sizes, especially on mobile devices
+            like phones or tablets. Overuse of explicit width and height can make your page
+            unviewable on smaller devices
+        </li>
+        <li>
+            The flexbox layout system (which we will see next) is incredibly powerful, but by
+            over-determining explicit heights and widths you reduce its usefulness to you and your viewer
+        </li>
+    </ul>
+</article>
+</body>
+</html>

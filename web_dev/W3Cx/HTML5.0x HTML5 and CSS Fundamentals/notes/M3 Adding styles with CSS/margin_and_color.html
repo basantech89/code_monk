@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Margin and Color </title>
+    <link rel="stylesheet" href="../styles/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Chakra+Petch|Montserrat|Nunito|Mali|Muli|Signika|Comfortaa" rel="stylesheet">
+	<link rel="stylesheet" href="../styles/style-extra.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <a href="units.html"> Next Lesson 3.3.3 - Units </a> <br>
+        <a href="common_css_properties.html"> Previous Lesson 3.3.1 - Common CSS Properties </a>
+    </nav>
+    <h1> 3.3.2 Margin and Color </h1>
+</header>
+
+<article>
+    <section>
+        <h2> Margin </h2>
+        <ul>
+            <li>
+                Margin property is the lynch-pin for positioning elements. Whenever you want to move
+                something a little the margin property should be your first thought, when having layout
+                problems, it is the first thing you should check
+            </li>
+            <li>
+                Depending upon context, it will space an item away from its immediate neighbors
+                (in the HTML) or from the edges of its parent.
+            </li>
+        </ul>
+        <pre>
+p { margin: 10px; }  /* a 10 pixel margin will be applied around all four sides of the item */
+p {
+ margin-left:   10px;
+ margin-right:  10px;
+ margin-top:    10px;
+ margin-bottom: 10px;
+}
+        </pre>
+    </section>
+
+    <section>
+        <h2 class="sub-heading"> Color </h2>
+        <h3> Named Color </h3>
+        <pre>
+p { color: blue; }
+p { color: transparent; }
+p { color: lightgrey; }
+        </pre>
+        <p>
+            One of the more interesting is transparent, which will make the text invisible.
+            However, if you want to make an HTML element invisible, then the display:none; or
+            visibility:hidden; rules are preferred.
+        </p>
+
+        <h3> rgb / rgba</h3>
+        <pre>
+p { color: rgb(10, 200, 255); }
+p { color: rgb(0, 0, 0); }       /* 0,0,0 is black */
+p { color: rgb(255, 255, 255); } /* 255,255,255 is white */
+b { color: rgba(10, 200, 255, 0.5); }  /* semi-transparent */
+        </pre>
+        <p>
+            Similarly, the rgba() function can be used for semi-transparent colors. The fourth
+            value is for the "alpha channel" (thus the "a" in "rgba") and means the opacity.
+            It is a number between 0 and 1 (for example, 0.5 ).
+        </p>
+
+        <h3> Hex Code</h3>
+        <code> p { color: #3A2BFF; } </code>
+    </section>
+</article>
+
+</body>
+</html>

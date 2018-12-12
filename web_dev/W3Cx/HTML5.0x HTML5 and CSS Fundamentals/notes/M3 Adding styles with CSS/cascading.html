@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Cascading </title>
+    <link rel="stylesheet" href="../styles/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Chakra+Petch|Montserrat|Nunito|Mali|Muli|Signika|Comfortaa" rel="stylesheet">
+	<link rel="stylesheet" href="../styles/style-extra.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <a href="../M4%20Fixing%20and%20Debugging/fixing_and_debugging.html"> Next Lesson 4 - fixing_and_debugging </a> <br>
+        <a href="styling_lists.html"> Previous Lesson 3.4.2 - Selectors </a>
+    </nav>
+    <h1> 3.4.3 Cascading: Inheritance and Precedence </h1>
+</header>
+
+<article>
+    <section>
+        <h2> Inheritance </h2>
+        <ul>
+            <li>
+                Most CSS rules once applied to an element are also applied to all the children of that
+                element, and to their children, and theirs ad infinitum. There are exceptions, notably
+                the layout properties (margin, padding, position, width, etc.) and the decorative
+                properties (border, background, etc.) do not cascade.
+                This cascading of a CSS property from parent to child is also called "inheritance".
+            </li>
+            <li>
+                Inheritance can be explicitly leveraged. Many CSS properties accept the value of inherit,
+                which means to inherit the value from the parent. By smartly leveraging inherit, you can
+                reduce repetition in your CSS rules and make your project easier to maintain.
+            </li>
+            <li>
+                There is no reliable rule for which CSS properties are inheritable by default and which
+                are not. However, generally, the properties associated with positioning and layout are
+                not inherited.  Likewise, the decorative properties (borders, background images, etc.)
+                do not inherit.  Most properties that begin with text- or font- inherit.
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2> Precedence </h2>
+        <p>
+            CSS precedence comes into play when there are different rules competing to set different
+            values for the same property. When rendering CSS, the browser has some guidelines it
+            follows for resolving conflicting rules. Here is rough summary, in order
+        </p>
+        <h3> Most Specific Rule </h3>
+        <p>
+            A more specific rule takes precedence over a less specific rule.  A rule that more
+            tightly matches a particular element than a general rule will be applied.
+        </p>
+        <pre>
+span { color: blue; }
+ul li span { color: red; }
+        </pre>
+        <p>
+            In the example above, both rules are attempting to set a span color for a span inside
+            a list item. However, the second rule will "win" when there is a conflict
+        </p>
+
+        <h3> #id selector is the most specific </h3>
+        <p> Rules with an id selector (e.g.  #someid ) are considered more specific than rules
+            without.
+        </p>
+
+        <h3> .class selector is more specific than a tag selector </h3>
+        <p>
+            Rules employing a class selector (e.g. .someclass ) are considered more specific than
+            rules without (but not as specific as an #id selector, which trumps everything).
+        </p>
+
+        <h3> Rules that come later override those that come earlier </h3>
+        <pre>
+.hortense { color: red; text-decoration: underline; }
+.hortense { color: blue; }
+        </pre>
+        <p>
+            In the example above, an element with the .hortense class will be underlined and its
+            color will be blue, because that rule came later than when it was set red.
+        </p>
+
+        <h3> !important </h3>
+        <code> p { color: orange !important; } </code>
+        <ul>
+            <li>
+                Because multiple CSS selectors can resolve to the same element, and because the rules
+                that govern precedence are complex, you may from time to time encounter a situation
+                where you need to apply a particular CSS property and you want it to take precedence
+                over all others, no matter what. !important will do that.
+            </li>
+            <li>
+                This may seem like an attractive option, but using it is not recommended. Once you
+                start to use it, then you'll eventually run into a conflict with the various rules
+                that are using !important, and from that conflict there is no escape.  If you are
+                having problems with precedence the best advice is to fix them directly, rather than
+                using !important.
+            </li>
+        </ul>
+    </section>
+</article>
+
+</body>
+</html>

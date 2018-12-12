@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Characters</title>
+    <style>
+        /* style rules go here */
+        #middlemarch li:nth-child(1),
+        #middlemarch li:nth-child(2),
+        #middlemarch li:nth-child(8) {
+            color: blue;
+        }
+
+        #middlemarch li:nth-child(3),
+        #middlemarch li:nth-child(4),
+        #middlemarch li:nth-child(5),
+        #middlemarch li:nth-child(6),
+        #middlemarch li:nth-child(7) {
+            color: red;
+        }
+
+        #taletwocities li:nth-child(-n+3) {
+            color: blue;
+        }
+
+        #taletwocities li:nth-child(n+4) {
+            color: red;
+        }
+
+        #middlemarch li:first-child,
+        #taletwocities li:nth-child(2) {
+            font-weight: bold;
+        }
+
+        li:nth-child(5) {
+            font-style: italic;
+        }
+
+        #middlemarch li {
+            list-style-type: lower-roman;
+            line-height: 1.4rem;
+        }
+
+        #taletwocities li {
+            list-style-type: lower-alpha;
+        }
+
+        #middlemarch li {
+            text-align: right;
+            list-style-position: inside;
+        }
+
+        body { font-family: Ubuntu; }
+    </style>
+</head>
+
+<body>
+<h1>Characters</h1>
+<h2>Middlemarch</h2>
+<h3>George Eliot</h3>
+<ol id="middlemarch">
+    <li>Dorothea Brooke</li>
+    <li>Celia Brooke</li>
+    <li>Edward Casaubon</li>
+    <li>Sir James Chettam</li>
+    <li>Joshua Rigg</li>
+    <li>Will Ladislaw</li>
+    <li>Tertius Lydgate</li>
+    <li>Rosamond Vincy</li>
+</ol>
+<h2>A Tale of Two Cities</h2>
+<h3>Charles Dickens</h3>
+<ol id="taletwocities">
+    <li>Charels Danay</li>
+    <li>Sydney Carton</li>
+    <li>Doctor Manette</li>
+    <li>Lucie Mantte</li>
+    <li>Madame Defarge</li>
+    <li>Miss Pross</li>
+</ol>
+</body>
+</html>

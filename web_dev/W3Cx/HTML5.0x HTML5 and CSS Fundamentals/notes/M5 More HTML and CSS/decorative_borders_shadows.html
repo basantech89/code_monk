@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Decorative Borders and Shadows </title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Chakra+Petch|Montserrat|Nunito|Mali|Muli|Signika|Comfortaa" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/style-extra.css">
+</head>
+<body>
+<header>
+    <nav>
+        <a href="manage_element_size.html"> Next Lesson 5.4.3 -  </a> <br>
+        <a href="decorative_imgs_background.html"> Previous Lesson 5.4.1 - Decorative images and backgrounds </a>
+    </nav>
+    <h1> 5.4.2 - Decorative borders and shadows </h1>
+</header>
+
+<article>
+    <p> Apart from border-color and border-width, a few other properties are </p>
+    <section>
+        <h2> border-style </h2>
+        <code> p { border-style: solid; } </code>
+        <p>
+            This property sets the style of a border.  Possible values include none, hidden, solid, dotted, dashed, double, groove, ridge,
+            inset, and outset. Here the visible border styles displayed on a gray border
+        </p>
+        <ul class="style-list">
+            <li>
+                Note that the groove, ridge, inset and outset borders all use black in addition to any explicit border-color.
+                So if the border-color is also black they won't be effective.  Also double, groove and ridge are usually not satisfactory
+                on thin borders.  They'll require a fat border-width.
+            </li>
+            <li>
+                The difference between none and hidden has to do with the sizing and positioning of the element. An item with a hidden
+                border is positioned as if it had a border, but the border is not drawn. Whereas with border-style of none, no space is
+                allocated for the border at all.
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2> border-abbreviations </h2>
+        <p>
+            All border styles just introduced are actually abbreviations that can be broken out if needed. For example, here we set four
+            different styles for a border:
+        </p>
+        <pre>
+            p {
+            border-left-style: solid;
+            border-right-style: dotted;
+            border-bottom-style: dashed;
+            border-top-style: hidden;
+            }
+        </pre>
+        <p> This same thing can be done with border-width and border-color ( border-left-color, border-top-width, etc) </p>
+    </section>
+
+    <section>
+        <h2> border-radius </h2>
+        <pre>
+            .rrectbg {
+               border-style: none; /* no border at all */
+               background-color: beige;
+               border-radius: 20px;
+               padding: 15px;
+               text-align: center;
+            }
+        </pre>
+    </section>
+
+    <section>
+        <h2> box-shadow </h2>
+        <p>
+            A shadow effect can be applied to the outlining rectangle of an element with the box-shadow CSS property.
+            The box-shadow property is typically controlled with four values separated by spaces:
+        </p>
+        <code> box-shadow: &lt;x-offset&gt; &lt;y-offset&gt; &lt;blur&gt; &lt;color&gt;; </code>
+        <ul class="style-list">
+            <li>
+                The offset values are dimension units (px, em, etc) can be positive or negative. Positive x values place the shadow to the
+                right, and negative values place the shadow to the left. Similarly positive y values place the shadow vertically lower than
+                the element and negative values move it up.
+            </li>
+            <li> The blur value is also a dimension unit, but can only be 0 or positive </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2> text-shadow </h2>
+        <p> This CSS property takes the same values as box-shadow, however, the shadow is applied directly to the text shapes </p>
+        <pre>
+text-shadow: &lt;x-offset&gt; &lt;y-offset&gt; &lt;blur&gt; &lt;color&gt;;
+.majestic-12 { text-shadow: 1px 1px 3px black; }
+        </pre>
+    </section>
+</article>
+
+</body>
+</html>

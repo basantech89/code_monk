@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> First Page </title>
+</head>
+<body>
+    <h1 id="test"> Tester </h1>
+    <a href="facebook.com"> facebook </a>
+    <a href="google.com"> google </a>
+    <script>
+        // prompt("Your Name Pl: ");
+        // alert("Hello world")
+        document.write("<h1> Hello World </h1> <p> Bye Bye!! </p>");
+        // document.getElementById('test').innerHTML = "This heading is just modified with javascript";
+        // console.log("Hello World");
+        var name = prompt("Your name bud ?");
+        document.write(name + "<br>");
+        console.log(name);
+        document.write("<h1>" + name + "</h1>");
+        document.write(document.baseURI + "<br>");
+        document.write(document.title + "<br>");
+        // alert(name);
+        var date = Date();
+        document.write(date + "<br>");
+        var loc = window.location;
+        document.write(loc + "<br>");
+        var windowStatus = window.closed;
+        document.write(windowStatus + "<br>");
+        var links = document.getElementsByTagName('a');
+        document.write(links[1]);
+    </script>
+    <noscript> Your browser doesn't support or has disabled Javascript </noscript>
+
+</body>
+</html>

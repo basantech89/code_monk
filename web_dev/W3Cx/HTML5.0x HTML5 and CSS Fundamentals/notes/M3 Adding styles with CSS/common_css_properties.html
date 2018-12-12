@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Common CSS Properties </title>
+    <link rel="stylesheet" href="../styles/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Chakra+Petch|Montserrat|Nunito|Mali|Muli|Signika|Comfortaa" rel="stylesheet">
+	<link rel="stylesheet" href="../styles/style-extra.css">
+</head>
+<body>
+<header>
+    <nav>
+        <a href="margin_and_color.html"> Next Lesson 3.3.2 - Margin and Color </a> <br>
+        <a href="selectors_declaration_and_comments.html"> Previous Lesson 3.2 - Selectors and Declaration </a>
+    </nav>
+    <h1> Lesson 3 - CSS Properties </h1>
+</header>
+
+<article>
+    <h1> 3.3.1 Common CSS Properties </h1>
+    <p> Complete list of CSS properties on
+    <a href="https://www.w3.org/Style/CSS/all-properties.en.html">W3C</a> or
+    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference">MDN</a>
+        website </p>
+    <h2 class="sub-heading"> font-size </h2>
+    <p>
+        most common units: px, em, %vh <br>
+        readable values: xx-small, x-small, small, medium, large, x-large, xx-large
+        relative sizing (relative to parent text): larger, smaller
+    </p>
+
+    <h2 class="sub-heading"> line-height </h2>
+    <code> line-height: 0.8; </code>
+    <p>
+        The used value is this unitless number multiplied by the element's font size. The computed
+        value is the same as the specified number. In most cases this is the preferred way to set
+        line-height with no unexpected results in case of inheritance.
+    </p>
+
+    <h2 class="sub-heading"> text-align </h2>
+    <ul>
+        <li>
+            It can be used to align the text left, center or right.  There are additional possible
+            values like justify and justify-all . It usually defaults to left.
+        </li>
+        <li>
+            Note that text-align may not work as expected if applied to elements that are the same 
+            width as their text, or whose width is determined by the text within them 
+            (i.e., inline elements).  The tags &lt;span&gt;, &lt;a&gt;, &lt;i&gt;, &lt;b&gt;, &lt;q&gt; and others are considered 
+            "inline" because they do not receive their own new line when used. And text-align is 
+            often not useful on these tags.
+        </li>
+        <li>
+            But it is useful on block level text tags, such as
+            &lt;p&gt;, &lt;li&gt;, &lt;ul&gt;, &lt;ol&gt;, &lt;div&gt;, and &lt;blockquote&gt;
+        </li>
+    </ul>
+
+    <h2 class="sub-heading"> text-decoration </h2>
+    <p> The values are underline, overline, line-through and none </p>
+    <pre>
+p { text-decoration: underline; }
+a { text-decoration: none; } /* hyperlinks are underlined by default, but that can be removed */
+span { text-decoration: overline; }
+span { text-decoration: underline overline; } /* apply two with just a space between the values */
+span { text-decoration: underline overline line-through; } /* everything */
+    </pre>
+
+    <h2 class="sub-heading"> font-weight </h2>
+    <ul>
+        <li>
+            Common values are normal and bold, text can also be made bolder (or less bold) than
+            its parent with the values bolder and lighter.
+        </li>
+        <li>
+            The font-weight can be set explicitly as a numeric value. The choices are: 100, 200,
+            300, 400, 500, 600, 700, 800 and 900.
+        </li>
+        <li>
+            However, the different numeric choices will only work for fonts that support a full
+            range of font-weights. Many times the numeric weights will simply be mapped back to
+            bold or normal.
+        </li>
+    </ul>
+    <pre>
+p { font-weight: bold; }
+blockquote { font-weight: 900; }
+    </pre>
+
+    <h2 class="sub-heading"> font-style </h2>
+    <pre>
+p { font-style: italic; }
+blockquote { font-style: normal; }
+    </pre>
+
+    <h2 class="sub-heading"> font-family </h2>
+    <code> p { font-family: "Helvetica", "Verdana", "Arial", sans-serif; } </code>
+</article>
+
+</body>
+</html>

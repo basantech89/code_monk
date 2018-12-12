@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Audio and Video Elements </title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Chakra+Petch|Montserrat|Nunito|Mali|Muli|Signika|Comfortaa" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/style-extra.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <a href="iframe_tag.html"> Next Lesson 5.3.1 - Embedding Content </a> <br>
+        <a href="styling_table.html"> Previous Lesson 5.1.3 Styling your table </a>
+    </nav>
+    <h1> Lesson 2 - Multimedia </h1>
+    <p> Some useful CSS elements to style your table </p>
+</header>
+
+<main>
+    <article>
+        <h1> 5.2 Audio and Video elements </h1>
+        <section>
+            <h2> Audio tag </h2>
+            <code> &lt;audio src="sounds/flute.mp3"&gt; Your browser does not support the audio file &lt;/audio&gt; </code>
+            <p> Any text within the &lt;audio&gt; tags will be displayed if the browser does not support the audio element </p>
+            <p> The audio element has several attributes that can be used to configure audio playback </p>
+            <table class="style-table">
+                <caption> <p> Table: audio element's attributes </p> </caption>
+                <colgroup>
+                    <col class="min-width">
+                    <col class="more-width">
+                    <col class="more-width">
+                </colgroup>
+                <thead> <tr> <th> Attribute </th> <th> Description </th> <th> Usage </th> </tr> </thead>
+                <tbody>
+                    <tr> <td> src </td> <td> Used to specify the URL of the audio file to embed </td> <td> &lt;audio src="sounds/flute.mp3"&gt; &lt;/audio&gt; </td> </tr>
+                    <tr> <td> controls </td> <td> Boolean attribute when specified provides controls for the user like play, pause, seek bar and volume </td> <td> &lt;audio src="sounds/flute.mp3" controls&gt; &lt;/audio&gt; </td> </tr>
+                    <tr> <td> loop </td> <td> Boolean attribute when specified loops media content </td> <td> &lt;audio src="sounds/flute.mp3" controls loop&gt; &lt;/audio&gt; </td> </tr>
+                    <tr> <td> muted </td> <td> Boolean attribute when specified mutes media when playback begins </td> <td> &lt;audio src="sounds/flute.mp3" controls muted&gt; &lt;/audio&gt; </td> </tr>
+                    <tr> <td> preload </td> <td> Allows author to communicate to the browser which settings will work best - audio should not be preloaded (none), only audio metadata is fetched (metadata), audio file can be downloaded when page loads (auto). Values: none, metadata, auto </td> <td> &lt;audio src="sounds/flute.mp3" controls preload="auto"&gt; &lt;/audio&gt; </td> </tr>
+                    <tr> <td> autoplay </td> <td> Boolean attribute when specified will automatically begin playing the source file as soon as it can without waiting for the entire audio file to finish downloading </td> <td> &lt;audio src="sounds/flute.mp3" controls autoplay&gt; &lt;/audio&gt; </td> </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2> Source element for multiple source files </h2>
+            <ul class="style-list">
+                <li>
+                    The self closing source element, also new in HTML 5, serves the same purpose as src attribute, multiple source files can be
+                    specified with this tag
+                </li>
+                <li>
+                    The advantage of providing multiple source files in different formats is that if the browser doesn't support the first
+                    format, it will try the second source file. The browser can select from the list based on its file format or codec
+                    support
+                </li>
+            </ul>
+            <textarea disabled rows="6" cols="120">
+                <audio controls>
+                    <source src="https://courses.edx.org/asset-v1:W3Cx+HTML5.0x+3T2016+type@asset+block@splash.wav" type="audio/wav">
+                    <source src="https://courses.edx.org/asset-v1:W3Cx+HTML5.0x+3T2016+type@asset+block@splash.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </textarea>
+            <h3> the type attribute </h3>
+            <ul class="style-list">
+                <li>
+                    Specifies the internet media type, also known as the MIME type for the audio resource. A media type is an identifier for file
+                    formats and format contents transmitted over the internet like text and audio files.
+                </li>
+                <li>
+                    It consists of a type and a sub-type. Eg: "audio/mpeg" - audio is the type and mpeg is the subtype. It can also take
+                    optional parameters that can be specified after a semicolon - "audio/ogg; codecs=opus" means the audio is in the ogg
+                    format and uses the opus codec. If the browser supports the Ogg format but not the Opus codec, the audio file will not
+                    load.
+                </li>
+                <li> If the type attribute is not specified, the media type is retrieved from the server </li>
+            </ul>
+        </section>
+    </article>
+
+    <article>
+        <h1> Video element </h1>
+        <section>
+            <ul class="style-list">
+                <li> You can use the video element to embed video in your page. You can specify the location of your video file using the src attribute or source element (for multiple source files) </li>
+                <li> Video element also has several attributes including src, autoplay, controls, loop, muted, preload and some more are given below </li>
+            </ul>
+            <table class="style-table">
+                <caption>
+                    <p> Table: some more video element attributes </p>
+                </caption>
+                <colgroup>
+                    <col class="min-width">
+                    <col class="more-width">
+                    <col class="less-width">
+                </colgroup>
+                <thead> <tr> <th> Attribute </th> <th> Description </th> <th> Usage </th> </tr> </thead>
+                <tbody>
+                    <tr> <td> autoplay </td> <td> Boolean attribute when specified will automatically begin playing source file as soon as it can without waiting for the entire video file to finish downloading. Note: Some versions of chrome support autostart instead of autoplay </td> <td> &lt;video src="multimedia/running.mp4" autoplay&gt; &lt;/video&gt; </td> </tr>
+                    <tr> <td> poster </td> <td> Specifies the URL of the frame you want to display as the video cover until the user starts or seeks the video. By default, the first frame is considered the poster frame.  The poster can also be an arbitrary image, not necessarily in any frame of the video </td> <td> &lt;video src="multimedia/running.mp4" poster="/images/video-screenshot.png" controls&gt; &lt;/video&gt; </td> </tr>
+                    <tr> <td> height, width </td> <td> height and width of the video's play area in pixels. Always set height and width for a video so the browser can allocate the specified space for it when it loads the page.  </td> <td> &lt;video src="multimedia/running.mp4" width="320" height="240"&gt; &lt;/video&gt; </td> </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2> Track element for captions and subtitles </h2>
+            <p> The self closing &lt;track&gt; tag is used to add timed text like subtitles, captions or any text you would like to display to the user when the video is playing </p>
+            <ul class="style-list">
+                <li> Web Video Text Tracks (WebVTT) files are the standard to include subtitles or captions. You can learn <a href="https://w3c.github.io/webvtt/" target="_blank"> how to create them here </a> </li>
+                <li> Captions and subtitles are not the same. Subtitles are meant to translate the language (for those who do not understand the language being spoken in the video). Captions are meant for the deaf or people who have difficulty hearing. It includes sound effects and other significant audio like music and lyrics and is usually in the same language as the audio </li>
+                <li> Like the &lt;source&gt; tag, you can add multiple &lt;track&gt; tags in your video element to add multiple subtitle/caption tracks. This is commonly done when providing them in different languages </li>
+            </ul>
+            <p> exmaple </p>
+            <textarea disabled rows="7" cols="80">
+                <video width="320" height="240" controls>
+                    <source src="module.mp4" type="video/mp4">
+                    <source src="module.webm" type="video/webm">
+                    <track src="module-captions.vtt" kind="captions" srclang="en" label="English" default>
+                    Your browser does not support the HTML5 video element.
+                </video>
+            </textarea>
+            <table class="style-table">
+                <caption>
+                    <p> Table: track element's attributes: </p>
+                </caption>
+                <colgroup>
+                    <col class="min-width">
+                    <col class="max-width">
+                    <col class="less-width">
+                </colgroup>
+                <thead> <tr>
+                    <th id="hco1" scope="col"> Attribute </th>
+                    <th id="hco2" scope="col"> Description </th>
+                    <th id="hco3" scope="col"> Usage </th>
+                </tr> </thead>
+                <tbody>
+                    <tr>
+                        <td headers="hco1"> default </td>
+                        <td headers="hco2"> It is a boolean attribute. If you have multiple tracks for the same video file, you can specify which one is the default using this attribute. It can be used on one track element in a video. If you only have one track element, default should still be added to deliver the video with captions turned on in most browsers. </td>
+                        <td headers="hco3"> &lt;video src="multimedia/running.mp4" controls&gt; <br> &lt;track src="captions/small-en.vtt" label="english" default&gt; <br> &lt;track src="captions/small-fr.vtt" label="French"&gt; <br> &lt;/video&gt; </td>
+                    </tr>
+                    <tr>
+                        <td headers="hco1"> kind </td>
+                        <td headers="hco2"> Specifies the kind of the source file. Values: subtitles (default value), captions, descriptions (textual description of the video best suited for the blind who cannot be seen), chapters (meant for chapter titles), metadata (kind of track that is used by scripts and is not visible to the user) </td>
+                        <td headers="hco3"> &lt;track src="captions/small-en.vtt" kind="captions"&gt; &lt;/track&gt; </td>
+                    </tr>
+                    <tr>
+                        <td headers="hco1"> label </td>
+                        <td headers="hco2"> Label of the track. Browser uses the label value to display track options for user to select. </td>
+                        <td headers="hco3"> &lt;track src="captions/small-en.vtt" label="English"&gt; <br> &lt;track src="captions/small-fr.vtt" label="French"&gt; </td>
+                    </tr>
+                    <tr>
+                        <td headers="hco1"> src </td>
+                        <td headers="hco2"> URL of track. The file must be on a Web server. The .vtt file cannot be loaded from a file (file://) protocol </td>
+                        <td headers="hco3"> &lt;track src="http://www.xyz.org/small-en.vtt"&gt; </td>
+                    </tr>
+                    <tr>
+                        <td headers="hco1"> srclang </td>
+                        <td headers="hco2"> Language of text track. Eg: en, fr. If kind is 'subtitles', then the srclang attribute must be specified. </td>
+                        <td headers="hco3"> &lt;track src="captions/small-en.vtt" kind="subtitles" srclang="en"&gt; </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </article>
+</main>
+</body>
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Headers and Headings </title>
+    <link rel="stylesheet" href="../styles/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Chakra+Petch|Montserrat|Nunito|Mali|Muli|Signika|Comfortaa" rel="stylesheet">
+	<link rel="stylesheet" href="../styles/style-extra.css">
+</head>
+<body>
+<header>
+    <nav>
+        <a href="article_and_section.html"> Next Lesson 2.3 - Article and Section </a> <br>
+        <a href="semantics.html"> Previous Lesson 2.1 - Semantics </a>
+    </nav>
+    <h1> 2.2 Headers and Headings </h1>
+</header>
+
+<section>
+    <h2> Headers </h2>
+    <ul>
+        <li> &lt;header&gt; is simply an area to add any introductory content about your page. </li>
+        <li> It can contains headings, paragraphs, tables, images, logos and even navigation. </li>
+    </ul>
+    <h3> Multiple headers and footers </h3>
+    <p>
+        There is a common misconception that a Web page can only have one header at the start, one footer at the end and
+        one main navigation section to maneuver the site. Header and footer elements are for the parent element
+        (section, article, division or body) that they are used in. If you have multiple sections or articles,
+        then you can have one header and footer for each.
+    </p>
+    <h3> Global headers and footers </h3>
+    <p>
+        Header and footer elements can also be used site-wide at the top and bottom of the body of the Web page.
+        This type of header will typically contain logos, main heading, a search area and site-wide navigation and
+        the footer will typically include authoring information, references and other links, copyright information etc.
+    </p>
+</section>
+
+<section>
+    <h2> Example </h2>
+    <textarea disabled rows="80" cols="100">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Header Hierarchy</title>
+</head>
+
+<body>
+   <!--Our global header used across all pages in our website-->
+  <header>
+    <h1>Brad Abc's Blog</h1>
+
+    <nav>
+      <ul>
+        <li><a href="#ces">CES 2018</a></li>
+        <li><a href="#vegan">Being Vegan</a></li>
+        <li><a href="#html5">HTML5</a></li>
+      </ul>
+    </nav>
+  </header>
+
+   <!--  The main contents of the blog starts here -->
+  <main>
+    <!--  Each blogpost is split into individual articles -->
+    <article id="ces">
+      <header>
+        <h2>CES 2018</h2>
+        <h3>Consumer electronics and consumer technology tradeshow</h3>
+      </header>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam neque risus, consequat eget vestibulum eu, consequat at eros. Nam eu nisl vel neque malesuada sollicitudin quis eget libero.</p>
+      <footer>
+        <p>Written by guest author Nicholas Abc. Read Nicholas's blog here.</p>
+      </footer>
+    </article>
+
+      <!--  Article 2 -->
+    <article id="vegan">
+      <header>
+        <h2>Being Vegan</h2>
+        <h3>My cooking tips for new vegans</h3>
+      </header>
+      <p>Donec ut librero sed accu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aenean ut gravida lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id dolor.</p>
+      <footer>
+        <p>Written by Brad Abc. Read my other health articles here.</p>
+      </footer>
+    </article>
+
+      <!--  Article 3 -->
+    <article id="html5">
+      <header>
+        <h2>HTML5</h2>
+        <h3>A summary of HTML5 differences from HTML4</h3>
+      </header>
+      <p>Pelientesque auctor nisi id magna consequat sagittis. Curabitur dapibus, enim sit amet elit pharetra tincidunt feugiat nist imperdiet. Ut convallis libero in urna ultrices accumsan. Donec sed odio eros.</p>
+      <footer>
+        <p>Written by Brad Abc, HTML5 developer. Read my other technical articles here.</p>
+      </footer>
+    </article>
+
+  </main>
+
+   <!--Our global footer used across all pages in our website-->
+  <footer>
+    ©Copyright 2025. All rights reserved.
+    <nav>
+      <ul>
+        <li><a href="">Email</a></li>
+        <li><a href="">Twitter</a></li>
+        <li><a href="">License</a></li>
+      </ul>
+    </nav>
+  </footer>
+</body>
+</html>
+    </textarea>
+</section>
+
+</body>
+</html>

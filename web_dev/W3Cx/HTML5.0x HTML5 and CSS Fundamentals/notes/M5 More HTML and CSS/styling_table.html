@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Stylng your table </title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Chakra+Petch|Montserrat|Nunito|Mali|Muli|Signika|Comfortaa" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/style-extra.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <a href="multimedia.html"> Next Lesson 5.2.1 - Audio and Video Elements </a> <br>
+        <a href="table_header_body_footer.html"> Previous Lesson 5.1.2 The thead, tbody and tfoot tags </a>
+    </nav>
+    <h1> 5.1.3 Styling your table </h1>
+    <p> Some useful CSS elements to style your table </p>
+</header>
+
+<article>
+    <section>
+        <h2> border </h2>
+        <p> Though border is a valid attribute of the table element, it is best specified in CSS. </p>
+        <table class="style-table">
+            <colgroup>
+                <col span="2">
+            </colgroup>
+            <thead style="color: black">
+                <tr>
+                    <th id="hco1" scope="col"> Property Value </th>
+                    <th id="hco2" scope="col"> Possible Values </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td headers="hco1"> border-width </td>
+                    <td headers="hco2"> thin, medium, thick, in pixels </td>
+                </tr>
+                <tr>
+                    <td headers="hco1"> border-style </td>
+                    <td headers="hco2"> none, hidden, dotted, dashed, solid </td>
+                </tr>
+                <tr>
+                    <td headers="hco1"> border-color </td>
+                    <td headers="hco2"> color names or color values, transparent </td>
+                </tr>
+                <tr>
+                    <td headers="hco1"> initial </td>
+                    <td headers="hco1"> sets the property to the default value. Defaults for width, style and color are 'medium none current-color-of-element' </td>
+                </tr>
+                <tr>
+                    <td headers="hco1"> inherit </td>
+                    <td headers="hco2"> inherits property from parent element </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h2> border-collapse </h2>
+        <p>
+            We gave a border to the table, table-header and table-data above. This creates two borders
+            creating a double line. In order to collapse them all into a single border, we use the
+            border-collapse CSS property
+        </p>
+        <p> Possible values of this property are </p>
+        <ul class="style-list">
+            <li> separate - default value where borders are detached like in the example above </li>
+            <li> collapse - border are collapsed into a single border </li>
+            <li> initial - sets to default value (separate) </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2> Table width and height </h2>
+        <p>
+            width/height of &lt;td&gt; of one cell will not only affect that cell but the whole
+            column/row. If two cells in one column/row have different widths/heights specified, the
+            larger value is set.
+        </p>
+
+        <h2> text-align </h2>
+        <ul class="style-list">
+            <li>
+                values can be center, left or right <br>
+                <code> th { text-align: right; } </code>
+            </li>
+        </ul>
+
+        <h2> vertical-align </h2>
+        <p> This property is used to align the text of th and td cells top, bottom or middle. </p>
+
+        <h2> padding </h2>
+        <ul class="style-list">
+            <li>
+                We use the padding property on &lt;th&gt; and &lt;td&gt; to provide some space
+                between border and content in cell.
+            </li>
+            <li>
+                shorthand property is specified in the order: top, right, bottom and left padding.
+                <br> <code> th, td { padding: 20px 30px 40px 50px; } </code>
+            </li>
+        </ul>
+
+        <h2> border-spacing </h2>
+        <ul class="style-list">
+            <li> border-spacing specifies the distance between two cell borders </li>
+            <li> It has the inherit property whose default value is 0 </li>
+            <li>
+                It takes two values for horizontal and vertical spacing. If only one value is
+                provided, it is used for both horizontal and vertical spacing
+                <code> table, td, th (border-spacing: 25px 50px; } </code>
+            </li>
+            <li>
+                If you try to provide spacing for only th and td, make sure there is space from
+                the table border or you will not see a difference.
+            </li>
+            <li> You have to set - table { border-collapse: separate; } for it to take effect. </li>
+        </ul>
+
+        <h2> side-borders </h2>
+        <p>
+            The first property border will set a border to all four sides. You can also set borders
+            to individual sides - top, right, bottom, left
+        </p>
+        <code> th, td { border-right: 1px solid black; } </code>
+    </section>
+
+    <section>
+        <h2> zebra table </h2>
+        <p>
+            A zebra table has alternating colors for table rows making it easier to differentiate data between
+            rows. Typically, you apply this property to a set of even or odd table rows to created a
+            striped effect. You can set odd or even rows a particular color and leave the other rows
+            white (default color).
+        </p>
+        <pre>
+    tr:nth-child(even) { background-color: grey; }
+    tr:nth-child(odd) { background-color: #ccff99; }
+    tr:nth-child(3n) { background-color: grey; }
+        </pre>
+    </section>
+
+    <section>
+        <h2> hover to highlight </h2>
+        <p>
+            Using the hover property on your &lt;tr&gt;, you can mouse over rows in your table to
+            highlight them in the color you specify. This is useful to help users differentiate data
+            between rows.
+        </p>
+        <code> tr:hover {background-color: #ccff99; } </code>
+    </section>
+
+    <section>
+        <h2> overflow </h2>
+        <p>
+            With padding, additional columns and rows, your table can easily grow rather big
+            overflowing out of the &lt;div&gt; you had planned for your table in your Web page. You
+            can use the CSS overflow property to resolve this. It has four values other than initial
+            (sets the default value) and inherit (from parent element).
+        </p>
+        <ul class="style-list">
+            <li>
+                visible - Content that has overflowed is visible outside the parent element.
+                Eg: Text in a box overflows outside box and is visible.
+            </li>
+            <li>
+                hidden - Content that has overflowed is hidden. This makes the overflowed content
+                inaccessible.
+            </li>
+            <li>
+                scroll - Content that has overflowed is hidden but a scroll bar is added to make it
+                accessible.
+            </li>
+            <li>
+                auto - Content that has overflowed is hidden but a scroll bar is automatically added
+                to view hidden content.
+            </li>
+        </ul>
+        <p>
+            To address left and right edges of content, you can use overflow-x and to address top and
+            bottom edges of content, you can use overflow-y.
+        </p>
+        <a href="https://codepen.io/w3devcampus/pen/xdWOVv" target="_blank"> overflow example </a>
+    </section>
+
+    <a href="https://codepen.io/w3devcampus/pen/BRrzLd" target="_blank"> fancy table </a> <br>
+    <a href="https://www.w3.org/WAI/tutorials/tables/" target="_blank"> an article on tables </a>
+</article>
+
+</body>
+</html>

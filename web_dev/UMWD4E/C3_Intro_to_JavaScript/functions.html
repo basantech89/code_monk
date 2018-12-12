@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Functions </title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jscript.js"> </script>
+</head>
+<body onload="message('LOAD')" onresize="message('RESIZE')">
+    <h1> Functions </h1>
+    <p onclick="message('Wow what a wow!!')">
+        Hi, I'm a paragraph. Clicking on me will invoke a javascript function
+    </p>
+    <p id="clickable" onclick="message('CLICK')">
+        Clcking on this para will change it's content to click event.
+    </p>
+    <p id="output"> </p>
+    <button id="demo" type="button" onclick="displayDate()"> Display Date </button> <br>
+
+    <button type="button" onclick="document.getElementById('stuff').innerHTML = 'Clicked First button';"> First </button>
+    <button type="button" onclick="document.getElementById('stuff').innerHTML = 'Clicked Second button'"> Second </button> <br>
+    <p id="stuff"> This code will change </p>
+
+</body>
+</html>

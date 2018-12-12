@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+    background-color: #4c6d48;
+    color: white;
+}
+
+nav {
+    background-color: lightgreen;
+    width: 20rem;
+    margin: -3em;
+ }
+
+img {
+    width: 30em;
+    border: 5px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+article {
+    margin-left: 3em;
+}

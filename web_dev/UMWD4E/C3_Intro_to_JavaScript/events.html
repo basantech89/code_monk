@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Events </title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jscript.js"> </script>
+</head>
+<body>
+
+    <h1> Changing the style with javascript </h1>
+    <p> Javascript can change the style of an HTML element </p>
+
+    <button type="button" onclick="openMe()"> Open! </button>
+    <button type="button" onclick="closeMe()"> Close! </button>
+    <p id="demo">
+        Extra details... You can open and close this para using the buttons above
+    </p>
+
+    <img src="imgs/bg.jpg" alt="linux-ricing" width="240" onclick="console.log(this.alt)">
+    <div onclick="console.log(this.innerHTML)"> Hi There, checking out a div </div>
+    <img src="imgs/wall.png" alt="a scenery" width="240" id="ID-1" onclick="displayID(this)">
+    <div id="ID-2" onclick="displayID(this)"> Another Div </div>
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+.tile {
+    width: 640px;
+    height: 380px;
+    padding: 25px 50px 30px 100px;
+    color: goldenrod;
+    font-size: larger;
+    line-height: 2em;
+    background: url("https://www.w3.org/2008/site/images/logo-w3c-mobile-lg") space;
+}
+
+.kitten {
+    background: url("../imgs/kitten.jpg") center no-repeat;
+    width: 240px;
+    height: 240px;
+    /*background-position: center;*/
+    background-size: cover;
+    /*background-repeat: no-repeat;*/
+    text-align: left;
+    line-height: 2em;
+    color: lightgrey;
+    font-size: 20px;
+    padding: 15px;
+    border: 2px solid black;
+}

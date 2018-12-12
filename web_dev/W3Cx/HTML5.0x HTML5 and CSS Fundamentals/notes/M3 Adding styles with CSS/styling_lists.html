@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Styling Lists </title>
+    <link rel="stylesheet" href="../styles/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Chakra+Petch|Montserrat|Nunito|Mali|Muli|Signika|Comfortaa" rel="stylesheet">
+	<link rel="stylesheet" href="../styles/style-extra.css">
+</head>
+<body>
+<header>
+    <nav>
+        <a href="selectors.html"> Next Lesson 3.4.2 - Selectors </a> <br>
+        <a href="units.html"> Previous Lesson 3.3.3 - Units </a>
+    </nav>
+    <h1> Lesson 4 - Lists and Selectors </h1>
+</header>
+
+<section>
+    <h1> 3.4.1 Styling Lists </h1>
+    <h2> list-style-type </h2>
+    <p> for unordered lists, there are several values: default, disc, circle, square, none </p>
+    <code> li { list-style-type: disc; } </code>
+    <p> for ordered lists, values are decimal, decimal-leading-zero, lower-roman, upper-roman,
+        lower-alpha, upper-alpha and several of worlds languages armenian, georgian etc
+    </p>
+</section>
+
+<section>
+    <h2> list-style-position </h2>
+    <p>
+        This property handles how closely marker is positioned to the list itself, two values are
+        inside and outside. They govern whether the markers are positioned inside the box of the
+        list, or outside. This is most evident if a border or background or similar is applied
+        to the list
+    </p>
+</section>
+
+<section>
+    <h2> list-style-image </h2>
+    <ul>
+        <li>
+            The little markers on a list can also be customized to be an image of your choosing.
+            This will require you to have a small image in a Web compatible format
+            (PNG or JPEG recommended)
+        </li>
+        <li>
+            Note that the browser will do little more than draw the image.  There is no guarantee
+            to scale the image or assist with spacing or alignment.  Many users find list-style-image
+            to be frustrating and instead use the background-image CSS property which has more options
+        </li>
+    </ul>
+    <code> li { list-style-image: url("my_triangle.png"); } </code>
+</section>
+
+</body>
+</html>

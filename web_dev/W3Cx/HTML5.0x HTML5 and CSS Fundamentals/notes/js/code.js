@@ -1,0 +1,1 @@
+var pres = document.getElementsByTagName("pre");

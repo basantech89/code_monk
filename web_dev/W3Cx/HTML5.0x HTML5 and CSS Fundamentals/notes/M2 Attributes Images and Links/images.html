@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Images </title>
+    <link rel="stylesheet" href="../styles/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Chakra+Petch|Montserrat|Nunito|Mali|Muli|Signika|Comfortaa" rel="stylesheet">
+	<link rel="stylesheet" href="../styles/style-extra.css">
+</head>
+<body>
+<header>
+    <nav>
+        <a href="hyperlinks.html"> Next Lesson 2.6 - Hyperlinks </a> <br>
+        <a href="div_and_span.html"> Previous Lesson 2.4 - Div and Span </a>
+    </nav>
+    <h1> 2.5 Images </h1>
+</header>
+
+<section>
+    <h2> Introduction to Images </h2>
+    <ul>
+        <li>
+            Search engines do not 'see' images.
+            They rely on the alt attribute to find out what the image is about.
+            If you use your target keyword in alt, it will optimize the search.
+        </li>
+        <li>
+            If the image is purely for presentation or decoration purposes,
+            you should leave alt empty -   <xmp> <img alt=""> </xmp>
+            Assistive technology will then ignore this content.
+        </li>
+    </ul>
+
+    <h3> Example </h3>
+    <xmp> <img src="images/html5.png"
+               alt="HTML resized image"
+               title="Resized image seems to fit the page better"
+               height="173">
+    </xmp>
+</section>
+
+<section>
+    <h2> Width and Height Attribute </h2>
+    <ul>
+        <li>
+            You don't need to define both width and height.
+            You can just specify either height or width and the aspect ratio will be adjusted.
+        </li>
+        <li>
+            The use of these attributes really depends on how you are using the image.
+            If it is part of an image grid or a list with multiple images of the same size,
+            it is best achieved by CSS. So you don't have to bother adding the same dimensions
+            to every image and it will be repetitive. Plus it is generally bad practice to
+            encode dimensions directly into the HTML.
+        </li>
+        <li>
+            However, if you are adding the image into some content and it needs to be a certain size
+            for the visual flow of the reader, then it is best to add it to HTML using the
+            height and width attributes. This is to avoid cluttering your CSS with a style
+            for every image in your page. This is also useful if you are changing or removing
+            the image: you can just remove it from your HTML and not deal with remembering to
+            remove it from your CSS too.
+
+        </li>
+    </ul>
+</section>
+
+</body>
+</html>

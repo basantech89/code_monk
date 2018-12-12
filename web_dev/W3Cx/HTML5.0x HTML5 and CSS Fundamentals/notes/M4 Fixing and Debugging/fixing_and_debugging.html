@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Fixing and Debugging </title>
+    <link rel="stylesheet" href="../styles/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Chakra+Petch|Montserrat|Nunito|Mali|Muli|Signika|Comfortaa" rel="stylesheet">
+	<link rel="stylesheet" href="../styles/style-extra.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <a href="../M5%20More%20HTML%20and%20CSS/tables.html"> Next Lesson 5.1 - Tables </a> <br>
+        <a href="../M3%20Adding%20styles%20with%20CSS/cascading.html"> Previous Lesson 3.4.3 - Cascading: Inheritance and Precedence </a>
+    </nav>
+    <h1> Module 4 - Fixing and Debugging </h1>
+</header>
+
+<article>
+    <a href="https://www.w3.org/WAI/ER/tools/"> Web Accessibility Evaluation Tools List </a>
+    <section>
+        <h2> Debugging and the CSS box model </h2>
+        <h3> CSS box model </h3>
+
+        <ul>
+            <li>
+                The placement of elements on a Web page can be fairly complicated. One of the most
+                basic features that influence where things go on a Web page is the CSS Box Model.
+                The Box Model governs 3 important spacing features of CSS, margin, padding and borders
+            </li>
+            <li>
+                All elements in an html document end up being treated as rectangles somewhere in the
+                window. The content of each rectangle corresponds to the innermost rectangle. Just
+                outside the content is the padding. This is kind of like an internal margin, meaning
+                that it separates the contents from the border. The border essentially traces the
+                sides of the padding rectangle.
+            </li>
+        </ul>
+
+        <details>
+            <summary class="normal"> Most widely used properties when specifying border</summary>
+            <p> border-width </p>
+            <p> border-style (dashed, dotted, solid etc) </p>
+            <p> border-color </p>
+            <p> shorthand syntax - border: 5px dashed blue; </p>
+        </details>
+
+        <figure>
+            <img class="functional_img" src="../images/boxmodel.jpg"
+                 alt="CSS box model image showing margin, padding and border">
+            <figcaption> Fig - CSS Box Model</figcaption>
+        </figure>
+
+        <p>
+            The margin, as we learned earlier, specifies the position of the element relative to
+            whatever is adjacent to it. The unique thing about the margin is that the values for
+            any of the sides can be negative, even if that means that it overlaps with another
+            element on the page.
+        </p>
+        <blockquote class="normal">
+            While the padding and borders require non-negative widths, margins can be either
+            positive or negative.
+        </blockquote>
+
+        <h3> Debugging CSS precedence </h3>
+        <p> Inline CSS style takes precedence over any other css rule </p>
+        <p> "article h1" and "section h1" are of equal precedence, the tie is broken by
+            whichever rule came last
+        </p>
+        <p> Any external CSS style setting for the img width will take precedence over the attribute
+            setting
+        </p>
+    </section>
+</article>
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+/* Spacing Rules for Activity Lists */
+
+li {
+    margin-left: 20px;
+    line-height: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+ol {
+    margin-top: 50px;
+}

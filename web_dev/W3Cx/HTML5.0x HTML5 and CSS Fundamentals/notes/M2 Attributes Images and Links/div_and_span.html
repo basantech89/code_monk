@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title> Div and Span </title>
+    <link rel="stylesheet" href="../styles/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Chakra+Petch|Montserrat|Nunito|Mali|Muli|Signika|Comfortaa" rel="stylesheet">
+	<link rel="stylesheet" href="../styles/style-extra.css">
+</head>
+
+<body>
+<header>
+    <nav>
+        <a href="images.html"> Next Lesson 2.5 - Images </a> <br>
+        <a href="article_and_section.html"> Previous Lesson 2.3 - Article and Section </a>
+    </nav>
+    <h1> 2.4 Div and Span Elements </h1>
+</header>
+
+<section>
+    <h2> Div Element </h2>
+    <ul>
+        <li>
+            The &lt;div&gt; tag is one you will likely see sprinkled all over an HTML document.
+            It is used to define a division or a section of the document.
+            Div is not a semantic element, however, it is commonly used when there isn't a better
+            semantic assignment for it.
+        </li>
+        <li>
+            It is like a generic container that can hold a variety of elements such as
+            paragraphs, images, links, tables, etc. It can be used to group elements for
+            styling purposes. If you want to style all code snippets in your HTML document
+            a certain way, you can place your code in a div container and apply styles
+            collectively to it using the class attribute.
+        </li>
+        <li>
+            It should only be used if you cannot use any other semantic element in its place
+        </li>
+    </ul>
+    <h2> Span Element </h2>
+    <p> When span element can be used </p>
+    <ul>
+        <li> To add styling to part of a sentence (inline) </li>
+        <li> Manipulate part of a sentence using JavaScript </li>
+        <li>
+            When no other HTML element is applicable, you can use
+            &lt;span&gt; (and &lt;div&gt;) to add attributes such as class and id
+        </li>
+    </ul>
+    <p>
+        Like &lt;div&gt;, &lt;span&gt; is not a semantic element. You should only use &lt;span&gt; 
+        if no other semantic element is appropriate. &lt;div&gt; and &lt;span&gt; serve the same
+        purpose but should be applied at different levels. &lt;div&gt; is a block level element
+        (for a block of space) while &lt;span&gt; is an inline element (for within a line or phrase).
+    </p>
+</section>
+
+<section>
+    <h2> Difference between div and span </h2>
+    <p> 
+        They are both considered generic elements that don't have any meaning.
+        But &lt;div&gt; is a block level element while &lt;span&gt; is an inline element.
+    </p>
+    <p>
+        <span class="bold"> Block Level Elements </span> - Used within body of the page. It
+        occupies a block of space and starts in a new line. It usually has an empty line above
+        and below the block. They can contain inline elements and other block level elements.
+        Other examples: &lt;p&gt;, &lt;h1&gt; - &lt;h6&gt;.
+    </p>
+    <p>
+        <span class="bold"> Inline Elements </span> - As the name suggests are 'in-the-line'.
+        They can start anywhere in a line. They can only contain data (like text) or other
+        in-line elements. Other examples: &lt;em&gt;, &lt;strong&gt;.
+    </p>
+    <p> <mark>
+        After an opening tag &lt;p&gt;, if it sees another &lt;p&gt; or any other
+        block level element including &lt;div&gt;, it will automatically close the
+        first open &lt;p&gt; for you. Nesting one paragraph tag in another is not valid because
+        the browser will consider them as two paragraphs one after the other. Even though you
+        close the paragraphs with two closing tags &lt;/p&gt;&lt;/p&gt; at the end,
+        they are ignored as errors.
+    </mark> </p>
+</section>
+</body>
+</html>

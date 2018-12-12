@@ -1,0 +1,9 @@
+/* Font Faces or Coloring for Activity List */
+li {
+    font-family: Waree;
+    list-style-image: url("../imgs/my_triangle.png");
+}
+
+h1 {
+    color: darkred;
+}

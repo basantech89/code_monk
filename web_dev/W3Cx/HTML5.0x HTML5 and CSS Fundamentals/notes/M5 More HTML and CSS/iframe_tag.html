@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Embedding Content </title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Chakra+Petch|Montserrat|Nunito|Mali|Muli|Signika|Comfortaa" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/style-extra.css">
+</head>
+<body>
+<header>
+    <nav>
+        <a href="ismap_usemap_attributes.html"> Next Lesson 5.3.2 - The ismap and usemap attributes </a> <br>
+        <a href="multimedia.html"> Previous Lesson 5.2 Multimedia </a>
+    </nav>
+    <h1> Lesson 3 - Embedding Content </h1>
+</header>
+<main>
+    <article>
+        <h1> 5.3.1 The iframes tag </h1>
+        <ul class="style-list">
+            <li> This allows you to put another web page in your web page the &lt;iframe&gt; tag (HTML Inline Frame Element) </li>
+            <li>
+                Iframes are generally used in Web pages to show external content/resources. The type of content is not limited to other
+                Web pages. You can add YouTube videos or display a PDF file (some browsers will display the file inline while some older
+                browsers will try to download it instead).
+            </li>
+            <li>
+                There is one significant problem with iframes. Suppose you create your Web page, containing only an iframe with
+                src="http://foo.com", with no borders, padding or margin. By all appearances, you would seem to be on the Web site
+                foo.com. If you don't look at the URL, it might be difficult to tell. For reasons like this, some Web sites disallow
+                their inclusion, so if you create an iframe with src="https://google.com", you'll get a blank frame and an error
+                message in the console.  This isn't a bug, it's a feature.
+            </li>
+        </ul>
+        <p> example with styling for iframe </p>
+        <textarea title="iframe example" disabled rows="13" cols="50">
+            <iframe src="https://w3.org">
+                Your browser doesn't support iframes
+            </iframe>
+            CSS Styling:
+            iframe {
+                border: 10px solid red;
+                padding: .5rem;
+                margin: 1rem;
+                box-shadow: 20px 20px 10px #888888;
+                width: 355;
+                height: 200;
+            }
+        </textarea>
+        <table class="style-table">
+            <caption>
+                <p> Table: A few attributes for iframe tag </p>
+            </caption>
+            <colgroup>
+                <col class="min-width">
+                <col class="more-width">
+            </colgroup>
+            <thead> <tr>
+                <th id="hco1"> Attribute </th>
+                <th id="hco2"> Description </th>
+                <th id="hco3"> Value </th>
+                <th id="hco4"> Example </th>
+            </tr> </thead>
+            <tbody>
+                <tr>
+                    <td headers="hco1"> src </td>
+                    <td headers="hco2">
+                        Specifies the address of the page you want to display in your frame. This is
+                        the primary attribute of interest in the iframe.
+                    </td>
+                    <td headers="hco3"> URL </td>
+                    <td headers="hco4"> &lt;iframe src="https://www.w3.org/"&gt; &lt;/iframe&gt; </td>
+                </tr>
+                <tr>
+                    <td headers="hco1"> allowfullscreen </td>
+                    <td headers="hco2">
+                        This will allow the iframe to open "Full screen mode", often used with videos. Without this
+                        attribute, full screen mode is disabled for the iframe.
+                    </td>
+                    <td headers="hco3"> no value </td>
+                    <td headers="hco4"> &lt;iframe src="https://www.w3.org/" allowfullscreen&gt; &lt;/iframe&gt; </td>
+                </tr>
+                <tr>
+                    <td headers="hco1"> name </td>
+                    <td headers="hco2">
+                        Specifies a name for the iframe. Using the name attribute, the iframe can act as a target for
+                        a link. Just as the 'self' target will replace the current window with the site at the href
+                        URL, and "_blank" will open a new window at that URL, if you set the name attribute, that name
+                        can be used as a target so that when you click on it, the new page will open up in that iframe.
+                    </td>
+                    <td headers="hco3"> text </td>
+                    <td headers="hco4">
+                        &lt;iframe name="frame-one" src="https://www.w3.org/"&gt; &lt;/iframe&gt; <br>
+                        &lt;a href="https://www.wikipedia.org/" target="frame-one"&gt; &lt;/a&gt;
+                    </td>
+                </tr>
+                <tr>
+                    <td headers="hco1"> sandbox </td>
+                    <td headers="hco2">
+                        This can apply a number of restrictions on the iframe, preventing the site in the iframe from
+                        using pop-ups, running scripts, automatically running videos and numerous other things. This
+                        helps avoid some of the potential security issues that iframes may be prone to.
+                    </td>
+                    <td headers="hco3"> no value (applies all restrictions) <br>
+                        allow-forms <br>
+                        allow-modals <br>
+                        allow-orientation-lock <br>
+                        allow-pointer-lock <br>
+                        allow-popups <br>
+                        allow-same-origin <br>
+                        allow-scripts <br>
+                        allow-top-navigation </td>
+                    <td headers="hco4">
+                        &lt;iframe src="https://www.w3.org/" sandbox&gt; &lt;/iframe&gt; <br>
+                        &lt;iframe src="https://www.w3.org/" sandbox="allow-popups"&gt; &lt;/iframe&gt;
+                    </td>
+                </tr>
+                <tr>
+                    <td headers="hco1"> width, height </td>
+                    <td headers="hco2">
+                        While width and height are valid attributes for an iframe, they should be avoided in favor of
+                        CSS properties.
+                    </td>
+                    <td headers="hco3"> pixels </td>
+                    <td headers="hco4">
+                        &lt;iframe src="https://www.w3.org/" width="500"&gt; &lt;/iframe&gt;
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2> Notes </h2>
+        <ul class="style-list">
+            <li>
+                Certain Web sites like Google and Yahoo disallow embedding their Web pages in iframes. So you will not
+                be able to use these pages in an iframe
+            </li>
+            <li>
+                Not all attributes are supported in all browsers. You are encouraged to explore their browser support
+                before adding to your HTML. More on iframes on
+                <a href="https://www.w3.org/TR/html5/embedded-content-0.html#the-iframe-element" target="_blank"> W3C Specifications </a>
+            </li>
+        </ul>
+        <h2> Advantages and disadvantages </h2>
+        <ul>
+            <li>
+                Iframes load separately from the main page. However, they do block the main page's load command until
+                its content finishes loading. You can avoid this by applying some Javascript. This allows them to load
+                independently. Then, if the embedded page you are displaying loads slower, you can use your parent
+                page to keep the reader occupied.
+            </li>
+            <li>
+                Accessibility of iframes is poor. Screenreaders do not process them well but you can proceed to use
+                iframes with a notice for the reader.
+            </li>
+            <li>
+                You have no control over the content in an iframe if you display external content. That content can
+                change anytime or can upload malicious content without your permission.
+            </li>
+            <li>
+                Search engines have trouble accessing and in turn indexing the content in your iframes.
+                This doesn't help your search ranking
+            </li>
+        </ul>
+    </article>
+</main>
+</body>
+</html>
