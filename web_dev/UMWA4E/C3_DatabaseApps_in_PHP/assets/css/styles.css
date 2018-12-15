@@ -1,3 +1,58 @@
 .success {
     color: #00ff00;
 }
+
+/* making text bold */
+.bold {
+    font-weight: bolder;
+    display: inline-block;
+    margin-bottom: 1%;
+}
+
+/* making images look good */
+.functional_img { width: 30vw; }
+
+/*  styling lists */
+/*.style-list { list-style-image: url("../images/my_triangle.png"); }*/
+
+/* styling Tables */
+table {
+    overflow: auto;
+    table-layout: fixed;
+    /*border: 1px solid #363636;*/
+    width: 70%;
+}
+
+.style-table, table.style-table th, table.style-table td {
+    height: 1em;
+    line-height: 1.8em;
+    border-collapse: collapse;
+    padding: 0.6em;
+    font-size: 1.1em;
+}
+
+table.style-table td { padding-left: 1em; }
+
+table th {
+    background-color: #363636;
+    color: whitesmoke;
+}
+
+
+table tr:nth-child(odd) { background-color: #DCDCDC; } /* DCDCDC 767071 D8D8D8*/
+
+table tr:hover { background-color: #CCFF99; }
+
+/* fix the width for a column */
+.more-width { width: 40%; }
+.less-width { width: 35%; }
+.min-width { width: 10%; }
+.max-width { width: 50%; }
+
+#submit {
+    width: 100%;
+}
+
+body {
+    margin-left: 2em;
+}
