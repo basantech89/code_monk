@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> JS-12 </title>
+</head>
+<body>
+
+    <p> Hello <b> <span id="person"> Chuck </span> </b> there. </p>
+    <script type="text/javascript">
+        st = document.getElementById('person').innerHTML;
+        console.log("ST = " + st);
+        window.console && console.dir(document.getElementById('person'))
+        alert('Hi there ' + st);
+        document.getElementById('person').innerHTML = 'Joseph';
+    </script>
+
+</body>
+</html>

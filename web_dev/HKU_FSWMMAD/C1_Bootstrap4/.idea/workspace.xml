@@ -2,26 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a1cacc8-e69e-4e43-a280-ed71edac711e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/conFusion/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conFusion/index2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../UMWA4E/C3_DatabaseApps_in_PHP/assign-week-3/add.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../UMWA4E/C3_DatabaseApps_in_PHP/assign-week-3/autos.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../UMWA4E/C3_DatabaseApps_in_PHP/assign-week-3/bootstrap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../UMWA4E/C3_DatabaseApps_in_PHP/assign-week-3/header.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../UMWA4E/C3_DatabaseApps_in_PHP/assign-week-3/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../UMWA4E/C3_DatabaseApps_in_PHP/assign-week-3/login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../UMWA4E/C3_DatabaseApps_in_PHP/assign-week-3/logout.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../UMWA4E/C3_DatabaseApps_in_PHP/assign-week-3/pdo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../UMWA4E/C3_DatabaseApps_in_PHP/assign-week-3/view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../UMWA4E/C3_DatabaseApps_in_PHP/route/guess.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../UMWA4E/C3_DatabaseApps_in_PHP/route/guess2.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../UMWA4E/C3_DatabaseApps_in_PHP/route/login_logout/app.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../UMWA4E/C3_DatabaseApps_in_PHP/route/login_logout/login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../UMWA4E/C3_DatabaseApps_in_PHP/route/login_logout/logout.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../UMWA4E/C3_DatabaseApps_in_PHP/route/redir1.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../UMWA4E/C3_DatabaseApps_in_PHP/route/redir2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusion/Gruntfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusion/css/styles.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusion/css/styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusion/gulpfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusion/js/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../UMWA4E/C4_JS_JQuery_JSON/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../UMWA4E/C4_JS_JQuery_JSON/assets/bootstrap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../UMWA4E/C4_JS_JQuery_JSON/assets/css/starter-template.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../UMWA4E/C4_JS_JQuery_JSON/assets/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../UMWA4E/C4_JS_JQuery_JSON/assets/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../UMWA4E/C4_JS_JQuery_JSON/assets/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../UMWA4E/C4_JS_JQuery_JSON/assets/pdo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../UMWA4E/C4_JS_JQuery_JSON/assets/scripts.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../UMWA4E/C4_JS_JQuery_JSON/assign-week-1/add.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../UMWA4E/C4_JS_JQuery_JSON/assign-week-1/autos.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../UMWA4E/C4_JS_JQuery_JSON/assign-week-1/delete.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../UMWA4E/C4_JS_JQuery_JSON/assign-week-1/edit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../UMWA4E/C4_JS_JQuery_JSON/assign-week-1/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../UMWA4E/C4_JS_JQuery_JSON/assign-week-1/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../UMWA4E/C4_JS_JQuery_JSON/assign-week-1/logout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../UMWA4E/C4_JS_JQuery_JSON/js-01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../UMWA4E/C4_JS_JQuery_JSON/js-05.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../UMWA4E/C4_JS_JQuery_JSON/js-09.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../UMWA4E/C3_DatabaseApps_in_PHP/assets/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../UMWA4E/C3_DatabaseApps_in_PHP/assets/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conFusion/aboutus.html" beforeDir="false" afterPath="$PROJECT_DIR$/conFusion/aboutus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conFusion/contactus.html" beforeDir="false" afterPath="$PROJECT_DIR$/conFusion/contactus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conFusion/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/conFusion/css/styles-old.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conFusion/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/conFusion/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conFusion/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/conFusion/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/alberto.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/buffet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/uthappizza.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../UMWA4E/C3_DatabaseApps_in_PHP/assign-week-4/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../UMWA4E/C4_JS_JQuery_JSON/assign-week-1/view.php" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
     <ignored path="$PROJECT_DIR$/conFusion/node_modules/" />
@@ -31,17 +46,63 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="C1_Bootstrap4" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/conFusion/index.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/conFusion/js/scripts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="164" column="36" lean-forward="true" selection-start-line="164" selection-start-column="36" selection-end-line="164" selection-end-column="36" />
+            <state>
               <folding>
-                <element signature="e#2218#2225#0" expanded="true" />
-                <element signature="e#5770#5777#0" expanded="true" />
+                <element signature="n#!!doc" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/conFusion/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1197">
+              <caret line="63" column="3" selection-start-line="63" selection-start-column="3" selection-end-line="63" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/conFusion/Gruntfile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2983">
+              <caret line="157" column="8" selection-start-line="157" selection-start-column="8" selection-end-line="157" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/conFusion/gulpfile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="505">
+              <caret line="77" column="47" selection-start-line="77" selection-start-column="47" selection-end-line="77" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/conFusion/css/styles.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1767">
+              <caret line="93" column="21" selection-start-line="93" selection-start-column="21" selection-end-line="93" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/conFusion/css/styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="969">
+              <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -49,26 +110,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/conFusion/contactus.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="93" column="14" lean-forward="true" selection-start-line="93" selection-start-column="14" selection-end-line="93" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/conFusion/aboutus.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="238" column="20" selection-start-line="238" selection-start-column="20" selection-end-line="238" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/conFusion/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="524">
-              <caret line="59" column="22" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
+            <state relative-caret-position="4123">
+              <caret line="217" column="21" selection-start-line="217" selection-start-column="21" selection-end-line="217" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -79,6 +122,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -87,6 +131,10 @@
       <find>primary</find>
       <find>&lt;p&gt;A unique combination of Indian Uthappam (pancake) and Italian pizza, topped</find>
       <find>skype</find>
+      <find>car</find>
+      <find>indica</find>
+      <find>dist/css/main</find>
+      <find>bootstrap</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -97,10 +145,16 @@
       <list>
         <option value="$PROJECT_DIR$/conFusion/index2.html" />
         <option value="$PROJECT_DIR$/aboutus.html" />
+        <option value="$PROJECT_DIR$/conFusion/css/style.css" />
+        <option value="$PROJECT_DIR$/conFusion/css/styles.less" />
+        <option value="$PROJECT_DIR$/conFusion/css/styles.css" />
+        <option value="$PROJECT_DIR$/conFusion/js/scripts.js" />
+        <option value="$PROJECT_DIR$/conFusion/index.html" />
         <option value="$PROJECT_DIR$/conFusion/contactus.html" />
         <option value="$PROJECT_DIR$/conFusion/aboutus.html" />
-        <option value="$PROJECT_DIR$/conFusion/css/style.css" />
-        <option value="$PROJECT_DIR$/conFusion/index.html" />
+        <option value="$PROJECT_DIR$/conFusion/Gruntfile.js" />
+        <option value="$PROJECT_DIR$/conFusion/css/styles.scss" />
+        <option value="$PROJECT_DIR$/conFusion/gulpfile.js" />
       </list>
     </option>
   </component>
@@ -133,27 +187,73 @@
             <path>
               <item name="C1_Bootstrap4" type="b2602c69:ProjectViewProjectNode" />
               <item name="C1_Bootstrap4" type="462c0819:PsiDirectoryNode" />
+              <item name="conFusion" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="C1_Bootstrap4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="C1_Bootstrap4" type="462c0819:PsiDirectoryNode" />
+              <item name="conFusion" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="styles.scss" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="C1_Bootstrap4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="C1_Bootstrap4" type="462c0819:PsiDirectoryNode" />
+              <item name="conFusion" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="C1_Bootstrap4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="C1_Bootstrap4" type="462c0819:PsiDirectoryNode" />
+              <item name="conFusion" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="C1_Bootstrap4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="C1_Bootstrap4" type="462c0819:PsiDirectoryNode" />
+              <item name="conFusion" type="462c0819:PsiDirectoryNode" />
               <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Default Changelist'; set:Default Changelist; class com.intellij.packageDependencies.ChangeListScope">
+          <expand>
+            <path>
+              <item name="C1_Bootstrap4" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="C1_Bootstrap4" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="conFusion" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="LESS" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/conFusion" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/conFusion/css" />
       <recent name="$PROJECT_DIR$/conFusion" />
     </key>
   </component>
@@ -186,19 +286,24 @@
       <workItem from="1544676338388" duration="16630000" />
       <workItem from="1544710018878" duration="30000" />
       <workItem from="1544760208578" duration="10992000" />
+      <workItem from="1544943391564" duration="6219000" />
+      <workItem from="1544953905594" duration="9489000" />
+      <workItem from="1544973300837" duration="946000" />
+      <workItem from="1544975877340" duration="7590000" />
+      <workItem from="1545017067721" duration="6140000" />
+      <workItem from="1545024147798" duration="408000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40378000" />
+    <option name="totallyTimeSpent" value="71170000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20833333" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49514562" visible="true" weight="0.22878788" />
+      <window_info id="Structure" order="1" sideWeight="0.5048544" side_tool="true" weight="0.225" />
+      <window_info id="Favorites" order="2" sideWeight="0.5048544" side_tool="true" weight="0.225" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -208,9 +313,9 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32899022" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32899022" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32899022" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -236,35 +341,118 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conFusion/css/style.css">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.less" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.less" />
+    <entry file="file://$PROJECT_DIR$/conFusion/css/styles-old.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="524">
-          <caret line="59" column="22" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
+          <caret line="66" column="1" lean-forward="true" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/conFusion/css/styles.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="74" column="1" selection-start-line="18" selection-end-line="74" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conFusion/dist/css/main.css" />
+    <entry file="file://$PROJECT_DIR$/conFusion/dist/js/main.js" />
     <entry file="file://$PROJECT_DIR$/conFusion/aboutus.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="238" column="20" selection-start-line="238" selection-start-column="20" selection-end-line="238" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conFusion/contactus.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="93" column="14" lean-forward="true" selection-start-line="93" selection-start-column="14" selection-end-line="93" selection-end-column="14" />
+        <state relative-caret-position="415">
+          <caret line="393" column="21" selection-start-line="393" selection-start-column="21" selection-end-line="393" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/conFusion/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="164" column="36" lean-forward="true" selection-start-line="164" selection-start-column="36" selection-end-line="164" selection-end-column="36" />
+        <state relative-caret-position="8132">
+          <caret line="428" column="4" selection-start-line="428" selection-start-column="4" selection-end-line="428" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conFusion/dist/aboutus.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conFusion/dist/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
           <folding>
-            <element signature="e#2218#2225#0" expanded="true" />
-            <element signature="e#5770#5777#0" expanded="true" />
+            <element signature="e#1537#1544#1" expanded="true" />
+            <element signature="e#3225#3232#1" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conFusion/dist/css/main-5108dc107a.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="10" column="7051" lean-forward="true" selection-start-line="10" selection-start-column="7051" selection-end-line="10" selection-end-column="7051" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conFusion/dist/css/main-600124289d.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="5" column="135917" lean-forward="true" selection-start-line="5" selection-start-column="135917" selection-end-line="5" selection-end-column="135917" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conFusion/js/scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conFusion/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1197">
+          <caret line="63" column="3" selection-start-line="63" selection-start-column="3" selection-end-line="63" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conFusion/Gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2983">
+          <caret line="157" column="8" selection-start-line="157" selection-start-column="8" selection-end-line="157" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conFusion/css/styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1767">
+          <caret line="93" column="21" selection-start-line="93" selection-start-column="21" selection-end-line="93" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conFusion/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conFusion/contactus.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4123">
+          <caret line="217" column="21" selection-start-line="217" selection-start-column="21" selection-end-line="217" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conFusion/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="77" column="47" selection-start-line="77" selection-start-column="47" selection-end-line="77" selection-end-column="47" />
         </state>
       </provider>
     </entry>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    <script type="text/javascript">
+        a = ["x", "y", "z"];
+        b = {"name" : "chuck", "class" : "php-intro"};
+        document.write(a);
+        document.write("<br>");
+        document.write(b);
+        document.write("<br>");
+        document.write(a[0]);
+        document.write("<br>");
+        document.write(b['name']);
+        document.write("<br>");
+        arr = Array();
+        arr.push('first');
+        arr[1] = 'second';
+        document.write(arr);
+        document.write("<br>");
+        for (item in b) {
+            console.log(item + ' = ' + b[item]);
+        }
+    </script>
+
+</body>
+</html>

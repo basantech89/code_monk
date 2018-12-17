@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> JS-15 </title>
+</head>
+<body>
+
+    <p> <a href="#" onclick="add();return false;"> More </a> </p>
+    <ul id="list">
+        <li> First Item </li>
+    </ul>
+
+    <script>
+        counter = 1;
+        console.log(document.getElementById('list'))
+        function add() {
+            var x = document.createElement('li');
+            x.className = 'list-item'
+            x.innerHTML = "The counter is " + counter;
+            document.getElementById('list').appendChild(x);
+            counter++;
+        }
+    </script>
+
+</body>
+</html>

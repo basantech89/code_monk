@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    <script type="text/javascript">
+        var gl = 123;
+        function check() {
+            var gl = 456;
+        }
+        check();
+        window.console && console.log("GL = " + gl);
+    </script>
+
+</body>
+</html>
