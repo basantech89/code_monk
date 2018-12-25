@@ -8,3 +8,5 @@
 <!-- Custom styles for this template -->
 <link href="../assets/css/starter-template.css" rel="stylesheet">
 <link href="../assets/css/styles.css" rel="stylesheet">
+
+<script src="../assets/js/jquery-3.3.1.js"></script>

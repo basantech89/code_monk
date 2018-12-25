@@ -2,25 +2,88 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f52396f-96b5-40a2-828f-b6f6c37e0c64" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/bootstrap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/starter-template.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/header.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/pdo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/scripts.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assign-week-1/add.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assign-week-1/autos.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assign-week-1/delete.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assign-week-1/edit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assign-week-1/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assign-week-1/login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assign-week-1/logout.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js-01.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js-05.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js-09.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C3_DatabaseApps_in_PHP/assign-week-4/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/assign-week-1/view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HKU_FSWDRS/C2_React/confusion/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HKU_FSWDRS/C2_React/confusion/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HKU_FSWDRS/C2_React/confusion/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HKU_FSWDRS/C2_React/confusion/public/assets/images/alberto.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HKU_FSWDRS/C2_React/confusion/public/assets/images/buffet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HKU_FSWDRS/C2_React/confusion/public/assets/images/elaicheesecake.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HKU_FSWDRS/C2_React/confusion/public/assets/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HKU_FSWDRS/C2_React/confusion/public/assets/images/uthappizza.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HKU_FSWDRS/C2_React/confusion/public/assets/images/vadonut.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HKU_FSWDRS/C2_React/confusion/public/assets/images/zucchipakoda.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HKU_FSWDRS/C2_React/confusion/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HKU_FSWDRS/C2_React/confusion/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HKU_FSWDRS/C2_React/confusion/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HKU_FSWDRS/C2_React/confusion/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HKU_FSWDRS/C2_React/confusion/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HKU_FSWDRS/C2_React/confusion/src/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HKU_FSWDRS/C2_React/confusion/src/components/ContactComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HKU_FSWDRS/C2_React/confusion/src/components/DishDetailsComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HKU_FSWDRS/C2_React/confusion/src/components/FooterComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HKU_FSWDRS/C2_React/confusion/src/components/HeaderComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HKU_FSWDRS/C2_React/confusion/src/components/HomeComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HKU_FSWDRS/C2_React/confusion/src/components/MainComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HKU_FSWDRS/C2_React/confusion/src/components/MenuComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HKU_FSWDRS/C2_React/confusion/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HKU_FSWDRS/C2_React/confusion/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HKU_FSWDRS/C2_React/confusion/src/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HKU_FSWDRS/C2_React/confusion/src/serviceWorker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HKU_FSWDRS/C2_React/confusion/src/shared/comments.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HKU_FSWDRS/C2_React/confusion/src/shared/dishes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HKU_FSWDRS/C2_React/confusion/src/shared/leaders.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HKU_FSWDRS/C2_React/confusion/src/shared/promotions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HKU_FSWDRS/C2_React/confusion/yarn.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/jquery-3.3.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/spinner.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assign-week-3/add.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assign-week-3/autos.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assign-week-3/delete.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assign-week-3/edit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assign-week-3/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assign-week-3/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assign-week-3/logout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assign-week-3/util.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assign-week-3/view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/autoecho.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/autopost.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/hello.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/resize.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/toggle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/objects/js01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/objects/js02.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HKU_FSWMMAD/C1_Bootstrap4/.idea/C1_Bootstrap4.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HKU_FSWMMAD/C1_Bootstrap4/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HKU_FSWMMAD/C1_Bootstrap4/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HKU_FSWMMAD/C1_Bootstrap4/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HKU_FSWMMAD/C1_Bootstrap4/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HKU_FSWMMAD/C1_Bootstrap4/.idea/watcherTasks.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HKU_FSWMMAD/C1_Bootstrap4/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HKU_FSWMMAD/C1_Bootstrap4/conFusion/Gruntfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../HKU_FSWDRS/C1_Bootstrap4/conFusion/Gruntfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HKU_FSWMMAD/C1_Bootstrap4/conFusion/aboutus.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../HKU_FSWDRS/C1_Bootstrap4/conFusion/aboutus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HKU_FSWMMAD/C1_Bootstrap4/conFusion/contactus.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../HKU_FSWDRS/C1_Bootstrap4/conFusion/contactus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HKU_FSWMMAD/C1_Bootstrap4/conFusion/css/styles-old.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../HKU_FSWDRS/C1_Bootstrap4/conFusion/css/styles-old.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HKU_FSWMMAD/C1_Bootstrap4/conFusion/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../HKU_FSWDRS/C1_Bootstrap4/conFusion/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HKU_FSWMMAD/C1_Bootstrap4/conFusion/css/styles.less" beforeDir="false" afterPath="$PROJECT_DIR$/../../HKU_FSWDRS/C1_Bootstrap4/conFusion/css/styles.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HKU_FSWMMAD/C1_Bootstrap4/conFusion/css/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../HKU_FSWDRS/C1_Bootstrap4/conFusion/css/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HKU_FSWMMAD/C1_Bootstrap4/conFusion/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../HKU_FSWDRS/C1_Bootstrap4/conFusion/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HKU_FSWMMAD/C1_Bootstrap4/conFusion/img/alberto.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../HKU_FSWDRS/C1_Bootstrap4/conFusion/img/alberto.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HKU_FSWMMAD/C1_Bootstrap4/conFusion/img/buffet.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../HKU_FSWDRS/C1_Bootstrap4/conFusion/img/buffet.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HKU_FSWMMAD/C1_Bootstrap4/conFusion/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../HKU_FSWDRS/C1_Bootstrap4/conFusion/img/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HKU_FSWMMAD/C1_Bootstrap4/conFusion/img/uthappizza.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../HKU_FSWDRS/C1_Bootstrap4/conFusion/img/uthappizza.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HKU_FSWMMAD/C1_Bootstrap4/conFusion/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../HKU_FSWDRS/C1_Bootstrap4/conFusion/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HKU_FSWMMAD/C1_Bootstrap4/conFusion/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../HKU_FSWDRS/C1_Bootstrap4/conFusion/index2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HKU_FSWMMAD/C1_Bootstrap4/conFusion/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../HKU_FSWDRS/C1_Bootstrap4/conFusion/js/scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HKU_FSWMMAD/C1_Bootstrap4/conFusion/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../HKU_FSWDRS/C1_Bootstrap4/conFusion/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HKU_FSWMMAD/C1_Bootstrap4/conFusion/src" beforeDir="false" afterPath="$PROJECT_DIR$/../../HKU_FSWDRS/C1_Bootstrap4/conFusion/src" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HKU_FSWMMAD/C1_Bootstrap4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../HKU_FSWDRS/C1_Bootstrap4/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HKU_FSWMMAD/C1_Bootstrap4/npm-debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../HKU_FSWDRS/C1_Bootstrap4/npm-debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HKU_FSWMMAD/C1_Bootstrap4/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../HKU_FSWDRS/C1_Bootstrap4/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/C4_JS_JQuery_JSON.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/C4_JS_JQuery_JSON.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/bootstrap.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,74 +91,84 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="misc@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assign-week-3/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="429">
+              <caret line="54" column="32" lean-forward="true" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assign-week-3/view.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="334">
+              <caret line="52" column="32" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assign-week-3/login.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
+              <folding>
+                <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assign-week-1/index.php">
+        <entry file="file://$PROJECT_DIR$/assign-week-3/add.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="524">
-              <caret line="79" column="26" lean-forward="true" selection-start-line="79" selection-start-column="26" selection-end-line="79" selection-end-column="26" />
+            <state>
+              <caret lean-forward="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assign-week-3/edit.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="146" column="33" selection-start-line="146" selection-start-column="33" selection-end-line="146" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assign-week-3/util.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="131">
+              <caret line="61" selection-start-line="61" selection-end-line="61" />
               <folding>
                 <element signature="n#style#0;n#h3#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h3#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assign-week-1/delete.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="61" column="30" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assign-week-1/edit.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="23" column="78" lean-forward="true" selection-start-line="23" selection-start-column="78" selection-end-line="23" selection-end-column="78" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assign-week-1/add.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="58" selection-start-line="58" selection-end-line="58" />
-              <folding>
-                <element signature="n#style#0;n#h3#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assign-week-1/login.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="46" column="24" lean-forward="true" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assign-week-1/view.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assign-week-1/logout.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -117,6 +190,7 @@
       <find>mi</find>
       <find>user_id</find>
       <find>auto_id</find>
+      <find>session</find>
     </findStrings>
     <replaceStrings>
       <replace>user</replace>
@@ -139,7 +213,6 @@
         <option value="$PROJECT_DIR$/js-12.html" />
         <option value="$PROJECT_DIR$/js-15.html" />
         <option value="$PROJECT_DIR$/../C3_DatabaseApps_in_PHP/assign-week-4/login.php" />
-        <option value="$PROJECT_DIR$/assets/bootstrap.php" />
         <option value="$PROJECT_DIR$/assets/scripts.php" />
         <option value="$PROJECT_DIR$/assets/js/script.js" />
         <option value="$PROJECT_DIR$/assets/header.php" />
@@ -150,6 +223,23 @@
         <option value="$PROJECT_DIR$/assign-week-1/delete.php" />
         <option value="$PROJECT_DIR$/assign-week-1/add.php" />
         <option value="$PROJECT_DIR$/assign-week-1/index.php" />
+        <option value="$PROJECT_DIR$/objects/js-01.php" />
+        <option value="$PROJECT_DIR$/objects/js01.js" />
+        <option value="$PROJECT_DIR$/objects/js01.html" />
+        <option value="$PROJECT_DIR$/objects/js02.html" />
+        <option value="$PROJECT_DIR$/jquery/hello.php" />
+        <option value="$PROJECT_DIR$/jquery/resize.php" />
+        <option value="$PROJECT_DIR$/autoecho.php" />
+        <option value="$PROJECT_DIR$/jquery/toggle.php" />
+        <option value="$PROJECT_DIR$/jquery/autopost.php" />
+        <option value="$PROJECT_DIR$/assets/head.php" />
+        <option value="$PROJECT_DIR$/assign-week-3/index.php" />
+        <option value="$PROJECT_DIR$/assets/bootstrap.php" />
+        <option value="$PROJECT_DIR$/assign-week-3/edit.php" />
+        <option value="$PROJECT_DIR$/assign-week-3/util.php" />
+        <option value="$PROJECT_DIR$/assign-week-3/add.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/e2f461c0-1551-4341-83f7-3fde8324df76/console.sql" />
+        <option value="$PROJECT_DIR$/assign-week-3/view.php" />
       </list>
     </option>
   </component>
@@ -167,21 +257,56 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Default Changelist'; set:Default Changelist; class com.intellij.packageDependencies.ChangeListScope">
+          <expand>
+            <path>
+              <item name="C4_JS_JQuery_JSON" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="C4_JS_JQuery_JSON" type="b2602c69:ProjectViewProjectNode" />
+              <item name="C4_JS_JQuery_JSON" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="C4_JS_JQuery_JSON" type="b2602c69:ProjectViewProjectNode" />
+              <item name="C4_JS_JQuery_JSON" type="462c0819:PsiDirectoryNode" />
+              <item name="assign-week-3" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="database.console.LAST_STATE" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="settings.editor.selected.configurable" value="database.main" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/jquery" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/jquery" />
+      <recent name="$PROJECT_DIR$/objects" />
       <recent name="$PROJECT_DIR$/assign-week-1" />
       <recent name="$PROJECT_DIR$/assets/css" />
-      <recent name="$PROJECT_DIR$/assets" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -223,17 +348,48 @@
       <workItem from="1544927214804" duration="460000" />
       <workItem from="1544927961654" duration="8520000" />
       <workItem from="1544937380916" duration="1079000" />
+      <workItem from="1545033802708" duration="2230000" />
+      <workItem from="1545067701577" duration="1436000" />
+      <workItem from="1545218580387" duration="1750000" />
+      <workItem from="1545226959457" duration="13148000" />
+      <workItem from="1545285995076" duration="77000" />
+      <workItem from="1545286090780" duration="411000" />
+      <workItem from="1545404271542" duration="5352000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31159000" />
+    <option name="totallyTimeSpent" value="55563000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25757575" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2840909" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Database Console" weight="0.32899022" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3990228" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32899022" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="PHP-CGI Server" order="12" weight="0.32899022" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32954547" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27045456" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -254,19 +410,12 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Remote Host" order="3" />
       <window_info anchor="right" id="Database" order="4" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/arrays.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js-12.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -299,13 +448,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js-01.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="24" selection-start-line="8" selection-start-column="4" selection-end-line="16" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -346,20 +488,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/bootstrap.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scripts.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="23" selection-start-column="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../C3_DatabaseApps_in_PHP/assign-week-4/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -368,20 +496,6 @@
             <element signature="n#style#0;n#h3#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h3#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -395,6 +509,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scripts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assign-week-1/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1406">
+          <caret line="79" column="26" selection-start-line="79" selection-start-column="26" selection-end-line="79" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assign-week-1/delete.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="61" column="30" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assign-week-1/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="23" column="78" selection-start-line="23" selection-start-column="78" selection-end-line="23" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assign-week-1/add.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assign-week-1/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="46" column="24" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assign-week-1/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assign-week-1/logout.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -402,52 +572,154 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assign-week-1/view.php">
+    <entry file="file://$PROJECT_DIR$/objects/js-01.php" />
+    <entry file="file://$PROJECT_DIR$/assets/js/jquery-3.3.1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assign-week-1/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="46" column="24" lean-forward="true" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assign-week-1/add.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        <state>
           <folding>
-            <element signature="n#style#0;n#h3#0;n#!!top" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assign-week-1/edit.php">
+    <entry file="file://$PROJECT_DIR$/jquery/resize.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="15" column="79" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery/toggle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery/autoecho.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/head.php" />
+    <entry file="file://$PROJECT_DIR$/../C3_DatabaseApps_in_PHP/assign-week-3/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery/hello.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/objects/js01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery/autopost.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
-          <caret line="23" column="78" lean-forward="true" selection-start-line="23" selection-start-column="78" selection-end-line="23" selection-end-column="78" />
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assign-week-1/delete.php">
+    <entry file="file://$PROJECT_DIR$/assets/bootstrap.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="61" column="30" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
+        <state relative-caret-position="209">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assign-week-1/index.php">
+    <entry file="file://$PROJECT_DIR$/js-01.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="79" column="26" lean-forward="true" selection-start-line="79" selection-start-column="26" selection-end-line="79" selection-end-column="26" />
+        <state relative-caret-position="228">
+          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arrays.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/objects/js02.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e2f461c0-1551-4341-83f7-3fde8324df76/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assign-week-3/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="54" column="32" lean-forward="true" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assign-week-3/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="52" column="32" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assign-week-3/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assign-week-3/util.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
           <folding>
             <element signature="n#style#0;n#h3#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h3#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assign-week-3/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="146" column="33" selection-start-line="146" selection-start-column="33" selection-end-line="146" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assign-week-3/add.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
         </state>
       </provider>
     </entry>

@@ -3,3 +3,6 @@ out/
 node_modules/
 *.class
 dist
+.idea/
+build/
+dist/
