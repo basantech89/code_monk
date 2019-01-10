@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> z-index </title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Chakra+Petch|Montserrat|Nunito|Mali|Muli|Signika|Comfortaa" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/style-extra.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <a href="sizing_dimensions.html"> Next Lesson 6.2.1 - Sizing and Dimensions </a> <br>
+        <a href="positioning.html"> Previous Lesson 6.1.3 - Positioning </a>
+    </nav>
+    <h1> 6.1.4 z-index </h1>
+</header>
+
+<article>
+    <p> Like the other positioning properties, z-index only applies to positioned elements (elements that have their position property set to relative, absolute,or fixed, but not static).  With the z-index you can control overlapping - whether or not an element is in front of or behind other sibling positioned elements.  The z-index can be an integer 0 or higher. The higher the number, the more "topmost" or "overlapping" the element will be. </p>
+    <ul>
+        <li> z-index has no effect on position:static (the default) elements. </li>
+        <li> If z-index is not set, siblings that appear later in the HTML document overlap (are "higher than") earlier siblings. </li>
+        <li> z-index is relative between siblings, not any arbitrary elements. </li>
+    </ul>
+
+    <section>
+        <h2> Siblings and nesting </h2>
+        <p> It is entirely possible that one element with z-index:100 could appear below another element with z-index:1 </p>
+        <p> This can happen because the z-index is used to figure out which sibling is higher than another. But if two elements are not siblings, then the z-index of their respective sibling ancestors will need to be calculated to figure out which is higher. </p>
+        <p> Below is a simple example: there are two overlapping sibling divs, "Albert" and "Betty". Albert has a red border and is  z-index:1.  Betty has a blue border, and is z-index:2.  Therefore, Betty and her child Bernice are higher than Albert and his child Alan. Albert's child Alan has a z-index of 100, which is the highest z-index of any of them, but because Alan's parent Albert is lower than Betty, Alan remains behind. Alan's high z-index is only relevant to his siblings, not to cousins further out in the document. </p>
+        <textarea disabled rows="15" cols="40">
+            <!-- HTML -->
+            &lt;div class="albert"&gt;
+                &lt;div class="alan"&gt;Alan&lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="betty"&gt;
+                &lt;div class="bernice"&gt;Bernice&lt;/div&gt;
+            &lt;/div&gt;
+
+            <!-- CSS -->
+            .albert { z-index: 1; }
+            .betty  { z-index: 2; }
+
+            .alan { z-index: 100; }
+            .bernice { z-index:0; }
+        </textarea>
+    </section>
+</article>
+
+</body>
+</html>

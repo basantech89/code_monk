@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> sizing and dimensions </title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Chakra+Petch|Montserrat|Nunito|Mali|Muli|Signika|Comfortaa" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/style-extra.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <a href="flexbox.html"> Next Lesson 6.2.2 - Flexbox </a> <br>
+        <a href="horizontal_vertical_centering.html"> Previous Lesson 6.1.4 - z-index </a>
+    </nav>
+    <h1> Lesson 2 - CSS Flexbox </h1>
+</header>
+
+<article>
+    <h1> 6.2.1 Sizing and Dimensions </h1>
+    <p> The default sizing behavior depends upon the display property for an element. </p>
+
+    <section>
+        <h2> inline </h2>
+        <p> Inline elements take the size of their content plus any padding. Additionally, inline elements ignore any
+            explicit sizing properties (width, height, etc.) unless they are also position:absolute or position:fixed.
+            This leads to a lot of confusion when newbies are working with inline elements. If you have an inline
+            element whose size you want to indicate explicitly, you should probably change it to inline-block </p>
+
+        <h2> inline-block </h2>
+        <p> Inline-block elements also take the size of their content, plus padding. However, they respect any explicit
+            sizing properties. This is handy. </p>
+
+        <h2> block </h2>
+        <p> By default when no sizing properties are used, block level elements take the width of their parent and the
+            height of their content. Block level elements respect any explicit sizing properties. </p>
+        <p> The "width of parent" aspect of block level elements occasionally surprises developers who might not expect
+            that each animal in a modest list of pets extends all the way to the right edge of the browser. </p>
+
+        <h2> images - aspect ratio preserving </h2>
+        <p> Images have an interesting behavior in that if only one dimension is set, the other is automatically
+            calculated so that the original aspect ratio of the image is preserved. This is true for both decorative CSS
+            images and <img> tags. </p>
+    </section>
+
+    <section>
+        <h2> sizing properties </h2>
+        <p> There are six sizing properties. They are </p>
+        <ul>
+            <li> width </li>
+            <li> min-width </li>
+            <li> max-width </li>
+            <li> height </li>
+            <li> min-height </li>
+            <li> max-height </li>
+        </ul>
+
+        <h3> Best practice </h3>
+        <p> Unless you have good cause, try to avoid using explicit dimension properties like width and height.  If you must control the dimensions, consider using the min- or max- variants.  </p>
+    </section>
+
+    <section>
+        <h2> overflow </h2>
+        <p> If the element's dimensions are overdetermined by the sizing properties, then its content may not fit. As a result, the content overflows the rectangle of the paragraph. The overflow properties govern this situation.  There are three related properties: overflow, overflow-x, and overflow-y. </p>
+        <code> p { overflow: auto; } </code>
+        <p> There are five possible values: unset, auto, visible, hidden, and scroll. </p>
+        <ol>
+            <li> unset is both the default value when overflow has not been set and a value that can be explicitly set. </li>
+            <li> The interpretation for the auto value may vary from browser to browser. Typically, if a scroll bar is needed, it is shown, but if it is not needed, no scroll bar is shown. If no horizontal scroll bar is needed, then none is shown. </li>
+            <li> When the value is scroll, then the scroll bars are always shown, whether they are needed or not. </li>
+        </ol>
+    </section>
+
+    <section>
+        <h2> The box model and box-sizing </h2>
+        <p> Default behavior of the browser is that the sizing properties govern the size of the content area and any padding or borders are "extra". But, if this is not the desired behavior, you can change it. </p>
+
+        <h3> box-sizing </h3>
+        <code> p { box-sizing: border-box; } </code>
+        <p> The box-sizing property determines how the sizing properties are applied.  It has two values: content-box and border-box. </p>
+        <p> The content-box value is default and simply means that the height or width properties affect the content box of the element and any padding or border is "additional". </p>
+        <p> When border-box is used, the sizing properties are used to set the "whole" size of the element, and the content size is likely to be less. </p>
+
+        <h3> This is making my head hurt! How important is this? </h3>
+        <p> If you are manipulating items with JavaScript, then it may be important. If you are using any of the "older" methods for CSS layout (like floats, tables, etc.), then managing the box model is of paramount importance. </p>
+        <p> If you are using the flexbox layout (which we begin in the next section), then the box-model is not that important. The rule of thumb is that the more you are directly managing the size of items, the more likely you will need to change the box-sizing property to be border-box. </p>
+    </section>
+</article>
+
+</body>
+</html>

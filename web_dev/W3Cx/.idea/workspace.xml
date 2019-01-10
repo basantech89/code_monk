@@ -1,7 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d451c8d6-ad8f-4192-85f0-c2978bc4c54e" name="Default Changelist" comment="" />
+    <list default="true" id="d451c8d6-ad8f-4192-85f0-c2978bc4c54e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../HKU_FSWDRS/C3_ReactNative/confusion/components/FavoriteComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HKU_FSWDRS/C3_ReactNative/confusion/components/LoadingComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HKU_FSWDRS/C3_ReactNative/confusion/components/ReservationComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HKU_FSWDRS/C3_ReactNative/confusion/redux/ActionCreators.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HKU_FSWDRS/C3_ReactNative/confusion/redux/ActionTypes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HKU_FSWDRS/C3_ReactNative/confusion/redux/comments.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HKU_FSWDRS/C3_ReactNative/confusion/redux/configureStore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HKU_FSWDRS/C3_ReactNative/confusion/redux/dishes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HKU_FSWDRS/C3_ReactNative/confusion/redux/favorites.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HKU_FSWDRS/C3_ReactNative/confusion/redux/leaders.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HKU_FSWDRS/C3_ReactNative/confusion/redux/promotions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HKU_FSWDRS/C3_ReactNative/confusion/shared/baseUrl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/M6 Basics of page layout/extras.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/M6 Basics of page layout/flexbox.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/M6 Basics of page layout/flexbox_advice.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/M6 Basics of page layout/positioning.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/M6 Basics of page layout/sizing_dimensions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/M6 Basics of page layout/z-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HKU_FSWDRS/C3_ReactNative/confusion/components/AboutComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/../HKU_FSWDRS/C3_ReactNative/confusion/components/AboutComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HKU_FSWDRS/C3_ReactNative/confusion/components/ContactComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/../HKU_FSWDRS/C3_ReactNative/confusion/components/ContactComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HKU_FSWDRS/C3_ReactNative/confusion/components/DishdetailComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/../HKU_FSWDRS/C3_ReactNative/confusion/components/DishdetailComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HKU_FSWDRS/C3_ReactNative/confusion/components/HomeComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/../HKU_FSWDRS/C3_ReactNative/confusion/components/HomeComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HKU_FSWDRS/C3_ReactNative/confusion/components/MainComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/../HKU_FSWDRS/C3_ReactNative/confusion/components/MainComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HKU_FSWDRS/C3_ReactNative/confusion/components/MenuComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/../HKU_FSWDRS/C3_ReactNative/confusion/components/MenuComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UMWA4E/C4_JS_JQuery_JSON/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UMWA4E/C4_JS_JQuery_JSON/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/M5 More HTML and CSS/decorative_borders_shadows.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/M5 More HTML and CSS/decorative_borders_shadows.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/M5 More HTML and CSS/pseudoClasses_cursor.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/M5 More HTML and CSS/pseudoClasses_cursor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/M6 Basics of page layout/horizontal_vertical_centering.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/M6 Basics of page layout/horizontal_vertical_centering.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/M6 Basics of page layout/text_baseline_display.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/M6 Basics of page layout/text_baseline_display.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/html_css_fundamentals.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/html_css_fundamentals.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/styles/style.css" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,36 +46,38 @@
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/styles/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1121">
-              <caret line="59" column="11" selection-start-line="59" selection-start-column="11" selection-end-line="59" selection-end-column="11" />
-            </state>
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/styles/style-extra.css">
+        <entry file="file://$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/M6 Basics of page layout/flexbox.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="133">
+              <caret line="7" column="60" selection-start-line="5" selection-start-column="4" selection-end-line="7" selection-end-column="60" />
+              <folding>
+                <element signature="e#4267#4271#0" expanded="true" />
+                <element signature="e#4274#4278#0" expanded="true" />
+                <element signature="e#4278#4282#0" expanded="true" />
+                <element signature="e#4286#4290#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/html_css_fundamentals.html">
+        <entry file="file://$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/M6 Basics of page layout/extras.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+            <state relative-caret-position="266">
+              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/index.html">
+        <entry file="file://$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/M6 Basics of page layout/flexbox_advice.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="266">
-              <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+              <caret line="14" column="68" selection-start-line="14" selection-start-column="68" selection-end-line="14" selection-end-column="68" />
             </state>
           </provider>
         </entry>
@@ -65,6 +100,7 @@
       <find>&lt;audio src=&quot;sounds/flute.mp3&quot;&gt;</find>
       <find>set-width</find>
       <find>set-</find>
+      <find>body</find>
       <find>&lt;</find>
       <find>&gt;</find>
     </findStrings>
@@ -75,19 +111,12 @@
       <replace>&amp;gt;</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/css_notes/selectors.html" />
-        <option value="$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/css_notes/cascading.html" />
-        <option value="$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/css_notes/fixing_and_debugging.html" />
-        <option value="$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/css_notes/table_header_body_footer.html" />
-        <option value="$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/css_notes/tables.html" />
-        <option value="$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/css_notes/audio.html" />
-        <option value="$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/css_notes/styling_table.html" />
-        <option value="$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/css_notes/audio_video_elements.html" />
-        <option value="$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/css_notes/multimedia.html" />
-        <option value="$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/css_notes/embed_content.html" />
         <option value="$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/code/practice/first.html" />
         <option value="$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/css_notes/ismap_usemap_attributes.html" />
         <option value="$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/code/practice/decorative_imgs.html" />
@@ -103,7 +132,6 @@
         <option value="$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/css_notes/pseudoClasses_cursor.html" />
         <option value="$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/code/practice/inlineElements.html" />
         <option value="$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/css_notes/text_baseline_display.html" />
-        <option value="$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/styles/style-extra.css" />
         <option value="$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/css_notes/horizontal_vertical_centering.html" />
         <option value="$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/css_notes/Basics of page layout/horizontal_vertical_centering.html" />
         <option value="$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/css_notes/M5 More HTML and CSS/pseudoClasses_cursor.html" />
@@ -126,9 +154,20 @@
         <option value="$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/M2 Attributes Images and Links/article_and_section.html" />
         <option value="$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/M2 Attributes Images and Links/headers_and_headings.html" />
         <option value="$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/M2 Attributes Images and Links/semantics.html" />
-        <option value="$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/styles/style.css" />
         <option value="$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/html_css_fundamentals_old.html" />
         <option value="$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/html_css_fundamentals.html" />
+        <option value="$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/M6 Basics of page layout/text_baseline_display.html" />
+        <option value="$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/styles/style-extra.css" />
+        <option value="$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/M5 More HTML and CSS/pseudoClasses_cursor.html" />
+        <option value="$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/M5 More HTML and CSS/decorative_borders_shadows.html" />
+        <option value="$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/M6 Basics of page layout/horizontal_vertical_centering.html" />
+        <option value="$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/M6 Basics of page layout/sizing_dimensions.html" />
+        <option value="$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/M6 Basics of page layout/positioning.html" />
+        <option value="$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/M6 Basics of page layout/z-index.html" />
+        <option value="$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/styles/style.css" />
+        <option value="$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/M6 Basics of page layout/flexbox_advice.html" />
+        <option value="$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/M6 Basics of page layout/flexbox.html" />
+        <option value="$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/M6 Basics of page layout/extras.html" />
       </list>
     </option>
   </component>
@@ -164,48 +203,12 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="W3Cx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="W3Cx" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="W3Cx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="W3Cx" type="462c0819:PsiDirectoryNode" />
-              <item name="HTML5.0x HTML5 and CSS Fundamentals" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="W3Cx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="W3Cx" type="462c0819:PsiDirectoryNode" />
-              <item name="HTML5.0x HTML5 and CSS Fundamentals" type="462c0819:PsiDirectoryNode" />
-              <item name="notes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="W3Cx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="W3Cx" type="462c0819:PsiDirectoryNode" />
-              <item name="HTML5.0x HTML5 and CSS Fundamentals" type="462c0819:PsiDirectoryNode" />
-              <item name="notes" type="462c0819:PsiDirectoryNode" />
-              <item name="M1 My first web page" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="W3Cx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="W3Cx" type="462c0819:PsiDirectoryNode" />
-              <item name="HTML5.0x HTML5 and CSS Fundamentals" type="462c0819:PsiDirectoryNode" />
-              <item name="notes" type="462c0819:PsiDirectoryNode" />
-              <item name="M6 Basics of page layout" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -218,6 +221,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -305,11 +309,18 @@
       <workItem from="1544189361649" duration="25000" />
       <workItem from="1544530426138" duration="160000" />
       <workItem from="1544588169864" duration="7000" />
+      <workItem from="1546512451259" duration="7402000" />
+      <workItem from="1546527025224" duration="3370000" />
+      <workItem from="1546572641721" duration="16000" />
+      <workItem from="1546612166434" duration="1306000" />
+      <workItem from="1546665007126" duration="85000" />
+      <workItem from="1546953658861" duration="8472000" />
+      <workItem from="1547005103953" duration="7000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="218561000" />
+    <option name="totallyTimeSpent" value="239219000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -322,8 +333,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="743" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27575758" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.28030303" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -340,7 +352,7 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49848485" weight="0.3284553" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50151515" side_tool="true" weight="0.3284553" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Dependency Viewer" order="11" weight="0.3284553" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -388,42 +400,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/html_notes/css/style.css" />
-    <entry file="file://$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/code/practice/activity_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/code/practice/css/activity_list1.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/code/practice/css/activity_list2.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="51" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/code/practice/activity_selectors.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/code/M1_RecipeProject/recipe.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/code/M1_RecipeProject/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -487,32 +463,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/M5 More HTML and CSS/decorative_borders_shadows.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/css_notes/css_best_practices.html" />
     <entry file="file://$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/code/practice/inlineElements.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="431">
           <caret line="21" column="28" lean-forward="true" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/M5 More HTML and CSS/pseudoClasses_cursor.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/M5 More HTML and CSS/manage_element_size.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -534,13 +489,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
           <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/M5 More HTML and CSS/multimedia.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="16" column="36" lean-forward="true" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -677,27 +625,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/M5 More HTML and CSS/styling_table.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/M6 Basics of page layout/text_baseline_display.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="57" lean-forward="true" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/M6 Basics of page layout/horizontal_vertical_centering.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="48" lean-forward="true" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/html_css_fundamentals_old.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="519">
@@ -705,31 +632,123 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/styles/style.css">
+    <entry file="file://$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/M5 More HTML and CSS/styling_table.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1121">
-          <caret line="59" column="11" selection-start-line="59" selection-start-column="11" selection-end-line="59" selection-end-column="11" />
+        <state relative-caret-position="437">
+          <caret line="105" column="24" lean-forward="true" selection-start-line="105" selection-start-column="24" selection-end-line="105" selection-end-column="24" />
+          <folding>
+            <element signature="n#style#0;n#thead#0;n#table#0;n#section#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/styles/style-extra.css">
+    <entry file="file://$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/M5 More HTML and CSS/multimedia.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+        <state relative-caret-position="19">
+          <caret line="28" column="36" lean-forward="true" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/html_css_fundamentals.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+        <state relative-caret-position="115">
+          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/M5 More HTML and CSS/manage_element_size.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/M5 More HTML and CSS/decorative_borders_shadows.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="85" selection-start-line="12" selection-start-column="85" selection-end-line="12" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/M5 More HTML and CSS/pseudoClasses_cursor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="15" lean-forward="true" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/M6 Basics of page layout/text_baseline_display.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/styles/style-extra.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/M6 Basics of page layout/horizontal_vertical_centering.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="14" column="15" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/M6 Basics of page layout/positioning.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="51" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/M6 Basics of page layout/z-index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="61" selection-start-line="13" selection-start-column="61" selection-end-line="13" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/M6 Basics of page layout/sizing_dimensions.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/styles/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/M6 Basics of page layout/flexbox.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="60" selection-start-line="5" selection-start-column="4" selection-end-line="7" selection-end-column="60" />
+          <folding>
+            <element signature="e#4267#4271#0" expanded="true" />
+            <element signature="e#4274#4278#0" expanded="true" />
+            <element signature="e#4278#4282#0" expanded="true" />
+            <element signature="e#4286#4290#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/M6 Basics of page layout/flexbox_advice.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="68" selection-start-line="14" selection-start-column="68" selection-end-line="14" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML5.0x HTML5 and CSS Fundamentals/notes/M6 Basics of page layout/extras.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
         </state>
       </provider>
     </entry>

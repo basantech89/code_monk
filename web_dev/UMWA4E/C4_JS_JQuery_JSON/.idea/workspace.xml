@@ -2,30 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f52396f-96b5-40a2-828f-b6f6c37e0c64" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../HKU_FSWDRS/C3_ReactNative/confusion/components/AboutComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../HKU_FSWDRS/C3_ReactNative/confusion/components/ContactComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../HKU_FSWDRS/C3_ReactNative/confusion/components/DishdetailComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../HKU_FSWDRS/C3_ReactNative/confusion/components/HomeComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../HKU_FSWDRS/C3_ReactNative/confusion/components/MainComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../HKU_FSWDRS/C3_ReactNative/confusion/components/MenuComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assign-week-4/add.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assign-week-4/autos.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assign-week-4/delete.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assign-week-4/edit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assign-week-4/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assign-week-4/login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assign-week-4/logout.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assign-week-4/school.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assign-week-4/util.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assign-week-4/view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/json-01/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/json-01/json.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/json-01/syntax.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/json-02-chat/chatlist.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/json-02-chat/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/C4_JS_JQuery_JSON.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/C4_JS_JQuery_JSON.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/bootstrap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HKU_FSWDRS/C3_ReactNative/confusion/components/AboutComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../HKU_FSWDRS/C3_ReactNative/confusion/components/AboutComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HKU_FSWDRS/C3_ReactNative/confusion/components/ContactComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../HKU_FSWDRS/C3_ReactNative/confusion/components/ContactComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HKU_FSWDRS/C3_ReactNative/confusion/components/DishdetailComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../HKU_FSWDRS/C3_ReactNative/confusion/components/DishdetailComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HKU_FSWDRS/C3_ReactNative/confusion/components/HomeComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../HKU_FSWDRS/C3_ReactNative/confusion/components/HomeComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HKU_FSWDRS/C3_ReactNative/confusion/components/MainComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../HKU_FSWDRS/C3_ReactNative/confusion/components/MainComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HKU_FSWDRS/C3_ReactNative/confusion/components/MenuComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../HKU_FSWDRS/C3_ReactNative/confusion/components/MenuComponent.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,43 +36,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assign-week-4/edit.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="139" column="12" selection-start-line="139" selection-start-column="12" selection-end-line="139" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assign-week-4/add.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assign-week-4/view.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assign-week-4/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assign-week-4/login.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="304">
@@ -342,12 +288,12 @@
       <workItem from="1546275667459" duration="2773000" />
       <workItem from="1546309315740" duration="19000" />
       <workItem from="1546410228789" duration="2705000" />
-      <workItem from="1546486700844" duration="14672000" />
+      <workItem from="1546486700844" duration="15154000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77952000" />
+    <option name="totallyTimeSpent" value="78434000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="743" extended-state="6" />
@@ -743,23 +689,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assign-week-4/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-          <folding>
-            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assign-week-4/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assign-week-4/edit.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -778,6 +707,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assign-week-4/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assign-week-4/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

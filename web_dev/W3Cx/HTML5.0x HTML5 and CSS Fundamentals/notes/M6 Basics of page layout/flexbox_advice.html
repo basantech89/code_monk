@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Flexbox Advice </title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Chakra+Petch|Montserrat|Nunito|Mali|Muli|Signika|Comfortaa" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/style-extra.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <a href="flexbox_advice.html"> Next Lesson 6.2.3 - Flexbox advice and best practices </a> <br>
+        <a href="flexbox.html"> Previous Lesson 6.2.2 - Flexbox </a>
+    </nav>
+    <h1> 6.2.3 - Flexbox advice and best practices </h1>
+</header>
+
+<article>
+
+    <section>
+        <h2> Remember the minimum </h2>
+        <p> If you have a parent element that contains some child elements, then putting display:flex; on the parent is all that is needed to get started. The parent itself behaves like a normal block level element, it is the flex container, and all of its children are flex items.  </p>
+        <p> It's not a bad idea to specify the flex-flow for the flex container (flex-flow: row wrap;), but it isn't required. </p>
+        <p> It's generally a good idea to also initialize the flex property on the flex items (e.g. flex:1), but again, this isn't required. </p>
+    </section>
+
+    <section>
+        <h2> Use variable dimensions on flex items instead of explicit ones </h2>
+        <p> This advice may not apply to images and may not be appropriate for every flex item. However, for most flex items, try to avoid using explicit width and height properties. Instead, use the flex-basis to set a desired dimension (e.g. flex: 1 1 200px; ).  Or consider using min-width (or max-width) and min-height (or max-height). </p>
+        <p> Doing so will make your flex items a bit more malleable. In CSS professional parlance, this is called being "responsive". </p>
+    </section>
+
+    <section>
+        <h2> Do not overconstrain your flex items. Let the browser work for you. </h2>
+        <p> This is a follow-on to the previous piece of advice. With flexbox you give the browser some general guidelines and allow it to figure it out. ("Hey, put these in a row, I guess they can wrap. This item should be 80 pixels wide generally, and this item should always be at least 200 pixels wide, and this item should be first.").  If you overly constrain the flexbox container by disallowing growing, shrinking, and setting explicit dimensions, then the results may be not optimal. Don't micromanage, let the flexbox do its job. </p>
+        <p> Remember also, that if you overdetermine the dimensions for an element, then you may also have to start managing its overflow setting and its box model. Who needs more worry?  Underconstraining is the path to happiness. </p>
+    </section>
+
+    <section>
+        <h2> Thinking of using inline-block? Consider flexbox instead. </h2>
+        <p> If you are considering changing the display of several elements to be inline-block, that may indicate that you should be using flexbox instead. Perhaps their parent should be set to be a flex container and they should be flex items. </p>
+    </section>
+
+    <section>
+        <h2> Centering? Maybe flexbox </h2>
+        <p> If you need to center some content horizontally, then the previous section on centering may help. It discusses the various options for inline or block level elements.  However, a flex container and a flex child is also a possible approach. The flex container property justify-content:center; might help. Both approaches (flexbox and "traditional") have their advantages in various situations.  Use your judgement </p>
+        <p> If you need to center something vertically, unless it is an inline element or the content of a table cell, the best answer is almost certainly flexbox.  </p>
+    </section>
+
+    <section>
+        <h2> AVOID margin: auto on flex items </h2>
+        <p> margin:auto prevents align-self from working. There are effective ways of using auto margins though, just do so with care </p>
+    </section>
+
+    <section>
+        <h2> Try to keep your flexbox usage simple </h2>
+
+    </section>
+</article>
+
+</body>
+</html>

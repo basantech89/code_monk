@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Positioning </title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Chakra+Petch|Montserrat|Nunito|Mali|Muli|Signika|Comfortaa" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/style-extra.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <a href="z-index.html"> Next Lesson 6.1.4 - z-index </a> <br>
+        <a href="horizontal_vertical_centering.html"> Previous Lesson 6.1.2 - Horizontal and Vertical Centering </a>
+    </nav>
+    <h1> 6.1.3 Positioning </h1>
+</header>
+
+<article>
+    <p>
+        By default position is set to static for all the elements, it has four
+        different values: static, relative, absolute, and fixed
+    </p>
+
+    <section>
+        <h1> Static </h1>
+        <p>
+            It simply means that all elements follow the "flowing text"model of layout and the only properties
+            influencing their position are margins, padding, and the display property that selects block level layout,
+            inline or inline-block. Static elements ignore the positioning properties we read about earlier (left, top,
+            right, and bottom).
+        </p>
+        <h1> Fixed </h1>
+        <p>
+            A fixed positioned element respects the positioning properties (left, top, right, and bottom). A fixed
+            positioned element is positioned against the window rectangle (aka the viewport). This means that fixed
+            position elements will not scroll with the rest of the page. Fixed position elements can easily "stick" to
+            the side or bottom or top of the browser.
+        </p>
+        <ul>
+            <li> Best practice: use both a horizontal and a vertical positioning property on every fixed positioned
+                element.
+            </li>
+            <li> Fixed positioned elements do not contribute to size of the parent.</li>
+            <li> Fixed (or absolute) positioned block level elements do not get the width of their parent. Their initial
+                width is simply the width of their content. Though it can be changed.
+            </li>
+            <li> Margins do not work the same, when an element is fixed positioned, a given margin might be able to move
+                the element but will not move any siblings.
+            </li>
+            <li> Opposite properties can be used to size an element. This is one of the nicer features. Working with
+                preset dimension properties (height and width) can make your design brittle and reduce its adaptability.
+                However, fixed positioned items can instead set the opposite positioning properties (like left and
+                right) and leave the matching dimensional property (width) unspecified. The element will grow or shrink
+                based on the size of the browser window. Note that this feature is only available to fixed (and
+                absolute) elements.
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <h1> Relative </h1>
+        <p>
+            The relative value is exactly like static in that the "flowing text" model of layout is setting the initial
+            position for the element (including margins and display). However, unlike static, elements with relative
+            position respect the positioning properties (left, top, right, and bottom). These properties will move the
+            named edge of the element from its initial position. So a value of top: 20px; will move the top edge of the
+            element 20 pixels further down the page.
+        </p>
+        <p> The relative position property has three primary gotchas of which you should be aware: </p>
+        <ul>
+            <li> Items are moved independently of siblings.</li>
+            <li> Opposite positioning properties (like left and right) cannot be used simultaneously.</li>
+            <li> There are no automatic size adjustments.</li>
+        </ul>
+
+        <section>
+            <h2> Independence - margin-top vs top </h2>
+            <p>
+                IMPORTANT: The positioning properties (left, top, right, and bottom) adjust the placement of the element
+                independently of its siblings. What does this mean? Let's imagine we have a list and we want to move one
+                of the items a little further down the page. Should we use margin-top to move it? Or position:relative
+                in conjunction with the top property? The answer to this question depends on whether you want any of the
+                other list items to move as well. If you want the siblings to move down as well, then use margin-top
+            </p>
+        </section>
+
+        <section>
+            <h2> Cannot use opposite properties </h2>
+            <p> When using position:relative if you use the left property you cannot also use the right property. And,
+                if you use the top property you cannot also use the bottom property. If both properties are applied,
+                then the CSS precedence rules will determine the "winner", which is usually just the last one
+                applied. </p>
+        </section>
+
+        <section>
+            <h2> No automatic size adjustments </h2>
+            <p> This follows from the previous limitation. You may recall that block level elements take the width of
+                their parent (when no width is specified). And when using left or right margins on a block level element
+                that does not have an explicit width, the browser will smartly size the element down for you to make it
+                fit. But this size adjustment does not happen when you use position:relative and the left or right
+                positional properties. This is easily illustrated with an example. A border is applied to a block level
+                paragraph. When a margin-left is applied to it, the paragraph is made smaller and no part goes outside
+                its parent. But when it is position:relative and moved with the left property, it can leave the bounds
+                of its parent, or go offscreen </p>
+        </section>
+    </section>
+
+    <section>
+        <h1> Absolute </h1>
+        <p> An element that is positioned absolutely is taken out of the normal text "flow" that governs elements positioned statically or relatively.  Instead, an absolutely positioned element is positioned by the left, top, right, and/or bottom properties. The size or position of siblings have no effect on an absolutely positioned element that has some positioning properties set (left, top, etc.) </p>
+        <p> there are some subtle caveats and trade-offs of which you must be worry: </p>
+
+        <h2> Interpretation of positioning depends upon parent/grandparent elements being positioned elements. </h2>
+        <p> IMPORTANT: For an absolutely positioned element, where the left, top, etc. are calculated from depends upon the position property of the parent and grandparents of the element in question. If the parent of the element is a positioned element (meaning its position is set to anything except position:static), then an absolutely positioned child  is positioned relative to that parents rectangle (or grandparent, or great-grandparent, etc).  But if none of the parents are positioned elements, the child is positioned relative to the bounds of the document. </p>
+        <p> This means that how the position properties of an absolutely positioned element are interpreted depends upon the position property of its parent (and grandparents). For many developers, this is a spooky action at a distance. Changing the position property on an element may not affect that element at all, but can cause it children (or great great grandchildren) to suddenly jump to another part of the page </p>
+
+        <h2> Best practice: use both a horizontal and a vertical positioning property on every absolute element </h2>
+        <p> There is a very subtle extension to the previous interpretation problem: if an element is set to be position:absolute but has no horizontal positioning property (that is, left or right), then it will be displayed in the flow exactly as it would have been.  Except, later, if left:0px;  were added (for example), then the element may jump to the left edge of the first parent/grandparent that is a positioned element. The same applies vertically. This is a bewildering behavior, as most users do not expect there to be a difference between left:0px and no left property at all </p>
+        <p> Therefore, for any absolutely positioned element, the best practice is to ensure that one of the horizontal positioning properties (that is, left or right) and one of the vertical properties (top or bottom) are set. </p>
+
+        <h2> Absolutely positioned elements do not contribute to size of the parent. </h2>
+        <p> Whether you realize it or not, one of the most useful default behaviors is that the height of a parent element is automatically extended to include all its children, its content. Designers working in CSS unconsciously lean on this fact as they plan layouts and adjust element positions. But this is not true for children that are positioned absolutely.  Absolutely positioned children do not contribute to the size of the parent element. A parent element that contains only absolutely positioned children will have a height of 0, has no "measurable" content and will behave as if it is empty. </p>
+
+        <h2> Absolute positioned block level elements do not get the width of their parent. </h2>
+        <p> Earlier we learned that block level elements automatically get the width of their parent, that is, they extend to become full width. But this is only true for static and relative positioned elements. Elements that are absolute positioned (or fixed) do not exhibit this behavior </p>
+
+        <h2> Margins do not work the same. </h2>
+        <p> For static and relative positioned items, margins can be used to adjust an element position and keep neighboring siblings "away". We make this quick assumption about margins.  But when an element is absolutely positioned, a given margin might be able to move the element but will not move any siblings. Margins cannot be used to keep siblings "away", to fight crowding. </p>
+        <p>  As a general rule, if a positioning property is being used (like left), then the matching margin (margin-left) can also be used to additionally adjust the position of the element. Otherwise, the margin will unlikely have any effect. </p>
+
+        <h2> Opposite properties can be used to size element. </h2>
+        <p> This is one of the nicer features. Working with preset dimension properties (height and width) can make your design brittle and reduce its adaptability. However, absolutely positioned items can instead set the opposite positioning properties (like left and right) and leave the matching dimensional property (width) unspecified.  The element will grow or shrink based on the size of the ancestor it is positioning against.  Note that this feature is only available to absolute and fixed positioned elements. </p>
+    </section>
+</article>
+
+</body>
+</html>

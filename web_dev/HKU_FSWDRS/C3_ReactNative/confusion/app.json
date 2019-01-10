@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "confusion",
+    "slug": "confusion",
+    "privacy": "public",
+    "sdkVersion": "31.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "net.food.confusion.confusion",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "net.food.confusion.confusion",
+      "publishBundlePath": "android/app/src/main/assets/shell-app.bundle",
+      "publishManifestPath": "android/app/src/main/assets/shell-app-manifest.json"
+    },
+    "isDetached": true,
+    "detach": {
+      "androidExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/android-v2.9.2-sdk31.0.0-d1776f37-d524-4fee-872d-6807b0fd83ff.tar.gz"
+    },
+    "scheme": "expc1ae234a27d64e899ee43be98264b6ec"
+  }
+}

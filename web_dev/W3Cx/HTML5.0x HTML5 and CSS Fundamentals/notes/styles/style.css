@@ -6,14 +6,18 @@ body, html {
     color: #313131;
 }
 
-/* styling tables */
 h1 {
     font-family: Comfortaa, Montserrat, sans-serif;
     color: #313131;
 }
 
+article h1, section h1 {
+    font-size: 1.5em;
+}
+
 h2, h3, h4 {
     font-family: "Mali", sans-serif;
+    /*font-size: 1.3em;*/
     /*color: #0d0d0d;*/
     color: rgb(59, 56, 53);
 }
