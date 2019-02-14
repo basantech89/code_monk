@@ -2,7 +2,7 @@
 out/
 node_modules/
 *.class
-dist
+dist/
 .idea/
 build/
 dist/
