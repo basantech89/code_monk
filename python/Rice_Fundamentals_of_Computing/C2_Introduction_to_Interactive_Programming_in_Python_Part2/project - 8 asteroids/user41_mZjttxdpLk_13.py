@@ -1,4 +1,4 @@
-ate for Spaceship
+# Spaceship
 import simplegui
 import math
 import random
