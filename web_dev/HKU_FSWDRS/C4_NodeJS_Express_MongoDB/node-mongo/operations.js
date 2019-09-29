@@ -1,53 +1,47 @@
 const assert = require('assert');
 
-exports.insertDocument = (db, document, collection, callback) => {
+exports.insertDocument = (db, document, collection) => {
     const coll = db.collection(collection);
-    // using promises to avoid callback hell problem
-    /*coll.insert(document, (err, result) => {
-        // assert checks if the error is not null
-        // if the error is not null then this will print out the info and quit the application
-        assert.equal(err, null);
-        // result is a property (JS object), n tells how many documents have been inserted
-        console.log("Inserted " + result.result.n + " documents into the collection " + collection);
-        // pass the result back to our calling function
-        callback(result);
-    });*/
-    // insert will return a promise, so we will return that promise from this function
+    // call to insert function returns a promise, so we will now return that promise from this function
     return coll.insert(document);
+    // uncommenting below code to implement promise
+    // coll.insert(document, (err, result) => {
+    //     assert.equal(err, null);
+    //     // n tells us how many documents have been inserted
+    //     console.log('result is ', result);
+    //     console.log("Inserted " + result.result.n + " documents into the collection " + collection);
+    //     callback(result);
+    // })
 };
 
-exports.findDocuments = (db, collection, callback) => {
+exports.findDocument = (db, collection) => {
     const coll = db.collection(collection);
-/*
-    coll.find({}).toArray((err, docs) => {
-        assert.equal(err, null);
-        callback(docs);
-    });
-*/
     return coll.find({}).toArray();
+    // coll.find({}).toArray((err, docs) => {
+    //     assert.equal(err, null);
+    //     callback(docs);
+    // })
 };
 
-exports.removeDocument = (db, document, collection, callback) => {
+exports.removeDocument = (db, document, collection) => {
     const coll = db.collection(collection);
-    // delete the first document that matches
-/*
-    coll.deleteOne(document, (err, result) => {
-        assert.equal(err, null);
-        console.log("Removed the document ", document); // used comma after the string to print out the JS object correctly
-        callback(result);
-    });
-*/
     return coll.deleteOne(document);
+    // coll.deleteOne(document, (err, result) => {
+    //     assert.equal(err, null);
+    //     // since document is a JS object, we have specified , instead of + in below console log 
+    //     // so the document will be printed out
+    //     console.log('Remove the dooucment ', document);
+    //     callback(result);
+    // })
 };
 
-exports.updateDocument = (db, document, update, collection, callback) => {
+exports.updateDocument = (db, document, update, collection) => {
     const coll = db.collection(collection);
-/*
-    coll.updateOne(document, { $set: update }, null, (err, result) => {
-        assert.equal(err, null);
-        console.log("Updated the document with ", update);
-        callback(result);
-    });
-*/
+    // 2nd param is which field of document that needs to be updated
     return coll.updateOne(document, { $set: update }, null);
-};
+    // coll.updateOne(document, { $set: update }, null, (err, result) => {
+    //     assert.equal(err, null);
+    //     console.log("Updated the document with ", update);
+    //     callback(result);
+    // })
+}

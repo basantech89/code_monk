@@ -25,10 +25,4 @@ router.use((req, res, next) => {
   res.end('<html> <body> <h1> This is an express server </h1> </body> </html>')
 });
 
-
-const server = http.createServer(router);
-server.listen(port, hostname, () => {
-  console.log(`Server running at http://${hostname}:${port}`);
-});
-
 module.exports = router;
