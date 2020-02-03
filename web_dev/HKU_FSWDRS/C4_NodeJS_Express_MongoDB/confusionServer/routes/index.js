@@ -1,28 +1,9 @@
-const express = require('express');
-const http = require('http');
-const morgan = require('morgan');
-const bodyParser = require('body-parser');
+var express = require('express');
+var router = express.Router();
 
-const dishRouter = require('../routes/dishRouter');
-const leaderRouter = require('../routes/leaderRouter');
-const promoRouter = require('../routes/promoRouter');
-
-const hostname = "localhost";
-const port = 3000;
-const router = express();
-router.use(morgan('dev'));
-// using the body parser middleware - allow us to parse body of request message in JSON format
-router.use(bodyParser.json());
-router.use('/dishes', dishRouter);
-router.use('/leaders', leaderRouter);
-router.use('/promotions', promoRouter);
-
-router.use(express.static(__dirname + '/public'));
-
-router.use((req, res, next) => {
-  res.statusCode = 200;
-  res.setHeader('Content-Type', 'text/html');
-  res.end('<html> <body> <h1> This is an express server </h1> </body> </html>')
+/* GET home page. */
+router.get('/', function(req, res, next) {
+  res.render('index', { title: 'Express' });
 });
 
 module.exports = router;
