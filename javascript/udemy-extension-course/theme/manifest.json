@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "version": "1.0.0",
+  "name": "Watermelon Theme",
+  "theme": {
+    "images": {
+      "theme_ntp_background": "images/watermelons.jpg"
+    },
+    "properties": {
+      "ntp_background_alignment": "bottom",
+      "ntp_background_repeat": "repeat"
+    },
+    "colors": {
+      "frame": [247, 150, 167],
+      "toolbar": [182, 249, 169]
+    },
+    "tints": {
+      "buttons": [0.33, 0.33, 0.04],
+      "background_tab": [0.33, 0.33, 0.04]
+    }
+  }
+}
